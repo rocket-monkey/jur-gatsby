@@ -30,7 +30,7 @@ yarn dev
 
 ## Links 🔮
 
-* [Preview URL](https://jovial-fermi-719433.netlify.com/)
+* [jurrecords.ch](https://jurrecords.ch/) ([preview](https://jovial-fermi-719433.netlify.com/))
 * [Preview URL Admin](https://jovial-fermi-719433.netlify.com/admin/)
 ---
 * [Gatsby & Netlify Tut](https://www.gatsbyjs.org/docs/netlify-cms/)
