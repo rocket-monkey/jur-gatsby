@@ -1,8 +1,8 @@
 ---
 path: hello-world
 date: 2018-09-05T16:18:06.065Z
-title: First!
+title: Erster Eintrag
 ---
 Ein erster Eintrag 💪
 
-![](/assets/lidhyvs.jpg)
+![null](/assets/lidhyvs.jpg)
