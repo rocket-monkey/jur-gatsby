@@ -28,13 +28,11 @@ yarn
 yarn dev
 ```
 
-## WTF 🔮
+## Links 🔮
 
-https://github.com/rocket-monkey/jur-gatsby
-
-https://jovial-fermi-719433.netlify.com/
-https://jovial-fermi-719433.netlify.com/admin/
-
-https://www.gatsbyjs.org/docs/netlify-cms/
-https://app.netlify.com/sites/jovial-fermi-719433/overview
-https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms
+* [Preview URL](https://jovial-fermi-719433.netlify.com/)
+* [Preview URL Admin](https://jovial-fermi-719433.netlify.com/admin/)
+---
+* [Gatsby & Netlify Tut](https://www.gatsbyjs.org/docs/netlify-cms/)
+* [Netlify Dashboard](https://app.netlify.com/sites/jovial-fermi-719433/overview)
+* [Gatsby Netlify Plugin Repo](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms)
