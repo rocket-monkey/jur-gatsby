@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'JUR Records',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'jurrecords.ch',
+        short_name: 'jur-gatsby',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#000',
+        theme_color: '#000',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/logo512.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',
@@ -25,6 +25,7 @@ module.exports = {
         name: 'blog',
       },
     },
-    `gatsby-transformer-remark`,
+    'gatsby-transformer-remark',
+    'gatsby-plugin-postcss',
   ],
 }

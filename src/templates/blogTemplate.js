@@ -10,6 +10,7 @@ export default function Template({
   return (
     <BlogLayout slug={frontmatter.path} title={frontmatter.title}>
       <div className="blog-post">
+        <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <div
           className="blog-post-content"

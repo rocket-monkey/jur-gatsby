@@ -9,12 +9,12 @@
 # jur-gatsby
 The official "JUR Recordings" website, built with [GatsbyJS](https://www.gatsbyjs.org/) & [NetlifyCMS](https://www.netlifycms.org/)
 
-## Prerequisites
+## Prerequisites 💡
 
 * git (https://git-scm.com/)
 * Yarn Package Manager (https://yarnpkg.com/en/)
 
-## Install
+## Install 💈
 
 Open a terminal in the directory you want to have this project and run:
 ```sh
