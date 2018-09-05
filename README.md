@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="http://jurrecordings.ch" target="_blank">
-    <img src="https://i.imgur.com/M2utZl8.png" alt="JUR Recordings" width="805" height="105"/>
+  <a href="http://jurrecords.ch" target="_blank">
+    <img src="https://i.imgur.com/M2utZl8.png" alt="JUR Records" width="805" height="105"/>
   </a>
 </p>
 
