@@ -17,6 +17,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-netlify-cms'
+    'gatsby-plugin-netlify-cms',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/cms/blog`,
+        name: 'blog',
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 }
