@@ -27,3 +27,14 @@ cd jur-gatsby
 yarn
 yarn dev
 ```
+
+## WTF 🔮
+
+https://github.com/rocket-monkey/jur-gatsby
+
+https://jovial-fermi-719433.netlify.com/
+https://jovial-fermi-719433.netlify.com/admin/
+
+https://www.gatsbyjs.org/docs/netlify-cms/
+https://app.netlify.com/sites/jovial-fermi-719433/overview
+https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms
