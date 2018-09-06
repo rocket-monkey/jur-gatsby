@@ -8,7 +8,7 @@
 
 const path = require("path");
 
-exports.createPagesStatefully = ({ actions, graphql }) => {
+exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   return graphql(`

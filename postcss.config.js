@@ -1,7 +1,8 @@
-// in postcss.config.js
+const path = require('path')
 const variables = require('./src/lib/postcss/variables')
 const atImport = require(`postcss-import`)
 const vars = require('postcss-simple-vars')
+const functions = require('postcss-functions')
 const cssNested = require('postcss-nested')
 const cssNext = require('postcss-cssnext')
 const postCssReporter = require('postcss-reporter')
@@ -11,6 +12,9 @@ module.exports = () => ({
     atImport(),
     vars({
       variables: () => variables
+    }),
+    functions({
+      glob: path.join(process.cwd(), 'src', 'lib', 'postcss', 'functions', '*.js')
     }),
     cssNested(),
     cssNext({
