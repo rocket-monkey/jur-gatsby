@@ -1,8 +1,38 @@
-.layout {
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0;
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.pLayer {
+  padding: 100vh 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.pLayerBase {
+  transform: translateZ(0);
+  padding: 80vh 0;
+}
+
+.pLayerBack {
+  transform: translateZ(-1px) scale(2);
+}
+
+.pLayerDeep {
+  transform: translateZ(-2px) scale(3);
+}
+
+.cardWrapper {
   transform-style: preserve-3d;
-  transform: perspective(800px);
+  transform: perspective(1000px);
+}
+
+.layout {
+  max-width: calc(100vw - 400px);
+  margin: 0 24px;
 }

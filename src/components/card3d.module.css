@@ -1,14 +1,14 @@
 .card {
   position: absolute;
-  top: 80%;
-  left: 50%;
+  top: 10%;
+  right: 32px;
   overflow: hidden;
-  margin-top: -250px;
-  margin-left: -160px;
+  margin-top: -420px;
   width: 320px;
   height: 500px;
   border-radius: 5px;
   box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+  z-index: 100;
 }
 .light {
   position: absolute;

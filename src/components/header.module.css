@@ -1,19 +1,38 @@
-.header {
+.shared {
   background: $colorBg;
-  margin-bottom: 1.45rem;
+  height: 45vh;
+  position: fixed;
+  top: 0;
+  pointer-events: none;
+  transition: height 1.2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.inner {
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+.dummy {
+  composes: shared;
+  width: 358px;
+  right: 0;
+}
 
-  h1 {
-    margin: 0;
-  }
+.section {
+  composes: shared;
+  z-index: 100;
+  width: calc(100% - 358px);
 
   a {
-    color: $colorFg;
-    text-decoration: none;
+    pointer-events: all;
   }
+
+  svg {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+
+    path {
+      fill: $colorFg;
+    }
+  }
+}
+
+.tiny {
+  height: 130px;
 }

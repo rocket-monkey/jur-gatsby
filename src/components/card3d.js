@@ -16,10 +16,12 @@ export default class Card3d extends PureComponent {
 
   componentDidMount = () => {
     window.addEventListener('mousemove', this.onMouseMove)
+    window.addEventListener('touchmove', this.onMouseMove)
   }
 
   componentWillUnmount = () => {
     window.removeEventListener('mousemove', this.onMouseMove)
+    window.removeEventListener('touchmove', this.onMouseMove)
   }
 
   onMouseMove = (e) => {
@@ -97,12 +99,12 @@ export default class Card3d extends PureComponent {
     const layerStyle5 = layerTransform5 ? { transform: layerTransform5 } : {}
     return (
       <article ref={this.cardRef} style={cardStyle} data-offset="5" className={styles.card}>
-        <div style={lightStyle} className={styles.light}></div>
-        <div data-offset="-2" style={layerStyle1} className={styles.layer1}></div>
-        <div style={layerStyle2} className={styles.layer2}></div>
-        <div data-offset="1" style={layerStyle3} className={styles.layer3}></div>
-        <div data-offset="3" style={layerStyle4} className={styles.layer4}></div>
-        <div data-offset="10" style={layerStyle5} className={styles.layer5}></div>
+        <div key="1" style={lightStyle} className={styles.light}></div>
+        <div key="2" data-offset="-2" style={layerStyle1} className={styles.layer1}></div>
+        <div key="3" style={layerStyle2} className={styles.layer2}></div>
+        <div key="4" data-offset="1" style={layerStyle3} className={styles.layer3}></div>
+        <div key="5" data-offset="3" style={layerStyle4} className={styles.layer4}></div>
+        <div key="6" data-offset="10" style={layerStyle5} className={styles.layer5}></div>
       </article>
     )
   }

@@ -3,15 +3,12 @@ import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import Card3d from '../components/card3d'
 
 const IndexPage = () => (
   <Layout>
     <h1>Hi dnb heads</h1>
     <p>Welcome to your new JUR Records site.</p>
     <p>Now go build something great.</p>
-
-    <Card3d />
 
     <StaticQuery
       query={graphql`
