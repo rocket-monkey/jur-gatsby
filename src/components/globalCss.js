@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default () => (
   <style dangerouslySetInnerHTML={{
     __html: `

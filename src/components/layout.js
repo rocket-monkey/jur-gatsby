@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import classNames from 'class-names'
 import { StaticQuery, graphql } from 'gatsby'
 
-import globalCssTag from './globalCss'
+import GlobalCssTag from './globalCss'
 import Card3d from './card3d'
 import Header from './header'
 import styles from './layout.module.css'
@@ -70,7 +70,7 @@ export default class Layout extends PureComponent  {
                 {children}
               </div>
             </div>
-            {globalCssTag}
+            <GlobalCssTag />
           </>
         )}
       />
