@@ -3,6 +3,8 @@ import Helmet from 'react-helmet'
 import classNames from 'class-names'
 import { StaticQuery, graphql } from 'gatsby'
 
+import './global.css'
+
 import Card3d from './card3d'
 import Header from './header'
 import styles from './layout.module.css'
