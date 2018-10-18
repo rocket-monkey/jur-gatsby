@@ -1,3 +1,6 @@
+export default () => (
+  <style dangerouslySetInnerHTML={{
+    __html: `
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -622,3 +625,6 @@ pre tt:after {
     font-size: 100%;
   }
 }
+    `
+  }} />
+)
