@@ -13,6 +13,7 @@
   }
 
   svg {
+    width: 90vw;
     path {
       fill: #fff;
     }

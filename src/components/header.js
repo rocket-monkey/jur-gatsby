@@ -2,7 +2,7 @@ import React from 'react'
 import classNames from 'class-names'
 import { Link } from 'gatsby'
 
-import JurLogoFont from './icons/JurLogo2'
+import JurLogoFont from './icons/JurLogo'
 import styles from './header.module.css'
 
 const Header = ({ siteTitle, isHeaderTiny }) => (
