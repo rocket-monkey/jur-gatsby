@@ -15,7 +15,7 @@ export default class Layout extends PureComponent  {
   }
 
   onScroll = (event) => {
-    console.log('wtf', window.scrollTop)
+    // console.log('wtf', window.scrollTop)
     if (window.scrollY > 300) {
       this.setState({ isHeaderTiny: true })
     } else if (window.scrollY < 100) {

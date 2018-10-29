@@ -7,9 +7,7 @@ import WorkInProgress from '../components/workInProgress'
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <WorkInProgress />
-    </Layout>
+    <WorkInProgress />
   )
 
   return (
