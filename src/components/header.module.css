@@ -1,31 +1,27 @@
 .shared {
   background: $colorBg;
-  height: 45vh;
   position: fixed;
   top: 0;
   pointer-events: none;
   transition: height 1.2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.dummy {
-  composes: shared;
-  width: 358px;
-  right: 0;
-}
-
 .section {
   composes: shared;
   z-index: 100;
-  width: calc(100% - 358px);
+  height: 100px;
+  width: 100%;
 
   a {
     pointer-events: all;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
   }
 
   svg {
-    position: absolute;
-    bottom: 12px;
-    left: 12px;
+    transform: scale(.45);
+    transform-origin: top left;
 
     path {
       fill: $colorFg;
