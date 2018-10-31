@@ -11,15 +11,15 @@ import styles from './layout.module.css'
 export default class Layout extends PureComponent  {
   scrollRef = React.createRef()
   state = {
-    isHeaderTiny: false
+    isSticky: false
   }
 
   onScroll = (event) => {
     // console.log('wtf', window.scrollTop)
-    if (window.scrollY > 300) {
-      this.setState({ isHeaderTiny: true })
-    } else if (window.scrollY < 100) {
-      this.setState({ isHeaderTiny: false  })
+    if (window.scrollY > window.__BGVID_HEIGHT__) {
+      this.setState({ isSticky: true })
+    } else if (window.scrollY < (window.__BGVID_HEIGHT__ - 20)) {
+      this.setState({ isSticky: false  })
     }
   }
 
@@ -58,9 +58,7 @@ export default class Layout extends PureComponent  {
               <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat" rel="stylesheet" />
             </Helmet>
 
-            {/*
-              <Header isHeaderTiny={this.state.isHeaderTiny} siteTitle={data.site.siteMetadata.title} />
-            */}
+            <Header isSticky={this.state.isSticky} siteTitle={data.site.siteMetadata.title} />
 
             <div className={styles.layout} ref={this.scrollRef}>
               {children}

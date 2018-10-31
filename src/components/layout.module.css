@@ -1,4 +1,6 @@
 .layout {
-  max-width: calc(100vw - 400px);
-  margin: 0 24px;
+  min-height: 2000px;
+  width: calc(100% - 48px);
+  max-width: 600px;
+  margin: 0 auto;
 }
