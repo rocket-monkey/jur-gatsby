@@ -1,11 +1,13 @@
 .wrapper {
   position: relative;
   width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
   height: 20vh;
   overflow: hidden;
 
   @media (min-width: $breakpointSmMin) {
-    height: 35vh;
+    height: 30vh;
   }
 
   @media (min-width: $breakpointLgMin) {
@@ -31,7 +33,7 @@
     bottom: 48px;
     left: 50%;
     transform: translateX(-50%);
-    transition: all 2s ease-in;
+    transition: filter 2s ease-in;
 
     filter: blur(75px);
     width: calc(100% - 48px);

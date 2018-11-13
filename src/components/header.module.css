@@ -6,7 +6,6 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 64px;
     background: $colorBg;
     z-index: -1;
   }
@@ -20,6 +19,10 @@
   width: 100%;
   text-align: center;
   background: $colorBg;
+
+  &:after {
+    height: 112px;
+  }
 
   svg {
     width: 200px;
@@ -37,18 +40,12 @@
 }
 
 .navigation {
-  composes: withBg;
   position: sticky;
   top: 64px;
   margin: 24px auto 64px;
   text-align: justify;
   width: calc(100% - 48px);
   max-width: 600px;
-  &:after {
-    box-shadow: -20px 12px 21px black, 0 12px 21px black;
-    margin-left: -24px;
-    margin-right: -24px;
-  }
 }
 
 .link {
@@ -56,11 +53,23 @@
   text-decoration: none;
   background: rgba(33, 33, 33, .6);
   color: rgba(255, 255, 255, .6);
-  font-size: 24px;
+  font-size: .8rem;
   position: relative;
   letter-spacing: 2px;
   transition: all 500ms ease;
   transition-delay: 100ms;
+
+  @media (min-width: $breakpointSmMin) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: $breakpointMdMin) {
+    font-size: 1.4rem;
+  }
+
+  @media (min-width: $breakpointXlMin) {
+    font-size: 1.6rem;
+  }
 
   &:first-of-type {
     margin-left: 0;

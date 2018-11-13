@@ -26,7 +26,12 @@ export default class BgVideo extends PureComponent {
       window.__BGVID_HEIGHT__ = hE
     }
 
-    const update = { top: yB * 5 }
+    let speed = 5
+    if (window.innerWidth > 960) {
+      speed = 1
+    }
+
+    const update = { top: yB * speed }
     this.setState(update)
   }
 
@@ -35,6 +40,15 @@ export default class BgVideo extends PureComponent {
       this.setState({ showLogo: true })
     }, 800)
     window.addEventListener('scroll', this.onScroll, { passive: true })
+
+    // fuck you cock-juggling thunder-cunts @apple, FUCK YOU!
+    const ua = navigator.userAgent.toLowerCase();
+    const isSafari = (ua.includes("safari/") && !ua.includes("chrome"))
+    if (isSafari) {
+      setTimeout(() => {
+        this.refVideo.current.play()
+      }, 50);
+    }
   }
 
   componentWillUnmount = () => {
@@ -51,7 +65,7 @@ export default class BgVideo extends PureComponent {
           })}
           ref={this.ref}
         >
-          <video autoPlay muted loop ref={this.refVideo} style={styleObj}>
+          <video id="idForSafari" playsInline autoPlay muted loop ref={this.refVideo} style={styleObj}>
             <source type="video/webm" src="/images/bgvideo.webm" />
             <source type="video/ogg" src="/images/bgvideo.ogg" />
             <source type="video/mp4" src="/images/bgvideo.mp4" />
