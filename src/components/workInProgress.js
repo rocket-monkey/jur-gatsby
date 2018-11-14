@@ -14,7 +14,7 @@ const Header = ({ siteTitle, isHeaderTiny }) => (
       <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat" rel="stylesheet" />
     </Helmet>
     <JurLogo />
-    <div>work in progress..</div>
+    <div>big things are coming soon - it's going to be very sexy :)</div>
     <GlobalCssTag />
   </div>
 )
