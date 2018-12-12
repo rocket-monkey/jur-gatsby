@@ -46,7 +46,7 @@ collections:
         required: false
         fields:
           - { label: Act, name: act }
-          - { label: Time, name: time, default: "00:00" }
+          - { label: Time, name: time, widget: string, default: "00:00" }
 
 
   - name: crew
