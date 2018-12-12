@@ -25,8 +25,8 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-      - { name: googleMaps, label: "Google Maps" }
-      - { name: openingHours, label: "Opening Hours", widget: markdown }
+      - { name: googleMaps, label: "Google Maps", required: false }
+      - { name: openingHours, label: "Opening Hours", widget: markdown, required: false }
       - { name: type, label: Type }
 
   - name: event
@@ -43,6 +43,7 @@ collections:
       - name: timeTable
         label: "Time Table"
         widget: list
+        required: false
         fields:
           - { label: Act, name: act }
           - { label: Time, name: time, widget: date, default: "", format: "TT:MM" }
@@ -60,10 +61,10 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { name: since, label: Since, widget: date, default: "", format: "Do.MM.YYYY" }
       - { name: role, label: Role }
-      - { name: soundcloud, label: Soundcloud }
-      - { name: mixcloud, label: Mixcloud }
-      - { name: facebook, label: Facebook }
-      - { name: instagram, label: Instagram }
+      - { name: soundcloud, label: Soundcloud, required: false }
+      - { name: mixcloud, label: Mixcloud, required: false }
+      - { name: facebook, label: Facebook, required: false }
+      - { name: instagram, label: Instagram, required: false }
 
   - name: ware
     label: Ware
