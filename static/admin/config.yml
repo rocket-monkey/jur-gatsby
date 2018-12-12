@@ -40,14 +40,13 @@ collections:
       - { name: image, label: Image, widget: image, media_library: { config: { multiple: false }  } }
       - { name: body, label: Body, widget: markdown }
       - { name: fbLink, label: "Facebook Link" }
-      - {
-          name: timeTable,
-          label: "Time Table",
-          widget: list,
-          fields:
-            - { label: Act, name: act }
-            - { label: Time, name: time, widget: date, default: "", format: "TT:MM" }
-        }
+      - name: timeTable
+        label: "Time Table"
+        widget: list
+        fields:
+          - { label: Act, name: act }
+          - { label: Time, name: time, widget: date, default: "", format: "TT:MM" }
+
 
   - name: crew
     label: Crew
