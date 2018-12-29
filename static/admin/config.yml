@@ -33,7 +33,13 @@ collections:
           widget: markdown,
           required: false,
         }
-      - { name: contentType, label: Type }
+      - {
+          name: contentType,
+          label: Type,
+          widget: select,
+          default: home,
+          options: ['home', 'spirit'],
+        }
       - { name: type, label: Type, widget: hidden, default: content }
 
   - name: event
