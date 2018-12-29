@@ -15,6 +15,7 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+      - { name: type, label: Type, widget: hidden, default: blog }
 
   - name: content
     label: Content
@@ -25,9 +26,15 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-      - { name: googleMaps, label: "Google Maps", required: false }
-      - { name: openingHours, label: "Opening Hours", widget: markdown, required: false }
-      - { name: type, label: Type }
+      - { name: googleMaps, label: 'Google Maps', required: false }
+      - {
+          name: openingHours,
+          label: 'Opening Hours',
+          widget: markdown,
+          required: false,
+        }
+      - { name: contentType, label: Type }
+      - { name: type, label: Type, widget: hidden, default: content }
 
   - name: event
     label: Event
@@ -37,17 +44,22 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
-      - { name: image, label: Image, widget: image, media_library: { config: { multiple: false }  } }
+      - {
+          name: image,
+          label: Image,
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
       - { name: body, label: Body, widget: markdown }
-      - { name: fbLink, label: "Facebook Link" }
+      - { name: fbLink, label: 'Facebook Link' }
+      - { name: type, label: Type, widget: hidden, default: event }
       - name: timeTable
-        label: "Time Table"
+        label: 'Time Table'
         widget: list
         required: false
         fields:
           - { label: Act, name: act }
-          - { label: Time, name: time, widget: string, default: "00:00" }
-
+          - { label: Time, name: time, widget: string, default: '00:00' }
 
   - name: crew
     label: Crew
@@ -57,14 +69,26 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: name, label: Name }
-      - { name: image, label: Image, widget: image, media_library: { config: { multiple: false }  } }
+      - {
+          name: image,
+          label: Image,
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
       - { name: body, label: Body, widget: markdown }
-      - { name: since, label: Since, widget: date, default: "", format: "Do.MM.YYYY" }
+      - {
+          name: since,
+          label: Since,
+          widget: date,
+          default: '',
+          format: 'Do.MM.YYYY',
+        }
       - { name: role, label: Role }
       - { name: soundcloud, label: Soundcloud, required: false }
       - { name: mixcloud, label: Mixcloud, required: false }
       - { name: facebook, label: Facebook, required: false }
       - { name: instagram, label: Instagram, required: false }
+      - { name: type, label: Type, widget: hidden, default: crew }
 
   - name: ware
     label: Ware
@@ -74,7 +98,13 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
-      - { name: image, label: Image, widget: image, media_library: { config: { multiple: false }  } }
+      - {
+          name: image,
+          label: Image,
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
       - { name: body, label: Body, widget: markdown }
       - { name: size, label: Size }
       - { name: gender, label: Gender }
+      - { name: type, label: Type, widget: hidden, default: ware }
