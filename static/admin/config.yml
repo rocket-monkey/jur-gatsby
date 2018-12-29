@@ -35,9 +35,9 @@ collections:
         }
       - {
           name: contentType,
-          label: Type,
+          label: 'Content Type',
           widget: select,
-          default: home,
+          default: 'home',
           options: ['home', 'spirit'],
         }
       - { name: type, label: Type, widget: hidden, default: content }
