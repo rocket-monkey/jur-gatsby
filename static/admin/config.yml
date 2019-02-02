@@ -39,6 +39,7 @@ collections:
           name: 'galleryAsTeaser',
           widget: 'boolean',
           default: false,
+          required: false,
         }
       - {
           name: openingHours,
