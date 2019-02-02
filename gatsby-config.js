@@ -25,6 +25,34 @@ module.exports = {
         name: 'blog',
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/cms/content`,
+        name: 'content',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/cms/event`,
+        name: 'event',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/cms/crew`,
+        name: 'crew',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/cms/ware`,
+        name: 'ware',
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-plugin-postcss',
   ],

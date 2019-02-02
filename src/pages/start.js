@@ -10,30 +10,28 @@ const HomePage = () => {
     <Layout>
       <StaticQuery
         query={graphql`
-          query BlogListingStartQuery {
-            allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
-              limit: 1000
-            ) {
-              edges {
-                node {
-                  frontmatter {
-                    title
-                    path
-                  }
-                }
+          query GetHomeQuery {
+            markdownRemark(frontmatter: { path: { eq: "home" } }) {
+              html
+              frontmatter {
+                date(formatString: "MMMM DD, YYYY")
+                path
+                title
               }
             }
           }
         `}
         render={data => {
+          const { markdownRemark } = data // data.markdownRemark holds our post data
+          const { frontmatter, html } = markdownRemark
           return (
-            <div id="data">
-              {data.allMarkdownRemark.edges.map(({ node }, index) => {
-                return (
-                  <Link to={`/${node.frontmatter.path}`} key={index}>{node.frontmatter.title}</Link>
-                )
-              })}
+            <div className="blog-post">
+              <h1>{frontmatter.title}</h1>
+              <h2>{frontmatter.date}</h2>
+              <div
+                className="blog-post-content"
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
             </div>
           )
         }}

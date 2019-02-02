@@ -5,6 +5,4 @@
 import Layout from './layout'
 // import styles from './layout.module.css'
 
-export default class BlogLayout extends Layout {
-
-}
+export default class DefaultLayout extends Layout {}

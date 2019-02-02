@@ -6,9 +6,7 @@ import Layout from '../components/layout'
 import WorkInProgress from '../components/workInProgress'
 
 const IndexPage = () => {
-  return (
-    <WorkInProgress />
-  )
+  return <WorkInProgress />
 
   return (
     <Layout>
@@ -35,7 +33,9 @@ const IndexPage = () => {
             <div id="data">
               {data.allMarkdownRemark.edges.map(({ node }, index) => {
                 return (
-                  <Link to={`/${node.frontmatter.path}`} key={index}>{node.frontmatter.title}</Link>
+                  <Link to={`/${node.frontmatter.path}`} key={index}>
+                    {node.frontmatter.title}
+                  </Link>
                 )
               })}
             </div>

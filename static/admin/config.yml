@@ -28,6 +28,19 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { name: googleMaps, label: 'Google Maps', required: false }
       - {
+          label: 'Gallery',
+          name: 'galleryImages',
+          widget: 'list',
+          field: { label: Image, name: image, widget: image },
+          required: false,
+        }
+      - {
+          label: 'Gallery as teasers',
+          name: 'galleryAsTeaser',
+          widget: 'boolean',
+          default: false,
+        }
+      - {
           name: openingHours,
           label: 'Opening Hours',
           widget: markdown,

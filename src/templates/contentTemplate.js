@@ -22,7 +22,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query BlogPostByPath($slug: String!) {
+  query ContentByPath($slug: String!) {
     markdownRemark(frontmatter: { path: { eq: $slug } }) {
       html
       frontmatter {
