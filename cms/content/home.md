@@ -3,6 +3,11 @@ path: home
 date: 2018-12-29T16:47:52.745Z
 title: Home
 googleMaps: map-link
+galleryImages:
+  - /assets/e5e8vh0.jpg
+  - /assets/kagk9rq.jpg
+  - /assets/lidhyvs.jpg
+  - /assets/h4dsxjo.jpg
 openingHours: 'Sa. 14:00 - 17:00 Uhr'
 contentType: home
 type: content
