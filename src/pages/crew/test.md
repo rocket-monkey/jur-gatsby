@@ -1,10 +1,8 @@
 ---
 templateKey: crew-entry
-title: Rocket Monkey
-image: /img/meeting-space.png
-since: 1st.08.2018
-role: Web Guru
-type: crew
+title: test
+image: /img/chemex.jpg
+since: 31st.01.2019
+role: asdfasf
 ---
-
-Ein Text
+asfdasdf
