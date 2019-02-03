@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const SvgJurLogo = props => (
   <svg width={105} height={105} viewBox="0 0 105 105" {...props}>
@@ -7,6 +7,6 @@ const SvgJurLogo = props => (
       fill="#1A1918"
     />
   </svg>
-);
+)
 
-export default SvgJurLogo;
+export default SvgJurLogo
