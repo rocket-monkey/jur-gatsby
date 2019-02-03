@@ -24,6 +24,79 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
+  - name: event
+    label: Event
+    folder: cms/event
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - {
+          name: image,
+          label: Image,
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+      - { name: body, label: Body, widget: markdown }
+      - { name: fbLink, label: 'Facebook Link' }
+      - { name: type, label: Type, widget: hidden, default: event }
+      - name: timeTable
+        label: 'Time Table'
+        widget: list
+        required: false
+        fields:
+          - { label: Act, name: act }
+          - { label: Time, name: time, widget: string, default: '00:00' }
+
+  - name: crew
+    label: Crew
+    folder: cms/crew
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: name, label: Name }
+      - {
+          name: image,
+          label: Image,
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+      - { name: body, label: Body, widget: markdown }
+      - {
+          name: since,
+          label: Since,
+          widget: date,
+          default: '',
+          format: 'Do.MM.YYYY',
+        }
+      - { name: role, label: Role }
+      - { name: soundcloud, label: Soundcloud, required: false }
+      - { name: mixcloud, label: Mixcloud, required: false }
+      - { name: facebook, label: Facebook, required: false }
+      - { name: instagram, label: Instagram, required: false }
+      - { name: type, label: Type, widget: hidden, default: crew }
+
+  - name: ware
+    label: Ware
+    folder: cms/ware
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - {
+          name: image,
+          label: Image,
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+      - { name: body, label: Body, widget: markdown }
+      - { name: size, label: Size }
+      - { name: gender, label: Gender }
+      - { name: type, label: Type, widget: hidden, default: ware }
+
   - name: 'pages'
     label: 'Pages'
     files:
