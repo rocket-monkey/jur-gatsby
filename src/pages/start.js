@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
+import Image from '../components/image'
 import WorkInProgress from '../components/workInProgress'
 
 const HomePage = () => {
@@ -17,11 +18,13 @@ const HomePage = () => {
                 date(formatString: "MMMM DD, YYYY")
                 path
                 title
+                galleryImages
               }
             }
           }
         `}
         render={data => {
+          console.log('data', data)
           const { markdownRemark } = data // data.markdownRemark holds our post data
           const { frontmatter, html } = markdownRemark
           return (
@@ -32,6 +35,10 @@ const HomePage = () => {
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
+
+              {frontmatter.galleryImages.map((image, idx) => (
+                <Image key={idx} name={image} />
+              ))}
             </div>
           )
         }}

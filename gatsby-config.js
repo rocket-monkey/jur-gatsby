@@ -54,6 +54,15 @@ module.exports = {
       },
     },
     'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/assets`,
+        name: 'assets',
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-postcss',
   ],
 }
