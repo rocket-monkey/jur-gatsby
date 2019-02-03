@@ -26,10 +26,16 @@ collections:
 
   - name: event
     label: Event
-    folder: cms/event
+    folder: 'src/pages/events'
     create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - { name: path, label: Path }
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'event-post',
+        }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - {
@@ -51,11 +57,15 @@ collections:
 
   - name: crew
     label: Crew
-    folder: cms/crew
+    folder: 'src/pages/crew'
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'crew-entry',
+        }
       - { name: name, label: Name }
       - {
           name: image,
@@ -80,11 +90,15 @@ collections:
 
   - name: ware
     label: Ware
-    folder: cms/ware
+    folder: 'src/pages/ware'
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'ware-entry',
+        }
       - { name: title, label: Title }
       - {
           name: image,
