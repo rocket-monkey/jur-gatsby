@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 name: Rocket Monkey
-image: /img/meeting-space.png
+image: /img/jumbotron.jpg
 since: 1st.08.2018
 role: Web Guru
 type: crew
