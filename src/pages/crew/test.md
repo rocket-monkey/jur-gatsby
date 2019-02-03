@@ -1,8 +1,9 @@
 ---
 templateKey: crew-entry
 title: test
-image: /img/chemex.jpg
-since: 31st.01.2019
-role: asdfasf
+image: /img/flavor_wheel.jpg
+since: 2nd.02.2019
+role: asfdasfd
+soundcloud: asdfafd
 ---
-asfdasdf
+sdafasdf
