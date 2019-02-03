@@ -86,7 +86,6 @@ collections:
       - { name: mixcloud, label: Mixcloud, required: false }
       - { name: facebook, label: Facebook, required: false }
       - { name: instagram, label: Instagram, required: false }
-      - { name: type, label: Type, widget: hidden, default: crew }
 
   - name: ware
     label: Ware
@@ -109,7 +108,6 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { name: size, label: Size }
       - { name: gender, label: Gender }
-      - { name: type, label: Type, widget: hidden, default: ware }
 
   - name: 'pages'
     label: 'Pages'
