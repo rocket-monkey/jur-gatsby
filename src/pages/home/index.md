@@ -1,7 +1,7 @@
 ---
-templateKey: 'home-page'
-path: /home
+templateKey: home-page
 title: Home
 ---
-
 ### hello
+
+this is home!
