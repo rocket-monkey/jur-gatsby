@@ -1,72 +1,67 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
-// import classNames from 'class-names'
 import { StaticQuery, graphql } from 'gatsby'
 
-import GlobalCssTag from './globalCss'
-// import Card3d from './card3d'
-import Header from './header'
-import styles from './layout.module.css'
+import Navbar from '../components/Navbar'
+import './all.sass'
 
-export default class Layout extends PureComponent  {
-  scrollRef = React.createRef()
-  state = {
-    isSticky: false
-  }
-
-  onScroll = (event) => {
-    // console.log('wtf', window.scrollTop)
-    if (window.scrollY > window.__BGVID_HEIGHT__) {
-      this.setState({ isSticky: true })
-    } else if (window.scrollY < (window.__BGVID_HEIGHT__ - 20)) {
-      this.setState({ isSticky: false  })
-    }
-  }
-
-  componentDidMount = () => {
-    // this.scrollRef.current.addEventListener('scroll', this.onScroll, { passive: true })
-    window.addEventListener('scroll', this.onScroll, { passive: true })
-  }
-
-  componentWillUnmount = () => {
-    window.removeEventListener('scroll', this.onScroll, { passive: true })
-  }
-
-  render() {
-    const { children } = this.props
-    return (
-      <StaticQuery
-        query={graphql`
-          query SiteTitleQuery {
-            site {
-              siteMetadata {
-                title
-              }
-            }
+const TemplateWrapper = ({ children }) => (
+  <StaticQuery
+    query={graphql`
+      query HeadingQuery {
+        site {
+          siteMetadata {
+            title
+            description
           }
-        `}
-        render={data => (
-          <>
-            <Helmet
-              title={data.site.siteMetadata.title}
-              meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
-              ]}
-            >
-              <html lang="en" />
-              <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat" rel="stylesheet" />
-            </Helmet>
+        }
+      }
+    `}
+    render={data => (
+      <div>
+        <Helmet>
+          <html lang="en" />
+          <title>{data.site.siteMetadata.title}</title>
+          <meta
+            name="description"
+            content={data.site.siteMetadata.description}
+          />
 
-            <Header isSticky={this.state.isSticky} siteTitle={data.site.siteMetadata.title} />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/img/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/img/favicon-32x32.png"
+            sizes="32x32"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            href="/img/favicon-16x16.png"
+            sizes="16x16"
+          />
 
-            <div className={styles.layout} ref={this.scrollRef}>
-              {children}
-            </div>
-            <GlobalCssTag />
-          </>
-        )}
-      />
-    )
-  }
-}
+          <link
+            rel="mask-icon"
+            href="/img/safari-pinned-tab.svg"
+            color="#ff4400"
+          />
+          <meta name="theme-color" content="#fff" />
+
+          <meta property="og:type" content="business.business" />
+          <meta property="og:title" content={data.site.siteMetadata.title} />
+          <meta property="og:url" content="/" />
+          <meta property="og:image" content="/img/og-image.jpg" />
+        </Helmet>
+        <Navbar />
+        <div>{children}</div>
+      </div>
+    )}
+  />
+)
+
+export default TemplateWrapper

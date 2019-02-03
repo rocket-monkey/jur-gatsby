@@ -1,52 +1,93 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import { StaticQuery, graphql } from 'gatsby'
+import PropTypes from 'prop-types'
+import { Link, graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import WorkInProgress from '../components/WorkInProgress'
 
-import Layout from '../components/layout'
-import WorkInProgress from '../components/workInProgress'
+export default class IndexPage extends React.Component {
+  state = {
+    beta: false,
+  }
 
-const IndexPage = () => {
-  return <WorkInProgress />
+  componentDidMount() {
+    if (localStorage.getItem('beta')) {
+      this.setState({ beta: true })
+    }
+  }
 
-  return (
-    <Layout>
-      <StaticQuery
-        query={graphql`
-          query BlogListingQuery {
-            allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
-              limit: 1000
-            ) {
-              edges {
-                node {
-                  frontmatter {
-                    title
-                    path
-                  }
-                }
-              }
-            }
-          }
-        `}
-        render={data => {
-          return (
-            <div id="data">
-              {data.allMarkdownRemark.edges.map(({ node }, index) => {
-                return (
-                  <Link to={`/${node.frontmatter.path}`} key={index}>
-                    {node.frontmatter.title}
-                  </Link>
-                )
-              })}
+  render() {
+    const { data } = this.props
+    const { edges: posts } = data.allMarkdownRemark
+
+    if (!this.state.beta) {
+      return <WorkInProgress />
+    }
+
+    return (
+      <Layout>
+        <section className="section">
+          <div className="container">
+            <div className="content">
+              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
             </div>
-          )
-        }}
-      />
-      {/*
-        <Link to="/page-2/">Go to page 2</Link>
-      */}
-    </Layout>
-  )
+            {posts.map(({ node: post }) => (
+              <div
+                className="content"
+                style={{ border: '1px solid #333', padding: '2em 4em' }}
+                key={post.id}
+              >
+                <p>
+                  <Link className="has-text-primary" to={post.fields.slug}>
+                    {post.frontmatter.title}
+                  </Link>
+                  <span> &bull; </span>
+                  <small>{post.frontmatter.date}</small>
+                </p>
+                <p>
+                  {post.excerpt}
+                  <br />
+                  <br />
+                  <Link className="button is-small" to={post.fields.slug}>
+                    Keep Reading →
+                  </Link>
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+      </Layout>
+    )
+  }
 }
 
-export default IndexPage
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+}
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            templateKey
+            date(formatString: "MMMM DD, YYYY")
+          }
+        }
+      }
+    }
+  }
+`

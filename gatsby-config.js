@@ -1,68 +1,76 @@
 module.exports = {
   siteMetadata: {
-    title: 'JUR Records',
+    title: 'Gatsby + Netlify CMS Starter',
+    description: 'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     {
-      resolve: `gatsby-plugin-manifest`,
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'jurrecords.ch',
-        short_name: 'jur-gatsby',
-        start_url: '/',
-        background_color: '#000',
-        theme_color: '#000',
-        display: 'minimal-ui',
-        icon: 'src/images/logo512.png', // This path is relative to the root of the site.
-      },
-    },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-netlify-cms',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/cms/blog`,
-        name: 'blog',
+        path: `${__dirname}/static/img`,
+        name: 'uploads',
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/cms/content`,
-        name: 'content',
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/cms/event`,
-        name: 'event',
+        path: `${__dirname}/src/img`,
+        name: 'images',
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/cms/crew`,
-        name: 'crew',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/cms/ware`,
-        name: 'ware',
-      },
-    },
-    'gatsby-transformer-remark',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/static/assets`,
-        name: 'assets',
-      },
-    },
-    'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-postcss',
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-relative-images',
+            options: {
+              name: 'uploads',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static',
+            }
+          }
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
+    {
+      resolve:'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
+      options: {
+        develop: true,            // Activates purging in npm run develop
+        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+      },
+    }, // must be after other CSS plugins
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

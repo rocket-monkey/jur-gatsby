@@ -1,47 +1,23 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
-// You can delete this file if you're not using it
-
+const _ = require('lodash')
 const path = require('path')
-
-const getPrefix = type => {
-  switch (type) {
-    case 'content':
-      return '/content'
-
-    default:
-      return ''
-  }
-}
-
-const getTemplate = type => {
-  switch (type) {
-    case 'content':
-      return 'contentTemplate'
-
-    default:
-      return 'blogTemplate'
-  }
-}
+const { createFilePath } = require('gatsby-source-filesystem')
+const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
   return graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
+      allMarkdownRemark(limit: 1000) {
         edges {
           node {
+            id
+            fields {
+              slug
+            }
             frontmatter {
-              path
-              type
+              tags
+              templateKey
             }
           }
         }
@@ -49,24 +25,63 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     if (result.errors) {
+      result.errors.forEach(e => console.error(e.toString()))
       return Promise.reject(result.errors)
     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      const { path: slug } = node.frontmatter
-      const type = node.frontmatter.type
-      const pathName = `/${type}/${slug}/`
-      console.log('create page:', slug, type, pathName)
+    const posts = result.data.allMarkdownRemark.edges
+
+    posts.forEach(edge => {
+      const id = edge.node.id
       createPage({
-        path: pathName,
-        component: path.resolve(`./src/templates/${getTemplate(type)}.js`),
-        // If you have a layout component at src/layouts/blog-layout.js
-        // The context is passed as props to the component as well
-        // as into the component's GraphQL query.
+        path: edge.node.fields.slug,
+        tags: edge.node.frontmatter.tags,
+        component: path.resolve(
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+        ),
+        // additional data can be passed via context
         context: {
-          slug,
+          id,
+        },
+      })
+    })
+
+    // Tag pages:
+    let tags = []
+    // Iterate through each post, putting all found tags into `tags`
+    posts.forEach(edge => {
+      if (_.get(edge, `node.frontmatter.tags`)) {
+        tags = tags.concat(edge.node.frontmatter.tags)
+      }
+    })
+    // Eliminate duplicate tags
+    tags = _.uniq(tags)
+
+    // Make tag pages
+    tags.forEach(tag => {
+      const tagPath = `/tags/${_.kebabCase(tag)}/`
+
+      createPage({
+        path: tagPath,
+        component: path.resolve(`src/templates/tags.js`),
+        context: {
+          tag,
         },
       })
     })
   })
+}
+
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
+  fmImagesToRelative(node) // convert image paths for gatsby images
+
+  if (node.internal.type === `MarkdownRemark`) {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
+  }
 }
