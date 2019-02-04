@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import classNames from 'class-names'
 import { CSSTransition } from 'react-transition-group'
+import BodyClassName from 'react-body-classname'
 import JurLogo from '../icons/JurLogo'
 import styles from './styles.module.scss'
 
@@ -62,15 +63,21 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link
-              to="/"
-              className={classNames('navbar-item', styles.logo, {
-                [styles.logoActive]: burgerActive,
+            <BodyClassName
+              className={classNames({
+                [styles.bodyNavbarActive]: burgerActive,
               })}
-              onClick={this.handleLinkClick}
             >
-              <JurLogo />
-            </Link>
+              <Link
+                to="/"
+                className={classNames('navbar-item', styles.logo, {
+                  [styles.logoActive]: burgerActive,
+                })}
+                onClick={this.handleLinkClick}
+              >
+                <JurLogo />
+              </Link>
+            </BodyClassName>
 
             {/* Hamburger menu */}
             <div
