@@ -36,3 +36,4 @@ yarn dev
 * [Gatsby & Netlify Tut](https://www.gatsbyjs.org/docs/netlify-cms/)
 * [Netlify Dashboard](https://app.netlify.com/sites/jovial-fermi-719433/overview)
 * [Gatsby Netlify Plugin Repo](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms)
+* [Gatsby Netlify Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms)
