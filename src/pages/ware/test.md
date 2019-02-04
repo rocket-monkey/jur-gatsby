@@ -1,9 +1,8 @@
 ---
 templateKey: ware-entry
 title: test
-image: /img/meeting-space.png
+image: /img/jumbotron.jpg
 size: 'N'
 gender: S
-type: ware
 ---
 test
