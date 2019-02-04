@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const SpiritPageTemplate = ({ title, content, contentComponent }) => {
+export const StorePageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -23,18 +23,18 @@ export const SpiritPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-SpiritPageTemplate.propTypes = {
+StorePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const SpiritPage = ({ data }) => {
+const StorePage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <SpiritPageTemplate
+      <StorePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -43,14 +43,14 @@ const SpiritPage = ({ data }) => {
   )
 }
 
-SpiritPage.propTypes = {
+StorePage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default SpiritPage
+export default StorePage
 
-export const spiritPageQuery = graphql`
-  query SpiritPage($id: String!) {
+export const storePageQuery = graphql`
+  query StorePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

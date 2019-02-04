@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import BlogPosts from '../components/BlogPosts'
+import Events from '../components/Events'
 import WorkInProgress from '../components/WorkInProgress'
 
 export default class IndexPage extends React.Component {
@@ -17,7 +19,8 @@ export default class IndexPage extends React.Component {
 
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { edges: posts } = data.blogPosts
+    const { edges: events } = data.events
 
     if (!this.state.beta) {
       return <WorkInProgress />
@@ -26,33 +29,16 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
-            {posts.map(({ node: post }) => (
-              <div
-                className="content"
-                style={{ border: '1px solid #333', padding: '2em 4em' }}
-                key={post.id}
-              >
-                <p>
-                  <Link className="has-text-primary" to={post.fields.slug}>
-                    {post.frontmatter.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <small>{post.frontmatter.date}</small>
-                </p>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button is-small" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
+          <div className="container content">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
+                <Events events={events} />
+                {/*
+                <BlogPosts posts={posts} />
+              */}
               </div>
-            ))}
+            </div>
           </div>
         </section>
       </Layout>
@@ -70,9 +56,35 @@ IndexPage.propTypes = {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(
+    home: markdownRemark(frontmatter: { templateKey: { eq: "home-page" } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+      }
+    }
+    blogPosts: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            templateKey
+            date(formatString: "MMMM DD, YYYY")
+          }
+        }
+      }
+    }
+    events: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "event-post" } } }
     ) {
       edges {
         node {
