@@ -5,22 +5,64 @@ import {
 } from 'react-transition-group'
 
 //This variable will be responsible for our animation duration
-const transitionDelay = 600
+const transitionDelay = 300
 
 //This object contains basic styles for animation, but you can extend them to whatever you like. Be creative!
-const getTransitionStyles = {
-  entering: {
-    position: 'absolute',
-    opacity: 0,
-  },
-  entered: {
-    transition: `opacity ${transitionDelay}ms ease-in-out`,
-    opacity: 1,
-  },
-  exiting: {
-    transition: `all ${transitionDelay}ms ease-in-out`,
-    opacity: 0,
-  },
+const getTransitionStyles = status => {
+  let styles = {
+    entering: {
+      position: 'absolute',
+      transform: 'translate3d(100%, 0, 0)',
+      opacity: '0',
+      filter: 'blur(0)',
+    },
+    entered: {
+      transition: `filter ${transitionDelay}ms ease-in, opacity ${transitionDelay}ms ease-out, transform ${transitionDelay}ms ease-out`,
+      transform: 'translate3d(0, 0, 0)',
+      opacity: '1',
+      filter: 'blur(0)',
+    },
+    exiting: {
+      transition: `all ${transitionDelay}ms ease-in`,
+      transform: 'translate3d(-30%, 0, 0)',
+      opacity: '0',
+      filter: 'blur(5px)',
+    },
+  }
+
+  if (status === 'entered') {
+    return styles[status]
+  }
+
+  const random = Math.floor(Math.random() * 4) + 1
+  let extend = {}
+  switch (random) {
+    case 1:
+      extend =
+        status === 'entering'
+          ? { transform: 'translate3d(0, 100%, 0)' }
+          : { transform: 'translate3d(0, -30%, 0)' }
+
+    case 2:
+      extend =
+        status === 'entering'
+          ? { transform: 'translate3d(-30%, 0, 0)' }
+          : { transform: 'translate3d(100%, 0, 0)' }
+
+    case 3:
+      return styles[status]
+
+    case 4:
+      extend =
+        status === 'entering'
+          ? { transform: 'translate3d(0, -30%, 0)' }
+          : { transform: 'translate3d(0, 100%, 0)' }
+  }
+
+  return {
+    ...styles[status],
+    ...extend,
+  }
 }
 
 class Transition extends React.PureComponent {
@@ -45,7 +87,7 @@ class Transition extends React.PureComponent {
           status => (
             <div
               style={{
-                ...getTransitionStyles[status],
+                ...getTransitionStyles(status),
               }}
             >
               {children}
