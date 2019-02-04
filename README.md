@@ -9,6 +9,10 @@
 # jur-gatsby
 The official "JUR Recordings" website, built with [GatsbyJS](https://www.gatsbyjs.org/) & [NetlifyCMS](https://www.netlifycms.org/)
 
+## Wiki 🎓
+
+* https://github.com/rocket-monkey/jur-gatsby/wiki
+
 ## Prerequisites 💡
 
 * git (https://git-scm.com/)
