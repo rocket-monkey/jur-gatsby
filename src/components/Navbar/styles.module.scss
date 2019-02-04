@@ -24,9 +24,11 @@
 }
 
 .logoActive {
-  svg {
-    path {
-      fill: $dark;
+  @include until($lg) {
+    svg {
+      path {
+        fill: $dark;
+      }
     }
   }
 }

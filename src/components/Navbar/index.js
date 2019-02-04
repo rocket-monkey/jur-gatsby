@@ -115,10 +115,18 @@ const Navbar = class extends React.Component {
   }
 
   handleBurgerClick = () => {
+    if (window.innerWidth >= 1088) {
+      return
+    }
+
     this.setState({ burgerActive: !this.state.burgerActive })
   }
 
   handleLinkClick = () => {
+    if (window.innerWidth >= 1088) {
+      return
+    }
+
     this.setState({ burgerActive: false })
   }
 }
