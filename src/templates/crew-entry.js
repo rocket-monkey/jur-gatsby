@@ -1,10 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const CrewPageTemplate = ({ title, content, contentComponent }) => {
+export const CrewPageTemplate = ({
+  title,
+  content,
+  image,
+  contentComponent,
+}) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -16,6 +22,7 @@ export const CrewPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
+              <Img {...image} />
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -40,6 +47,7 @@ const CrewPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        image={post.frontmatter.image.childImageSharp}
       />
     </Layout>
   )
@@ -57,6 +65,13 @@ export const crewPageQuery = graphql`
       html
       frontmatter {
         title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
       }
     }
   }
