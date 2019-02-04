@@ -1,0 +1,12 @@
+@import '../_variables.sass';
+
+.navbar {
+  svg {
+    width: 48px;
+    height: 48px;
+
+    path {
+      fill: $light;
+    }
+  }
+}

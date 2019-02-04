@@ -35,8 +35,8 @@ export default class IndexPage extends React.Component {
                 <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
                 <Events events={events} />
                 {/*
-                <BlogPosts posts={posts} />
-              */}
+                  <BlogPosts posts={posts} />
+                */}
               </div>
             </div>
           </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
-import JurLogo from './icons/JurLogo'
+import classNames from 'class-names'
+import JurLogo from '../icons/JurLogo'
+import styles from './styles.module.scss'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -36,7 +36,7 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
+          <div className={classNames('navbar-brand', styles.navbar)}>
             <Link to="/" className="navbar-item">
               <JurLogo />
             </Link>
@@ -61,10 +61,10 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/store">
                 Store
               </Link>
+              <Link className="navbar-item" to="/ware">
+                Ware
+              </Link>
               {/*
-                <Link className="navbar-item" to="/ware">
-                  Ware
-                </Link>
                 <Link className="navbar-item" to="/contact/examples">
                   Form Examples
                 </Link>

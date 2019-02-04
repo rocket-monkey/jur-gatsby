@@ -1,7 +1,7 @@
 import React from 'react'
 
 import JurLogo from '../icons/JurLogoFont'
-import styles from './styles.module.sass'
+import styles from './styles.module.scss'
 
 const WorkInProgress = () => (
   <div className={styles.container}>

@@ -5,6 +5,7 @@
   "author": "Remo Vetere",
   "dependencies": {
     "bulma": "^0.7.0",
+    "class-names": "^1.0.0",
     "gatsby": "^2.0.66",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-netlify": "^2.0.6",
