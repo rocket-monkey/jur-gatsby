@@ -28,6 +28,7 @@ module.exports = {
         name: 'images',
       },
     },
+    'gatsby-plugin-layout',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {

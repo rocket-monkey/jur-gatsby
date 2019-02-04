@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 export const StorePageTemplate = ({ title, content, contentComponent }) => {
@@ -33,13 +32,11 @@ const StorePage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
-      <StorePageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
-    </Layout>
+    <StorePageTemplate
+      contentComponent={HTMLContent}
+      title={post.frontmatter.title}
+      content={post.html}
+    />
   )
 }
 

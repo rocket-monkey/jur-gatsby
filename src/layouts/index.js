@@ -1,11 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Navbar from '../components/Navbar'
+import Transition from '../components/Transition'
 import './all.sass'
 
-const TemplateWrapper = ({ children }) => (
+// Note that we need to pass location to our functional component  so we have access to it down there in <Transition/>
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
@@ -58,10 +61,14 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
         <Navbar />
-        <div>{children}</div>
+        <Transition location={location}>{children}</Transition>
       </div>
     )}
   />
 )
 
-export default TemplateWrapper
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default Layout

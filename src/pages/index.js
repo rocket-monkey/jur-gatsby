@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
 import BlogPosts from '../components/BlogPosts'
 import Events from '../components/Events'
 import WorkInProgress from '../components/WorkInProgress'
@@ -27,21 +26,19 @@ export default class IndexPage extends React.Component {
     }
 
     return (
-      <Layout>
-        <section className="section">
-          <div className="container content">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
-                <Events events={events} />
-                {/*
+      <section className="section">
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
+              <Events events={events} />
+              {/*
                   <BlogPosts posts={posts} />
                 */}
-              </div>
             </div>
           </div>
-        </section>
-      </Layout>
+        </div>
+      </section>
     )
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import Layout from '../../components/Layout'
 import Events from '../../components/Events'
 
 export default class EventsOverviewPage extends React.Component {
@@ -10,17 +9,15 @@ export default class EventsOverviewPage extends React.Component {
     const { edges: events } = data.allMarkdownRemark
 
     return (
-      <Layout>
-        <section className="section">
-          <div className="container content">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <Events events={events} />
-              </div>
+      <section className="section">
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <Events events={events} />
             </div>
           </div>
-        </section>
-      </Layout>
+        </div>
+      </section>
     )
   }
 }
