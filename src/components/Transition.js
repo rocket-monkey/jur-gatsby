@@ -12,21 +12,19 @@ const getTransitionStyles = status => {
   let styles = {
     entering: {
       position: 'absolute',
-      transform: 'translate3d(100%, 0, 0)',
+      transform:
+        'translate3d(-60px, -40px, 150px) rotateY(23deg) rotateZ(-6deg)',
       opacity: '0',
-      filter: 'blur(0)',
     },
     entered: {
-      transition: `filter ${transitionDelay}ms ease-in, opacity ${transitionDelay}ms ease-out, transform ${transitionDelay}ms ease-out`,
-      transform: 'translate3d(0, 0, 0)',
+      transition: `opacity ${transitionDelay}ms ease-out, transform ${transitionDelay}ms ease-out`,
+      transform: 'translate3d(0, 0, 0) rotateY(0deg) rotateZ(0deg)',
       opacity: '1',
-      filter: 'blur(0)',
     },
     exiting: {
       transition: `all ${transitionDelay}ms ease-in`,
-      transform: 'translate3d(-30%, 0, 0)',
+      transform: 'translate3d(60px, 80px, -150px) rotateY(-12deg)',
       opacity: '0',
-      filter: 'blur(5px)',
     },
   }
 
@@ -34,14 +32,11 @@ const getTransitionStyles = status => {
     return styles[status]
   }
 
-  const random = Math.floor(Math.random() * 4) + 1
+  const random = 1 // Math.floor(Math.random() * 4) + 1
   let extend = {}
   switch (random) {
     case 1:
-      extend =
-        status === 'entering'
-          ? { transform: 'translate3d(0, 100%, 0)' }
-          : { transform: 'translate3d(0, -30%, 0)' }
+      return styles[status]
 
     case 2:
       extend =
@@ -50,7 +45,10 @@ const getTransitionStyles = status => {
           : { transform: 'translate3d(100%, 0, 0)' }
 
     case 3:
-      return styles[status]
+      extend =
+        status === 'entering'
+          ? { transform: 'translate3d(0, 100%, 0)' }
+          : { transform: 'translate3d(0, -30%, 0)' }
 
     case 4:
       extend =

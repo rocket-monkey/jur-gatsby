@@ -1,4 +1,3 @@
-@import "~bulma/sass/utilities/initial-variables"
 @import "../components/_variables.sass"
 
 // Import a Google Font
@@ -70,11 +69,18 @@ $tabs-boxed-link-active-background-color: $body-background-color;
 
 // overrides
 
+body
+  perspective: 1000px
+  transform-style: preserve-3d
+
 .navbar
   background-color: $dark
 
 .navbar .navbar-menu
   box-shadow:none !important
+
+.navbar-burger.is-active
+  color: $dark
 
 .content .taglist
   list-style: none

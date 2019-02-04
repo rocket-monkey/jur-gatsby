@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import styles from './styles.module.scss'
 
 export default class CrewOverviewPage extends React.Component {
   render() {
@@ -15,32 +16,22 @@ export default class CrewOverviewPage extends React.Component {
             <div className="column is-10 is-offset-1">
               <h1 className="has-text-weight-bold is-size-2">Crew Members</h1>
 
-              {posts.map(({ node: post }) => {
-                return (
-                  <div
-                    className="content"
-                    style={{ border: '1px solid #333', padding: '2em 4em' }}
-                    key={post.id}
-                  >
-                    <p>
-                      <Link className="has-text-primary" to={post.fields.slug}>
-                        {post.frontmatter.title}
-                      </Link>
-                      <span> &bull; </span>
-                      <small>{post.frontmatter.date}</small>
-                    </p>
-                    <Img fixed={post.frontmatter.image.childImageSharp.fixed} />
-                    <p>
-                      {post.excerpt}
-                      <br />
-                      <br />
-                      <Link className="button is-small" to={post.fields.slug}>
-                        Keep Reading →
-                      </Link>
-                    </p>
-                  </div>
-                )
-              })}
+              <div className={styles.container}>
+                {posts.map(({ node: post }) => {
+                  return (
+                    <Link
+                      key={post.id}
+                      className={styles.crew}
+                      to={post.fields.slug}
+                    >
+                      <Img {...post.frontmatter.image.childImageSharp} />
+                      <h5>
+                        <span>{post.frontmatter.title}</span>
+                      </h5>
+                    </Link>
+                  )
+                })}
+              </div>
             </div>
           </div>
         </div>
@@ -57,6 +48,11 @@ CrewOverviewPage.propTypes = {
   }),
 }
 
+/*
+fixed(width: 125, height: 125) {
+  ...GatsbyImageSharpFixed
+}
+*/
 export const crewOverviewQuery = graphql`
   query CrewOverviewQuery {
     allMarkdownRemark(
@@ -76,8 +72,8 @@ export const crewOverviewQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             image {
               childImageSharp {
-                fixed(width: 125, height: 125) {
-                  ...GatsbyImageSharpFixed
+                fluid(maxWidth: 900) {
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }

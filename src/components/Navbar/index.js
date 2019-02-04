@@ -1,76 +1,118 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import classNames from 'class-names'
+import { CSSTransition } from 'react-transition-group'
 import JurLogo from '../icons/JurLogo'
 import styles from './styles.module.scss'
 
 const Navbar = class extends React.Component {
-  componentDidMount() {
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(
-      document.querySelectorAll('.navbar-burger'),
-      0
-    )
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
-      // Add a click event on each of them
-      $navbarBurgers.forEach(el => {
-        el.addEventListener('click', () => {
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target
-          const $target = document.getElementById(target)
+  state = {
+    burgerActive: false,
+  }
 
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active')
-          $target.classList.toggle('is-active')
-        })
-      })
+  componentDidMount() {
+    if (window.innerWidth >= 1088) {
+      this.setState({ burgerActive: true })
     }
   }
 
   render() {
+    const { burgerActive } = this.state
+
+    const menuJsx = (
+      <div className={styles.menu}>
+        <div
+          className={classNames(
+            'navbar-start',
+            'has-text-centered',
+            styles.links
+          )}
+          onClick={this.handleLinkClick}
+        >
+          <Link className="navbar-item" to="/spirit">
+            Spirit
+          </Link>
+          <Link className="navbar-item" to="/crew">
+            Crew
+          </Link>
+          <Link className="navbar-item" to="/events">
+            Events
+          </Link>
+          <Link className="navbar-item" to="/store">
+            Store
+          </Link>
+          <Link className="navbar-item" to="/ware">
+            Ware
+          </Link>
+          {/*
+            <Link className="navbar-item" to="/contact/examples">
+              Form Examples
+            </Link>
+          */}
+        </div>
+        <div className="navbar-end has-text-centered" />
+      </div>
+    )
+
     return (
-      <nav className="navbar" role="navigation" aria-label="main-navigation">
+      <nav
+        className={classNames('navbar', styles.navbar)}
+        role="navigation"
+        aria-label="main-navigation"
+      >
         <div className="container">
-          <div className={classNames('navbar-brand', styles.navbar)}>
-            <Link to="/" className="navbar-item">
+          <div className="navbar-brand">
+            <Link
+              to="/"
+              className={classNames('navbar-item', styles.logo, {
+                [styles.logoActive]: burgerActive,
+              })}
+              onClick={this.handleLinkClick}
+            >
               <JurLogo />
             </Link>
+
             {/* Hamburger menu */}
-            <div className="navbar-burger burger" data-target="navMenu">
+            <div
+              className={classNames('navbar-burger', 'burger', styles.burger, {
+                'is-active': burgerActive,
+              })}
+              onClick={this.handleBurgerClick}
+            >
               <span />
               <span />
               <span />
             </div>
           </div>
-          <div id="navMenu" className="navbar-menu">
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/spirit">
-                Spirit
-              </Link>
-              <Link className="navbar-item" to="/crew">
-                Crew
-              </Link>
-              <Link className="navbar-item" to="/events">
-                Events
-              </Link>
-              <Link className="navbar-item" to="/store">
-                Store
-              </Link>
-              <Link className="navbar-item" to="/ware">
-                Ware
-              </Link>
-              {/*
-                <Link className="navbar-item" to="/contact/examples">
-                  Form Examples
-                </Link>
-              */}
-            </div>
-            <div className="navbar-end has-text-centered" />
-          </div>
+
+          <CSSTransition
+            in={burgerActive}
+            classNames={{
+              enter: styles.enter,
+              enterActive: styles.enterActive,
+              appear: styles.enter,
+              appearActive: styles.enterActive,
+              exit: styles.exit,
+              exitActive: styles.exitActive,
+              exitDone: styles.exitDone,
+            }}
+            timeout={150}
+            unmountOnExit
+            mountOnEnter
+          >
+            {menuJsx}
+          </CSSTransition>
         </div>
       </nav>
     )
+  }
+
+  handleBurgerClick = () => {
+    this.setState({ burgerActive: !this.state.burgerActive })
+  }
+
+  handleLinkClick = () => {
+    this.setState({ burgerActive: false })
   }
 }
 

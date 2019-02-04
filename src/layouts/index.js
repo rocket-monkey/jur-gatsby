@@ -60,7 +60,7 @@ const Layout = ({ children, location }) => (
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
-        <Navbar />
+        <Navbar location={location} />
         <Transition location={location}>{children}</Transition>
       </div>
     )}
