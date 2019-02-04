@@ -5,8 +5,10 @@
 }
 
 .bodyNavbarActive {
-  overflow: hidden;
-  height: 100vh;
+  @include until($lg) {
+    overflow: hidden;
+    height: 100vh;
+  }
 }
 
 .logo {
