@@ -5,7 +5,7 @@ import {
 } from 'react-transition-group'
 
 //This variable will be responsible for our animation duration
-const transitionDelay = 300
+const transitionDelay = 100
 
 //This object contains basic styles for animation, but you can extend them to whatever you like. Be creative!
 const getTransitionStyles = status => {

@@ -1,7 +1,10 @@
 @import '../_variables.sass';
 
 .navbar {
-  margin-top: 12px;
+  position: sticky;
+  top: 0;
+  background: $dark;
+  z-index: 30;
 }
 
 .bodyNavbarActive {
