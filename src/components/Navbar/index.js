@@ -57,70 +57,69 @@ const Navbar = class extends React.Component {
     )
 
     return (
-      <div>
-        <BgVideo>
-          <nav
-            className={styles.navbar}
-            role="navigation"
-            aria-label="main-navigation"
-          >
-            <div className="container">
-              <div className="navbar-brand">
-                <BodyClassName
-                  className={classNames({
-                    [styles.bodyNavbarActive]: burgerActive,
-                  })}
-                >
-                  <Link
-                    to="/"
-                    className={classNames('navbar-item', styles.logo, {
-                      [styles.logoActive]: burgerActive,
-                    })}
-                    onClick={this.handleLinkClick}
-                  >
-                    <JurLogo />
-                  </Link>
-                </BodyClassName>
-
-                {/* Hamburger menu */}
-                <div
-                  className={classNames(
-                    'navbar-burger',
-                    'burger',
-                    styles.burger,
-                    {
-                      'is-active': burgerActive,
-                    }
-                  )}
-                  onClick={this.handleBurgerClick}
-                >
-                  <span />
-                  <span />
-                  <span />
-                </div>
-              </div>
-
-              <CSSTransition
-                in={burgerActive}
-                classNames={{
-                  enter: styles.enter,
-                  enterActive: styles.enterActive,
-                  appear: styles.enter,
-                  appearActive: styles.enterActive,
-                  exit: styles.exit,
-                  exitActive: styles.exitActive,
-                  exitDone: styles.exitDone,
-                }}
-                timeout={150}
-                unmountOnExit
-                mountOnEnter
+      <>
+        <BgVideo />
+        <nav
+          className={styles.navbar}
+          role="navigation"
+          aria-label="main-navigation"
+        >
+          <div className="container">
+            <div className="navbar-brand">
+              <BodyClassName
+                className={classNames({
+                  [styles.bodyNavbarActive]: burgerActive,
+                })}
               >
-                {menuJsx}
-              </CSSTransition>
+                <Link
+                  to="/"
+                  className={classNames('navbar-item', styles.logo, {
+                    [styles.logoActive]: burgerActive,
+                  })}
+                  onClick={this.handleLinkClick}
+                >
+                  <JurLogo />
+                </Link>
+              </BodyClassName>
+
+              {/* Hamburger menu */}
+              <div
+                className={classNames(
+                  'navbar-burger',
+                  'burger',
+                  styles.burger,
+                  {
+                    'is-active': burgerActive,
+                  }
+                )}
+                onClick={this.handleBurgerClick}
+              >
+                <span />
+                <span />
+                <span />
+              </div>
             </div>
-          </nav>
-        </BgVideo>
-      </div>
+
+            <CSSTransition
+              in={burgerActive}
+              classNames={{
+                enter: styles.enter,
+                enterActive: styles.enterActive,
+                appear: styles.enter,
+                appearActive: styles.enterActive,
+                exit: styles.exit,
+                exitActive: styles.exitActive,
+                exitDone: styles.exitDone,
+              }}
+              timeout={150}
+              unmountOnExit
+              mountOnEnter
+            >
+              {menuJsx}
+            </CSSTransition>
+          </div>
+        </nav>
+      </>
     )
   }
 

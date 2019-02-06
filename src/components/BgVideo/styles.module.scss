@@ -14,16 +14,11 @@
   }
 
   video {
-    height: 100%;
+    width: 100%;
     transform: translate3d(-50%, -50%, 0);
     position: absolute;
     top: 50%;
     left: 50%;
-
-    @include from($lg) {
-      height: initial;
-      width: 100%;
-    }
   }
 
   svg {
