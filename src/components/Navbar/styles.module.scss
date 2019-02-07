@@ -48,6 +48,10 @@
     height: 100vh;
     background: $light;
   }
+
+  @include from($lg) {
+    margin-top: 12px;
+  }
 }
 
 .links {

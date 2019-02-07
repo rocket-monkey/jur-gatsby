@@ -12,7 +12,7 @@ const getTransitionStyles = status => {
   let styles = {
     entering: {
       position: 'absolute',
-      transform: 'rotateY(-2deg) translate3d(0, 0, -20px)',
+      transform: 'rotateY(-1deg) translate3d(0, 0, -20px)',
       opacity: '0',
     },
     entered: {
@@ -22,7 +22,7 @@ const getTransitionStyles = status => {
     },
     exiting: {
       transition: `all ${transitionDelay}ms ease-in`,
-      transform: 'rotateY(2deg) translate3d(0, 30px, 10px)',
+      transform: 'rotateY(1deg) translate3d(0, 30px, 10px)',
       opacity: '0',
     },
   }

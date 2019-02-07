@@ -77,8 +77,19 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            description
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1024) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+            timeTable {
+              time
+            }
           }
         }
       }

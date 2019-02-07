@@ -98,25 +98,24 @@ const Navbar = class extends React.Component {
                 <span />
                 <span />
               </div>
+              <CSSTransition
+                in={burgerActive}
+                classNames={{
+                  enter: styles.enter,
+                  enterActive: styles.enterActive,
+                  appear: styles.enter,
+                  appearActive: styles.enterActive,
+                  exit: styles.exit,
+                  exitActive: styles.exitActive,
+                  exitDone: styles.exitDone,
+                }}
+                timeout={150}
+                unmountOnExit
+                mountOnEnter
+              >
+                {menuJsx}
+              </CSSTransition>
             </div>
-
-            <CSSTransition
-              in={burgerActive}
-              classNames={{
-                enter: styles.enter,
-                enterActive: styles.enterActive,
-                appear: styles.enter,
-                appearActive: styles.enterActive,
-                exit: styles.exit,
-                exitActive: styles.exitActive,
-                exitDone: styles.exitDone,
-              }}
-              timeout={150}
-              unmountOnExit
-              mountOnEnter
-            >
-              {menuJsx}
-            </CSSTransition>
           </div>
         </nav>
       </>

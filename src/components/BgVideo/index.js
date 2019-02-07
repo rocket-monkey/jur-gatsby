@@ -10,13 +10,12 @@ export default class BgVideo extends PureComponent {
   refVideo = React.createRef()
   state = {
     showLogo: false,
-    top: '0%',
-    transform: 'translate(-50%, 0)',
+    top: '50%',
+    transform: 'translate(-50%, -50%)',
   }
 
   parallaxImg = () => {
-    return
-    var speed = 1
+    var speed = 0.7
     var imgY = this.ref.current.getBoundingClientRect().top
     var winY = window.scrollY
     var winH = window.innerHeight
@@ -41,6 +40,7 @@ export default class BgVideo extends PureComponent {
   }
 
   componentDidMount() {
+    this.parallaxImg()
     setTimeout(() => {
       this.setState({ showLogo: true })
     }, 800)
@@ -77,6 +77,7 @@ export default class BgVideo extends PureComponent {
             muted
             loop
             ref={this.refVideo}
+            style={styleObj}
           >
             <source type="video/webm" src="/img/bgvideo.webm" />
             <source type="video/ogg" src="/img/bgvideo.ogg" />
