@@ -10,36 +10,15 @@ export default class BgVideo extends PureComponent {
   refVideo = React.createRef()
   state = {
     showLogo: false,
-    top: 0,
-    transform: '',
-  }
-
-  onScroll = event => {
-    const { top } = this.state
-    const hV = window.innerHeight
-    const hE = this.ref.current.offsetHeight
-    const hB = this.refVideo.current.offsetHeight
-    const yV = window.pageYOffset //Relative to document.
-    const yE = this.ref.current.getBoundingClientRect().top //Relative to view-port.
-    const yB = ((hB - hE) * yE) / (hE - hV) //Relative to element.
-
-    if (!window.__BGVID_HEIGHT__) {
-      window.__BGVID_HEIGHT__ = hE
-    }
-
-    let speed = 5
-    if (window.innerWidth > 960) {
-      speed = 1
-    }
-
-    const update = { top: yB * speed }
-    this.setState(update)
+    top: '0%',
+    transform: 'translate(-50%, 0)',
   }
 
   parallaxImg = () => {
-    var speed = 0.25
+    return
+    var speed = 1
     var imgY = this.ref.current.getBoundingClientRect().top
-    var winY = window.scrollTop()
+    var winY = window.scrollY
     var winH = window.innerHeight
     var parentH = this.ref.current.offsetHeight
 
@@ -65,7 +44,7 @@ export default class BgVideo extends PureComponent {
     setTimeout(() => {
       this.setState({ showLogo: true })
     }, 800)
-    window.addEventListener('scroll', this.onScroll, { passive: true })
+    window.addEventListener('scroll', this.parallaxImg, { passive: true })
 
     // fuck you cock-juggling thunder-cunts @apple, FUCK YOU!
     const ua = navigator.userAgent.toLowerCase()
@@ -78,11 +57,11 @@ export default class BgVideo extends PureComponent {
   }
 
   componentWillUnmount = () => {
-    window.removeEventListener('scroll', this.onScroll, { passive: true })
+    window.removeEventListener('scroll', this.parallaxImg, { passive: true })
   }
 
   render() {
-    const styleObj = { ...this.state.top, ...this.state.transform }
+    const styleObj = { top: this.state.top, transform: this.state.transform }
     return (
       <>
         <div
@@ -98,14 +77,13 @@ export default class BgVideo extends PureComponent {
             muted
             loop
             ref={this.refVideo}
-            style={styleObj}
           >
             <source type="video/webm" src="/img/bgvideo.webm" />
             <source type="video/ogg" src="/img/bgvideo.ogg" />
             <source type="video/mp4" src="/img/bgvideo.mp4" />
           </video>
 
-          <JurLogoFont />
+          <JurLogoFont style={styleObj} />
         </div>
 
         {this.props.children}
