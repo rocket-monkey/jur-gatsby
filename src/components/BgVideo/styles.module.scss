@@ -5,12 +5,13 @@
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  height: 20vh;
+  height: 30vh;
+  max-height: 200px;
   overflow: hidden;
 
-  @include until($lg) {
-    height: 30vh;
-    max-height: 200px;
+  @include from($lg) {
+    height: 40vh;
+    max-height: 400px;
   }
 
   video {

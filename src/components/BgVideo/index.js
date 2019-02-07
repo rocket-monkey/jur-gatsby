@@ -11,6 +11,7 @@ export default class BgVideo extends PureComponent {
   state = {
     showLogo: false,
     top: 0,
+    transform: '',
   }
 
   onScroll = event => {
@@ -35,6 +36,31 @@ export default class BgVideo extends PureComponent {
     this.setState(update)
   }
 
+  parallaxImg = () => {
+    var speed = 0.25
+    var imgY = this.ref.current.getBoundingClientRect().top
+    var winY = window.scrollTop()
+    var winH = window.innerHeight
+    var parentH = this.ref.current.offsetHeight
+
+    // The next pixel to show on screen
+    var winBottom = winY + winH
+
+    // If block is shown on screen
+    if (winBottom > imgY && winY < imgY + parentH) {
+      // Number of pixels shown after block appear
+      var imgBottom = (winBottom - imgY) * speed
+      // Max number of pixels until block disappear
+      var imgTop = winH + parentH
+      // Porcentage between start showing until disappearing
+      var imgPercent = (imgBottom / imgTop) * 100 + (50 - speed * 50)
+    }
+    this.setState({
+      top: imgPercent + '%',
+      transform: 'translate(-50%, -' + imgPercent + '%)',
+    })
+  }
+
   componentDidMount() {
     setTimeout(() => {
       this.setState({ showLogo: true })
@@ -56,7 +82,7 @@ export default class BgVideo extends PureComponent {
   }
 
   render() {
-    const styleObj = { top: `calc(50% + ${this.state.top}px)` }
+    const styleObj = { ...this.state.top, ...this.state.transform }
     return (
       <>
         <div
