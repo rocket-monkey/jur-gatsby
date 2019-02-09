@@ -69,10 +69,6 @@ $tabs-boxed-link-active-background-color: $body-background-color;
 
 // overrides
 
-body
-  perspective: 100px
-  transform-style: preserve-3d
-
 .navbar
   background-color: $dark
 
@@ -80,8 +76,10 @@ body
   box-shadow:none !important
 
 .navbar-burger
-  position: relative
-  z-index: 11
+  position: fixed !important
+  top: 11px
+  right: 11px
+  z-index: 13
   transition: color 500ms ease-in
 
 .navbar-burger.is-active

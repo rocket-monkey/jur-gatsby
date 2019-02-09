@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react'
 import classNames from 'class-names'
-import { Parallax } from 'react-scroll-parallax'
 
 import JurLogoFont from '../icons/JurLogoFont'
 import styles from './styles.module.scss'
@@ -31,35 +30,27 @@ export default class BgVideo extends PureComponent {
   render() {
     return (
       <>
-        <Parallax
-          className="custom-class"
-          offsetYMax={20}
-          offsetYMin={-20}
-          slowerScrollRate
-          tag="div"
+        <div
+          className={classNames(styles.wrapper, {
+            [styles.showLogo]: this.state.showLogo,
+          })}
+          ref={this.ref}
         >
-          <div
-            className={classNames(styles.wrapper, {
-              [styles.showLogo]: this.state.showLogo,
-            })}
-            ref={this.ref}
+          <video
+            id="idForSafari"
+            playsInline
+            autoPlay
+            muted
+            loop
+            ref={this.refVideo}
           >
-            <video
-              id="idForSafari"
-              playsInline
-              autoPlay
-              muted
-              loop
-              ref={this.refVideo}
-            >
-              <source type="video/webm" src="/img/bgvideo.webm" />
-              <source type="video/ogg" src="/img/bgvideo.ogg" />
-              <source type="video/mp4" src="/img/bgvideo.mp4" />
-            </video>
+            <source type="video/webm" src="/img/bgvideo.webm" />
+            <source type="video/ogg" src="/img/bgvideo.ogg" />
+            <source type="video/mp4" src="/img/bgvideo.mp4" />
+          </video>
 
-            <JurLogoFont />
-          </div>
-        </Parallax>
+          <JurLogoFont />
+        </div>
 
         {this.props.children}
       </>
