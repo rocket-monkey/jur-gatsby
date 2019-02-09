@@ -47,6 +47,18 @@ export const eventsOverviewQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+            timeTable {
+              act
+              label
+              time
+            }
           }
         }
       }

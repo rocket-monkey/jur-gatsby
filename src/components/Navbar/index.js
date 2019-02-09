@@ -5,6 +5,7 @@ import { CSSTransition } from 'react-transition-group'
 import JurLogo from '../icons/JurLogo'
 import JurLogoFont from '../icons/JurLogoFont'
 import BgVideo from '../../components/BgVideo'
+import Menu from './Menu'
 import styles from './styles.module.scss'
 
 const Navbar = class extends React.Component {
@@ -35,34 +36,11 @@ const Navbar = class extends React.Component {
           <span />
         </div>
 
-        <CSSTransition
-          in={burgerActive}
-          classNames={{
-            enter: styles.enter,
-            enterActive: styles.enterActive,
-            appear: styles.enter,
-            appearActive: styles.enterActive,
-            exit: styles.exit,
-            exitActive: styles.exitActive,
-            exitDone: styles.exitDone,
-          }}
-          timeout={600}
-          unmountOnExit
-          mountOnEnter
-        >
-          <div className={styles.navbar}>
-            <Link to="/spirit">Spirit</Link>
-            <Link to="/crew">Crew</Link>
-            <Link to="/events">Events</Link>
-            <Link to="/store">Store</Link>
-            <Link to="/ware">Ware</Link>
-            {/*
-            <Link to="/contact/examples">
-              Form Examples
-            </Link>
-          */}
-          </div>
-        </CSSTransition>
+        <Menu
+          active={burgerActive}
+          location={this.props.location}
+          setNavbarState={this.setState.bind(this)}
+        />
       </>
     )
   }

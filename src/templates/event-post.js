@@ -69,6 +69,8 @@ export const eventPageQuery = graphql`
           }
         }
         timeTable {
+          act
+          label
           time
         }
       }
