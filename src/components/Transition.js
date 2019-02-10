@@ -34,6 +34,7 @@ const getTransitionStyles = status => {
   const random = 1 // Math.floor(Math.random() * 4) + 1
   let extend = {}
   switch (random) {
+    default:
     case 1:
       return styles[status]
 
@@ -42,18 +43,21 @@ const getTransitionStyles = status => {
         status === 'entering'
           ? { transform: 'translate3d(-30%, 0, 0)' }
           : { transform: 'translate3d(100%, 0, 0)' }
+      break
 
     case 3:
       extend =
         status === 'entering'
           ? { transform: 'translate3d(0, 100%, 0)' }
           : { transform: 'translate3d(0, -30%, 0)' }
+      break
 
     case 4:
       extend =
         status === 'entering'
           ? { transform: 'translate3d(0, -30%, 0)' }
           : { transform: 'translate3d(0, 100%, 0)' }
+      break
   }
 
   return {

@@ -20,6 +20,7 @@ const Footer = ({ data }) => {
           <div className="column">
             <a
               href="https://www.facebook.com/JUR-Records-834721536574427/"
+              rel="noopener noreferrer"
               target="_blank"
               className={classNames(styles.link, styles.fb)}
             >

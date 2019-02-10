@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import classNames from 'class-names'
-import { CSSTransition } from 'react-transition-group'
-import JurLogo from '../icons/JurLogo'
 import JurLogoFont from '../icons/JurLogoFont'
 import BgVideo from '../../components/BgVideo'
 import Menu from './Menu'

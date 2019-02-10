@@ -1,7 +1,6 @@
 import React from 'react'
-import classNames from 'class-names'
 import Table from '../Table'
-import styles from './styles.module.scss'
+// import styles from './styles.module.scss'
 
 const TimeTable = ({ timeTable }) => {
   console.log('timeTable', timeTable)
