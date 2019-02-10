@@ -39,7 +39,7 @@ export const EventPageTemplate = ({
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
             <div className="image-container">
-              {!!image.fluid ? (
+              {image && !!image.fluid ? (
                 <Img {...image} />
               ) : (
                 <div
