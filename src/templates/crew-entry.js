@@ -74,6 +74,7 @@ export const crewPageQuery = graphql`
         since
         role
         soundcloud
+        mixcloud
         facebook
         instagram
         image {

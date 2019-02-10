@@ -80,7 +80,7 @@ collections:
           label: Since,
           widget: date,
           default: '',
-          format: 'Do.MM.YYYY',
+          format: 'DD.MM.YYYY',
         }
       - { name: role, label: Role }
       - { name: soundcloud, label: Soundcloud, required: false }
