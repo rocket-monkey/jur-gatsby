@@ -1,10 +1,29 @@
-@import '../../components/_variables.sass';
+@import '../_variables.sass';
 
-.table {
-  width: 100%;
-  margin: 24px 0;
+.link {
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}
 
-  th {
-    text-align: left;
+.fb,
+.ig,
+.mc,
+.sc {
+  width: 32px;
+  height: 32px;
+  margin: 6px 0;
+  vertical-align: middle;
+  display: inline-block;
+  background: $light;
+  border-radius: 50%;
+}
+
+.mc {
+  padding: 2px;
+  svg {
+    width: 28px;
+    height: 28px;
   }
 }

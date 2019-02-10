@@ -1,11 +1,17 @@
 import React from 'react'
+import classNames from 'class-names'
+import Table from '../Table'
+import IconFacebook from '../icons/Facebook'
+import IconInstagram from '../icons/Instagram'
+import IconMixcloud from '../icons/Mixcloud'
+import IconSoundcloud from '../icons/Soundcloud'
 import styles from './styles.module.scss'
 
 const CrewCard = ({ data }) => {
   console.log('data', data)
   return (
-    <table className={styles.table}>
-      <tbody>
+    <Table>
+      <>
         <tr>
           <th>Dabei seit</th>
           <td>{data.since}</td>
@@ -17,29 +23,57 @@ const CrewCard = ({ data }) => {
         {data.facebook && (
           <tr>
             <th>Facebook</th>
-            <td>{data.facebook}</td>
+            <td>
+              <a
+                href={data.facebook}
+                className={classNames(styles.link, styles.fb)}
+              >
+                <IconFacebook />
+              </a>
+            </td>
           </tr>
         )}
         {data.instagram && (
           <tr>
             <th>Instagram</th>
-            <td>{data.instagram}</td>
+            <td>
+              <a
+                href={data.instagram}
+                className={classNames(styles.link, styles.ig)}
+              >
+                <IconInstagram />
+              </a>
+            </td>
           </tr>
         )}
         {data.mixcloud && (
           <tr>
             <th>Mixcloud</th>
-            <td>{data.mixcloud}</td>
+            <td>
+              <a
+                href={data.mixcloud}
+                className={classNames(styles.link, styles.mc)}
+              >
+                <IconMixcloud />
+              </a>
+            </td>
           </tr>
         )}
         {data.soundcloud && (
           <tr>
             <th>Soundcloud</th>
-            <td>{data.soundcloud}</td>
+            <td>
+              <a
+                href={data.soundcloud}
+                className={classNames(styles.link, styles.sc)}
+              >
+                <IconSoundcloud />
+              </a>
+            </td>
           </tr>
         )}
-      </tbody>
-    </table>
+      </>
+    </Table>
   )
 }
 
