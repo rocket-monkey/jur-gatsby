@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
 import CrewCard from '../components/CrewCard'
+import BackTo from '../components/BackTo'
 
 export const CrewPageTemplate = ({
   title,
@@ -19,6 +20,7 @@ export const CrewPageTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+            <BackTo to="/crew">Crew</BackTo>
             <h1>{title}</h1>
             {image && !!image.fluid ? (
               <Img {...image} />

@@ -47,6 +47,7 @@ export const eventsOverviewQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            dateShort: date(formatString: "DD.MM.YY")
             dateJs: date(formatString: "YYYY/MM/DD")
             image {
               childImageSharp {

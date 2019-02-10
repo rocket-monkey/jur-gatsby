@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
+import BackTo from '../components/BackTo'
 
 export const WarePageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -11,6 +12,7 @@ export const WarePageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+            <BackTo to="/ware">Ware</BackTo>
             <h1>{title}</h1>
             <PageContent className="content" content={content} />
           </div>

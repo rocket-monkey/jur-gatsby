@@ -13,7 +13,10 @@ export default class WareOverviewPage extends React.Component {
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <h1>Merch</h1>
+              <h1>Ware</h1>
+
+              <p>coming soon!</p>
+              {/*
 
               {posts.map(({ node: post }) => {
                 return (
@@ -41,6 +44,7 @@ export default class WareOverviewPage extends React.Component {
                   </div>
                 )
               })}
+              */}
             </div>
           </div>
         </div>

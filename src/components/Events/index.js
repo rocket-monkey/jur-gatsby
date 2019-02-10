@@ -71,7 +71,7 @@ export default ({ events, teaser }) => {
               <Img {...post.frontmatter.image.childImageSharp} />
               <h5>
                 <span>{post.frontmatter.title}</span>
-                <small>{post.frontmatter.date}</small>
+                <small>{post.frontmatter.dateShort}</small>
               </h5>
             </Link>
           )
