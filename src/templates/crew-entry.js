@@ -22,12 +22,14 @@ export const CrewPageTemplate = ({
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
             {!!image.childImageSharp && <Img {...image} />}
-            {!image.childImageSharp && <div
-              className="full-width-image-container margin-top-0"
-              style={{
-                backgroundImage: `url(${image})`,
-              }}
-            >}
+            {!image.childImageSharp && (
+              <div
+                className="full-width-image-container margin-top-0"
+                style={{
+                  backgroundImage: `url(${image})`,
+                }}
+              />
+            )}
             <CrewCard data={cardData} />
             <PageContent className="content" content={content} />
           </div>
