@@ -20,7 +20,7 @@ export const CrewPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
-            {!!image.fluid ? (
+            {image && !!image.fluid ? (
               <Img {...image} />
             ) : (
               <div
