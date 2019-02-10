@@ -3,7 +3,6 @@ import Table from '../Table'
 // import styles from './styles.module.scss'
 
 const TimeTable = ({ timeTable }) => {
-  console.log('timeTable', timeTable)
   return (
     <Table>
       <>

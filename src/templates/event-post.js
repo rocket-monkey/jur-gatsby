@@ -19,7 +19,6 @@ const parseTable = (timeTable, isPreview) => {
     table.push(newEntry)
   })
 
-  console.log('preview data', table)
   return table
 }
 
