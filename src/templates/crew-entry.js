@@ -14,6 +14,7 @@ export const CrewPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
+  console.log('image', image)
   return (
     <section className="section">
       <div className="container">
