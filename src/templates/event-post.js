@@ -3,11 +3,13 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
+import TimeTable from '../components/TimeTable'
 
 export const EventPageTemplate = ({
   title,
   content,
   image,
+  timeTable,
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
@@ -18,17 +20,20 @@ export const EventPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
-            {!!image.fluid ? (
-              <Img {...image} />
-            ) : (
-              <div
-                className="full-width-image-container margin-top-0"
-                style={{
-                  backgroundImage: `url(${image})`,
-                }}
-              />
-            )}
+            <div className="image-container">
+              {!!image.fluid ? (
+                <Img {...image} />
+              ) : (
+                <div
+                  className="full-width-image-container margin-top-0"
+                  style={{
+                    backgroundImage: `url(${image})`,
+                  }}
+                />
+              )}
+            </div>
             <PageContent className="content" content={content} />
+            <TimeTable timeTable={timeTable} />
           </div>
         </div>
       </div>

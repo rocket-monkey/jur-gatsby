@@ -1,0 +1,50 @@
+@import '../_variables.sass';
+
+.footer {
+  border-top: 1px solid $grey-accent;
+
+  h3 {
+    @include from($lg) {
+      margin-top: 27px;
+    }
+  }
+}
+
+.logo {
+  svg {
+    width: 48px;
+    height: 48px;
+
+    path {
+      fill: $light;
+    }
+  }
+}
+
+.link {
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.fb,
+.ig,
+.mc,
+.sc {
+  width: 32px;
+  height: 32px;
+  margin: 6px 0;
+  vertical-align: middle;
+  display: inline-block;
+  background: $light;
+  border-radius: 50%;
+}
+
+.mc {
+  padding: 2px;
+  svg {
+    width: 28px;
+    height: 28px;
+  }
+}

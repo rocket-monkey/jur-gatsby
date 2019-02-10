@@ -39,6 +39,12 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - {
+          label: 'Type',
+          name: 'type',
+          widget: 'select',
+          options: ['vip-session', 'therapy-session', 'golden-age-of-hiphop'],
+        }
+      - {
           name: image,
           label: Image,
           widget: image,

@@ -30,6 +30,10 @@
     transform: translateX(-50%);
     transition: filter 2s ease-in;
 
+    @include from($lg) {
+      max-width: 80%;
+    }
+
     filter: blur(15px);
     width: calc(100% - 48px);
     height: auto;

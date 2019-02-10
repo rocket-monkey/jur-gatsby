@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import { Link } from 'gatsby'
 import classNames from 'class-names'
 
 import JurLogoFont from '../icons/JurLogoFont'
@@ -49,7 +50,9 @@ export default class BgVideo extends PureComponent {
             <source type="video/mp4" src="/img/bgvideo.mp4" />
           </video>
 
-          <JurLogoFont />
+          <Link to="/">
+            <JurLogoFont />
+          </Link>
         </div>
 
         {this.props.children}

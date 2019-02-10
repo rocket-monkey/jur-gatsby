@@ -26,6 +26,7 @@ const CrewCard = ({ data }) => {
             <td>
               <a
                 href={data.facebook}
+                target="_blank"
                 className={classNames(styles.link, styles.fb)}
               >
                 <IconFacebook />
@@ -39,6 +40,7 @@ const CrewCard = ({ data }) => {
             <td>
               <a
                 href={data.instagram}
+                target="_blank"
                 className={classNames(styles.link, styles.ig)}
               >
                 <IconInstagram />
@@ -52,6 +54,7 @@ const CrewCard = ({ data }) => {
             <td>
               <a
                 href={data.mixcloud}
+                target="_blank"
                 className={classNames(styles.link, styles.mc)}
               >
                 <IconMixcloud />
@@ -65,6 +68,7 @@ const CrewCard = ({ data }) => {
             <td>
               <a
                 href={data.soundcloud}
+                target="_blank"
                 className={classNames(styles.link, styles.sc)}
               >
                 <IconSoundcloud />

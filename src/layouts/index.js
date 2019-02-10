@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Transition from '../components/Transition'
 import WorkInProgress from '../components/WorkInProgress'
 import './all.sass'
@@ -83,7 +84,10 @@ class Layout extends React.Component {
               <meta property="og:image" content="/img/og-image.jpg" />
             </Helmet>
             <Navbar location={location} />
-            <Transition location={location}>{children}</Transition>
+            <Transition location={location}>
+              {children}
+              <Footer />
+            </Transition>
           </div>
         )}
       />
