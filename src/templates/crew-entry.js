@@ -3,11 +3,13 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
+import CrewCard from '../components/CrewCard'
 
 export const CrewPageTemplate = ({
   title,
   content,
   image,
+  cardData,
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
@@ -17,10 +19,9 @@ export const CrewPageTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-              {title}
-            </h2>
+            <h1>{title}</h1>
             <Img {...image} />
+            <CrewCard data={cardData} />
             <PageContent className="content" content={content} />
           </div>
         </div>
@@ -38,11 +39,21 @@ CrewPageTemplate.propTypes = {
 const CrewPage = ({ data }) => {
   const { markdownRemark: post } = data
 
+  const cardData = {
+    since: post.frontmatter.since,
+    role: post.frontmatter.role,
+    soundcloud: post.frontmatter.soundcloud,
+    mixcloud: post.frontmatter.mixcloud,
+    facebook: post.frontmatter.facebook,
+    instagram: post.frontmatter.instagram,
+  }
+
   return (
     <CrewPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
+      cardData={cardData}
       image={post.frontmatter.image.childImageSharp}
     />
   )
@@ -60,6 +71,11 @@ export const crewPageQuery = graphql`
       html
       frontmatter {
         title
+        since
+        role
+        soundcloud
+        facebook
+        instagram
         image {
           childImageSharp {
             fluid(maxWidth: 2048) {

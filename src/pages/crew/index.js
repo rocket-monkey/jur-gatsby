@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import MasonryLayout from 'react-masonry-layout'
 import Img from 'gatsby-image'
 import styles from './styles.module.scss'
 
@@ -14,14 +15,30 @@ export default class CrewOverviewPage extends React.Component {
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <h1 className="has-text-weight-bold is-size-2">Crew Members</h1>
+              <h1>Crew Members</h1>
 
-              <div className={styles.container}>
-                {posts.map(({ node: post }) => {
+              <MasonryLayout
+                id="masonry-layout"
+                sizes={[
+                  { columns: 2, gutter: 10 },
+                  { mq: '768px', columns: 2, gutter: 15 },
+                  { mq: '1024px', columns: 3, gutter: 25 },
+                ]}
+              >
+                {posts.map(({ node: post }, i) => {
+                  let height = i % 2 === 0 ? 200 : 100
                   return (
                     <Link
                       key={post.id}
                       className={styles.crew}
+                      style={{
+                        height: `${height}px`,
+                        lineHeight: `${height}px`,
+                        color: 'white',
+                        fontSize: '32px',
+                        display: 'block',
+                        background: 'rgba(0,0,0,0.7)',
+                      }}
                       to={post.fields.slug}
                     >
                       <Img {...post.frontmatter.image.childImageSharp} />
@@ -31,7 +48,7 @@ export default class CrewOverviewPage extends React.Component {
                     </Link>
                   )
                 })}
-              </div>
+              </MasonryLayout>
             </div>
           </div>
         </div>

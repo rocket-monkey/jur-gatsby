@@ -8,14 +8,16 @@
 }
 
 .crew {
-  width: 100%;
+  width: 48.5%;
   display: block;
   position: relative;
-  margin: 0 0 12px 0;
 
   @include from($tablet) {
-    margin: 0 9px;
-    flex: 0 0 calc(50% - 18px);
+    width: 33.334%;
+  }
+
+  :global(.gatsby-image-wrapper) {
+    height: 100%;
   }
 
   h5 {
@@ -23,8 +25,14 @@
     bottom: 0;
     left: 0;
     color: $light;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    @include from($tablet) {
+      font-size: 1.7rem;
+    }
 
     span {
       position: relative;

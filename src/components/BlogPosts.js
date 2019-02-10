@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 export default ({ posts }) => (
   <>
-    <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
+    <h1>Latest Stories</h1>
     {posts.map(({ node: post }) => (
       <div
         className="content"

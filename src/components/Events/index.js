@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 
 export default ({ events }) => (
   <>
-    <h1 className="has-text-weight-bold is-size-2">Latest Events</h1>
+    <h1>Latest Events</h1>
     {events.map(({ node: post }) => (
       <Link key={post.id} className={styles.event} to={post.fields.slug}>
         <Img {...post.frontmatter.image.childImageSharp} />
