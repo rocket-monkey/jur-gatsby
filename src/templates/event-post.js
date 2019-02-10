@@ -13,9 +13,11 @@ const parseTable = (timeTable, isPreview) => {
   const table = []
   timeTable._tail.array.forEach(entry => {
     const newEntry = {}
-    entry._root.entries.forEach(e => {
-      newEntry[e[0]] = e[1]
-    })
+    if (entry._root) {
+      entry._root.entries.forEach(e => {
+        newEntry[e[0]] = e[1]
+      })
+    }
     table.push(newEntry)
   })
 
