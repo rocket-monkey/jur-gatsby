@@ -18,7 +18,16 @@ export const EventPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
-            {image && image.fluid && <Img {...image} />}
+            {!!image.fluid ? (
+              <Img {...image} />
+            ) : (
+              <div
+                className="full-width-image-container margin-top-0"
+                style={{
+                  backgroundImage: `url(${image})`,
+                }}
+              />
+            )}
             <PageContent className="content" content={content} />
           </div>
         </div>

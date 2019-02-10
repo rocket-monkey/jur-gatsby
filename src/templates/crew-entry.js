@@ -14,14 +14,13 @@ export const CrewPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-  console.log('image', image)
   return (
     <section className="section">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
-            {!!image.childImageSharp ? (
+            {!!image.fluid ? (
               <Img {...image} />
             ) : (
               <div
