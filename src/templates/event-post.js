@@ -5,7 +5,26 @@ import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
 import TimeTable from '../components/TimeTable'
 
+const parseTable = (timeTable, isPreview) => {
+  if (!isPreview) {
+    return timeTable
+  }
+
+  const table = []
+  timeTable._tail.array.forEach(entry => {
+    const newEntry = {}
+    entry._root.entries.forEach(e => {
+      newEntry[e[0]] = e[1]
+    })
+    table.push(newEntry)
+  })
+
+  console.log('preview data', table)
+  return table
+}
+
 export const EventPageTemplate = ({
+  isPreview,
   title,
   content,
   image,
@@ -33,7 +52,7 @@ export const EventPageTemplate = ({
               )}
             </div>
             <PageContent className="content" content={content} />
-            <TimeTable timeTable={timeTable} />
+            <TimeTable timeTable={parseTable(timeTable, isPreview)} />
           </div>
         </div>
       </div>

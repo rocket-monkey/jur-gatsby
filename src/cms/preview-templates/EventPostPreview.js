@@ -4,6 +4,7 @@ import { EventPageTemplate } from '../../templates/event-post'
 
 const EventPostPreview = ({ entry, widgetFor }) => (
   <EventPageTemplate
+    isPreview
     content={widgetFor('body')}
     title={entry.getIn(['data', 'title'])}
     image={entry.getIn(['data', 'image'])}
