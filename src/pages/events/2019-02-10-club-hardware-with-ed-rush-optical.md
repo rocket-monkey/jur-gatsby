@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-date: 2019-02-10T12:17:45.060Z
+date: 2019-01-11T12:17:45.060Z
 title: Club Hardware with Ed Rush & Optical
 type: therapy-session
 image: /img/45617379_1956661587713744_7861298222071808000_n.jpg
