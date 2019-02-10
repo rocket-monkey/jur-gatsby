@@ -16,6 +16,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <Events events={events} />
+              <h2>{data.home.frontmatter.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
               {/*
                   <BlogPosts posts={posts} />
