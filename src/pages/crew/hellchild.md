@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: hellchild
-image: /img/jumbotron.jpg
+image: /img/gxqy3oq.jpg
 since: 1st.02.2019
 role: adsf
 ---
