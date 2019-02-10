@@ -18,7 +18,7 @@ export const EventPageTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
-            <Img {...image} />
+            {image && <Img {...image} />}
             <PageContent className="content" content={content} />
           </div>
         </div>
@@ -42,6 +42,7 @@ const EventPage = ({ data }) => {
       title={post.frontmatter.title}
       image={post.frontmatter.image.childImageSharp}
       content={post.html}
+      timeTable={post.frontmatter.timeTable}
     />
   )
 }
