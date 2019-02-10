@@ -1,6 +1,7 @@
 @import '../../components/_variables.sass';
 
-.event {
+.event,
+.pastEvent {
   width: 100%;
   display: block;
   position: relative;
@@ -51,5 +52,21 @@
       background: rgba($dark, 0.7);
       z-index: 1;
     }
+  }
+}
+
+.pastEvent {
+  width: 48.5%;
+
+  @include from($tablet) {
+    width: 33.334%;
+  }
+
+  :global(.gatsby-image-wrapper) {
+    height: 100%;
+  }
+
+  h5 {
+    transform: translateY(0);
   }
 }

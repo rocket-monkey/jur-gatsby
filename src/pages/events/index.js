@@ -47,6 +47,7 @@ export const eventsOverviewQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            dateJs: date(formatString: "YYYY/MM/DD")
             image {
               childImageSharp {
                 fluid(maxWidth: 2048) {

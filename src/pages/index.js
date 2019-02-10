@@ -15,7 +15,7 @@ export default class IndexPage extends React.Component {
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Events events={events} />
+              <Events teaser events={events} />
               <h2>{data.home.frontmatter.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
               {/*
@@ -81,6 +81,7 @@ export const pageQuery = graphql`
             description
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            dateJs: date(formatString: "YYYY/MM/DD")
             image {
               childImageSharp {
                 fluid(maxWidth: 1024) {

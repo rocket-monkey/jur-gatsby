@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
 import TimeTable from '../components/TimeTable'
+import BackTo from '../components/BackTo'
 
 const parseTable = (timeTable, isPreview) => {
   if (!isPreview) {
@@ -39,6 +40,7 @@ export const EventPageTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+            <BackTo to="/events">Alle Events</BackTo>
             <h1>{title}</h1>
             <div className="image-container">
               {image && !!image.fluid ? (
