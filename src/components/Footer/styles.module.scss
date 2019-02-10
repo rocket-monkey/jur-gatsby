@@ -1,7 +1,7 @@
 @import '../_variables.sass';
 
 .footer {
-  border-top: 1px solid $grey-accent;
+  border-top: 2px solid $grey-accent;
 
   h3 {
     @include from($lg) {
