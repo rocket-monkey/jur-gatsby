@@ -24,7 +24,7 @@ class Layout extends React.Component {
   render() {
     const { children, location } = this.props
 
-    if (!this.state.beta) {
+    if (!this.state.beta && location.pathname !== '/start') {
       return <WorkInProgress />
     }
 
