@@ -39,6 +39,12 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - {
+          name: image,
+          label: Image,
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+      - {
           label: 'Type',
           name: 'type',
           widget: 'select',
@@ -49,12 +55,6 @@ collections:
           name: 'location',
           widget: 'select',
           options: ['amboss-rampe', 'kiff-aarau'],
-        }
-      - {
-          name: image,
-          label: Image,
-          widget: image,
-          media_library: { config: { multiple: false } },
         }
       - { name: body, label: Body, widget: markdown }
       - { name: fbLink, label: 'Facebook Link' }
