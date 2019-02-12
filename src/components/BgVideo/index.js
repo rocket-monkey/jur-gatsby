@@ -11,12 +11,17 @@ export default class BgVideo extends PureComponent {
 
   state = {
     showLogo: false,
+    showSection: false,
   }
 
   componentDidMount() {
     setTimeout(() => {
       this.setState({ showLogo: true })
     }, 800)
+
+    setTimeout(() => {
+      this.setState({ showSection: true })
+    }, 200)
 
     // fuck you cock-juggling thunder-cunts @apple, FUCK YOU!
     const ua = navigator.userAgent.toLowerCase()
@@ -29,8 +34,17 @@ export default class BgVideo extends PureComponent {
   }
 
   render() {
+    const { showSection } = this.state
     return (
       <>
+        {showSection && (
+          <section className={classNames(styles.section)}>
+            <Link to="/">
+              <JurLogoFont />
+            </Link>
+          </section>
+        )}
+
         <div
           className={classNames(styles.wrapper, {
             [styles.showLogo]: this.state.showLogo,

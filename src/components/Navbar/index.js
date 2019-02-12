@@ -15,12 +15,6 @@ const Navbar = class extends React.Component {
     const { burgerActive } = this.state
     return (
       <>
-        <section className={classNames(styles.section)}>
-          <Link to="/">
-            <JurLogoFont />
-          </Link>
-        </section>
-
         <BgVideo />
 
         <div

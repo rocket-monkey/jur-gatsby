@@ -56,3 +56,38 @@
     }
   }
 }
+
+.section {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  background: rgba($dark, 0.85);
+  z-index: 10;
+  padding-top: 19px;
+  margin-top: -60px;
+
+  @include from($lg) {
+    height: 100px;
+    margin-top: -100px;
+  }
+
+  &:after {
+    height: 112px;
+  }
+
+  svg {
+    width: 200px;
+    height: 32px;
+
+    path {
+      fill: $light;
+    }
+
+    @include from($lg) {
+      width: 300px;
+      height: 64px;
+    }
+  }
+}
