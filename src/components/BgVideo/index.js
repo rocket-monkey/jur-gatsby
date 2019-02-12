@@ -25,11 +25,11 @@ export default class BgVideo extends PureComponent {
 
     // fuck you cock-juggling thunder-cunts @apple, FUCK YOU!
     const ua = navigator.userAgent.toLowerCase()
-    const isSafari = ua.includes('safari/') && !ua.includes('chrome')
+    const isSafari = ua.includes('safari') && !ua.includes('chrome')
     if (isSafari) {
       setTimeout(() => {
         this.refVideo.current.play()
-      }, 50)
+      }, 150)
     }
   }
 
