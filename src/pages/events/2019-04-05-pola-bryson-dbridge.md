@@ -3,6 +3,7 @@ templateKey: event-post
 date: 2019-04-05T21:27:52.790Z
 title: Pola & Bryson and DBridge at VIP Session Deluxe
 type: vip-session
+location: amboss-rampe
 image: /img/50128980_2052593911453844_486389979526725632_n.jpg
 fbLink: 'https://www.facebook.com/events/635319010243043/'
 timeTable:
