@@ -45,6 +45,12 @@ collections:
           options: ['vip-session', 'therapy-session', 'golden-age-of-hiphop'],
         }
       - {
+          label: 'Location',
+          name: 'location',
+          widget: 'select',
+          options: ['amboss-rampe', 'kiff-aarau'],
+        }
+      - {
           name: image,
           label: Image,
           widget: image,

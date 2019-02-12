@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
 import TimeTable from '../components/TimeTable'
 import BackTo from '../components/BackTo'
+import Map from '../components/Map'
 
 const parseTable = (timeTable, isPreview) => {
   if (!isPreview) {
@@ -25,12 +26,23 @@ const parseTable = (timeTable, isPreview) => {
   return table
 }
 
+const mapLocation = location => {
+  switch (location) {
+    case 'amboss-rampe':
+      return { lat: -1, lng: -1 }
+    default:
+    case 'kiff-aarau':
+      return { lat: -1, lng: -1 }
+  }
+}
+
 export const EventPageTemplate = ({
   isPreview,
   title,
   content,
   image,
   timeTable,
+  location,
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
@@ -54,6 +66,7 @@ export const EventPageTemplate = ({
                 />
               )}
             </div>
+            <Map location={mapLocation(location)} />
             <PageContent className="content" content={content} />
             <TimeTable timeTable={parseTable(timeTable, isPreview)} />
           </div>
@@ -79,6 +92,7 @@ const EventPage = ({ data }) => {
       image={post.frontmatter.image.childImageSharp}
       content={post.html}
       timeTable={post.frontmatter.timeTable}
+      location={post.frontmatter.location}
     />
   )
 }
@@ -96,6 +110,7 @@ export const eventPageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        location
         image {
           childImageSharp {
             fluid(maxWidth: 2048) {
