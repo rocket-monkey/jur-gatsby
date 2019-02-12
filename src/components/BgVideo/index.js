@@ -24,13 +24,16 @@ export default class BgVideo extends PureComponent {
     }, 200)
 
     // fuck you cock-juggling thunder-cunts @apple, FUCK YOU!
-    const ua = navigator.userAgent.toLowerCase()
-    const isSafari = ua.includes('safari') && !ua.includes('chrome')
-    if (isSafari) {
-      setTimeout(() => {
-        this.refVideo.current.play()
-      }, 150)
-    }
+    // const ua = navigator.userAgent.toLowerCase()
+    // const isSafari = ua.includes('safari') && !ua.includes('chrome')
+    setTimeout(() => {
+      this.refVideo.current.play()
+      const mhee = document.createElement('div')
+      mhee.innerHTML = 'yiisss'
+      document.body.appendChild(mhee)
+    }, 150)
+    // if (isSafari) {
+    // }
   }
 
   render() {
