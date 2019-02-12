@@ -3,6 +3,7 @@ templateKey: event-post
 date: 2019-01-11T12:17:45.060Z
 title: Club Hardware with Ed Rush & Optical
 type: therapy-session
+location: kiff-aarau
 image: /img/45617379_1956661587713744_7861298222071808000_n.jpg
 fbLink: 'https://www.facebook.com/events/112755839665520/'
 timeTable:
