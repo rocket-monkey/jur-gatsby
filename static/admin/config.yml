@@ -44,6 +44,8 @@ collections:
           widget: image,
           media_library: { config: { multiple: false } },
         }
+      - { name: body, label: Body, widget: markdown }
+      - { name: fbLink, label: 'Facebook Link' }
       - {
           label: 'Type',
           name: 'type',
@@ -56,8 +58,6 @@ collections:
           widget: 'select',
           options: ['amboss-rampe', 'kiff-aarau'],
         }
-      - { name: body, label: Body, widget: markdown }
-      - { name: fbLink, label: 'Facebook Link' }
       - { name: type, label: Type, widget: hidden, default: event }
       - name: timeTable
         label: 'Time Table'
