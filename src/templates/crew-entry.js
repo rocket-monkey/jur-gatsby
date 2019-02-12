@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
 import CrewCard from '../components/CrewCard'
 import BackTo from '../components/BackTo'
+import HorizontalLine from '../components/HorizontalLine'
 
 export const CrewPageTemplate = ({
   title,
@@ -32,7 +33,9 @@ export const CrewPageTemplate = ({
                 }}
               />
             )}
+            <HorizontalLine half />
             <CrewCard data={cardData} />
+            <HorizontalLine />
             <PageContent className="content" content={content} />
           </div>
         </div>

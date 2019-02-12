@@ -18,6 +18,7 @@
     color: $light;
     font-size: 1.2rem;
     margin: 0;
+    padding: 6px 0 0;
     letter-spacing: 1px;
     text-transform: uppercase;
     transform: translateY(100%);
@@ -67,6 +68,7 @@
   }
 
   h5 {
+    font-size: 0.8rem;
     transform: translateY(0);
   }
 }

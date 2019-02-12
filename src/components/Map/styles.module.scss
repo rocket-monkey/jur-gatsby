@@ -1,3 +1,7 @@
+@import '../_variables.sass';
+
 .map {
   height: 252px;
+  color: $dark;
+  position: relative;
 }

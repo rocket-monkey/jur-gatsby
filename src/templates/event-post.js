@@ -32,7 +32,40 @@ const mapLocation = location => {
       return { lat: 47.381717, lng: 8.531592 }
     default:
     case 'kiff-aarau':
-      return { lat: 47.381717, lng: 8.531592 }
+      return { lat: 47.398671, lng: 8.064249 }
+  }
+}
+
+const mapLocationShortName = location => {
+  switch (location) {
+    case 'amboss-rampe':
+      return 'Amboss Rampe, Zürich'
+    default:
+    case 'kiff-aarau':
+      return 'KIFF, Aarau'
+  }
+}
+
+const mapLocationName = location => {
+  switch (location) {
+    case 'amboss-rampe':
+      return (
+        <>
+          Amboss Rampe
+          <br /> Zollstrasse 80
+          <br /> 8005 Zürich
+        </>
+      )
+    default:
+    case 'kiff-aarau':
+      return (
+        <>
+          KIFF
+          <br /> Tellistrasse 118
+          <br /> 5000 Aarau
+        </>
+      )
+      return 'KIFF, Tellistrasse, Aarau'
   }
 }
 
@@ -66,9 +99,16 @@ export const EventPageTemplate = ({
                 />
               )}
             </div>
-            <Map location={mapLocation(location)} />
             <PageContent className="content" content={content} />
+            <h2>Time Table</h2>
             <TimeTable timeTable={parseTable(timeTable, isPreview)} />
+            <h2>Wo? {mapLocationShortName(location)}</h2>
+            {!isPreview && (
+              <Map
+                name={mapLocationName(location)}
+                location={mapLocation(location)}
+              />
+            )}
           </div>
         </div>
       </div>
@@ -110,6 +150,7 @@ export const eventPageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        location
         image {
           childImageSharp {
             fluid(maxWidth: 2048) {
