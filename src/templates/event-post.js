@@ -29,10 +29,10 @@ const parseTable = (timeTable, isPreview) => {
 const mapLocation = location => {
   switch (location) {
     case 'amboss-rampe':
-      return { lat: -1, lng: -1 }
+      return { lat: 47.381717, lng: 8.531592 }
     default:
     case 'kiff-aarau':
-      return { lat: -1, lng: -1 }
+      return { lat: 47.381717, lng: 8.531592 }
   }
 }
 
@@ -110,7 +110,6 @@ export const eventPageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        location
         image {
           childImageSharp {
             fluid(maxWidth: 2048) {
