@@ -27,6 +27,7 @@ export default class BgVideo extends PureComponent {
     // const ua = navigator.userAgent.toLowerCase()
     // const isSafari = ua.includes('safari') && !ua.includes('chrome')
     setTimeout(() => {
+      document.querySelector('#idForSafari').play()
       this.refVideo.current.play()
       const mhee = document.createElement('div')
       mhee.innerHTML = 'yiisss'
@@ -57,6 +58,7 @@ export default class BgVideo extends PureComponent {
           <video
             id="idForSafari"
             playsInline
+            playsinline
             autoPlay
             muted
             loop
