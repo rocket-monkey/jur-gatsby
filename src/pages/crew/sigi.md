@@ -1,6 +1,6 @@
 ---
 templateKey: crew-entry
-title: sigi
+title: Z-Groove
 image: /img/jumbotron.jpg
 since: 1st.02.2019
 role: dsaf
