@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: rocket monkey
-image: /img/flavor_wheel.jpg
+image: /img/img_9190_ok.jpg
 since: 2nd.02.2019
 role: maskottchen
 soundcloud: test
