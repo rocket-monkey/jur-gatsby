@@ -114,13 +114,14 @@ html
 .navbar-burger
   display: block !important
   position: fixed !important
-  top: 11px
-  right: 11px
+  top: 7px
+  right: 7px
   z-index: 99
-  transition: color 500ms ease-in
+  transition: color 500ms ease-in, transform 400ms ease-out
 
 .navbar-burger.is-active
   color: $purple
+  transform: scale(2.3)
 
 .content .taglist
   list-style: none
