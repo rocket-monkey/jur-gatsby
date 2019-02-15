@@ -27,11 +27,9 @@ export default class BgVideo extends PureComponent {
     // const ua = navigator.userAgent.toLowerCase()
     // const isSafari = ua.includes('safari') && !ua.includes('chrome')
     setTimeout(() => {
-      document.querySelector('#idForSafari').play()
+      // document.querySelector('#idForSafari').play()
       this.refVideo.current.play()
-      const mhee = document.createElement('div')
-      mhee.innerHTML = 'yiisss'
-      document.body.appendChild(mhee)
+      this.refVideo.current.controls = false
     }, 150)
     // if (isSafari) {
     // }
@@ -55,15 +53,7 @@ export default class BgVideo extends PureComponent {
           })}
           ref={this.ref}
         >
-          <video
-            id="idForSafari"
-            playsInline
-            playsinline
-            autoPlay
-            muted
-            loop
-            ref={this.refVideo}
-          >
+          <video playsInline autoPlay muted loop ref={this.refVideo}>
             <source type="video/webm" src="/img/bgvideo.webm" />
             <source type="video/ogg" src="/img/bgvideo.ogg" />
             <source type="video/mp4" src="/img/bgvideo.mp4" />
