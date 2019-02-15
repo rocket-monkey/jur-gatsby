@@ -24,6 +24,7 @@ export default class CrewOverviewPage extends React.Component {
                   { mq: '768px', columns: 2, gutter: 15 },
                   { mq: '1024px', columns: 3, gutter: 25 },
                 ]}
+                className={styles.layout}
               >
                 {posts.map(({ node: post }, i) => {
                   let height = i % 2 === 0 ? 200 : 100
@@ -31,20 +32,27 @@ export default class CrewOverviewPage extends React.Component {
                     <Link
                       key={post.id}
                       className={styles.crew}
-                      style={{
-                        height: `${height}px`,
-                        lineHeight: `${height}px`,
-                        color: 'white',
-                        fontSize: '32px',
-                        display: 'block',
-                        background: 'rgba(0,0,0,0.7)',
-                      }}
                       to={post.fields.slug}
                     >
-                      <Img {...post.frontmatter.image.childImageSharp} />
-                      <h5>
-                        <span>{post.frontmatter.title}</span>
-                      </h5>
+                      <div
+                        className={styles.card}
+                        style={{
+                          height: `${height}px`,
+                          lineHeight: `${height}px`,
+                          color: 'white',
+                          fontSize: '32px',
+                          display: 'block',
+                          background: 'rgba(0,0,0,0.7)',
+                        }}
+                      >
+                        <h5>{this.renderTitle(post.frontmatter.title)}</h5>
+                        <div>
+                          <Img
+                            {...post.frontmatter.image.childImageSharp}
+                            styles={{ width: 'inherit' }}
+                          />
+                        </div>
+                      </div>
                     </Link>
                   )
                 })}
@@ -54,6 +62,11 @@ export default class CrewOverviewPage extends React.Component {
         </div>
       </section>
     )
+  }
+
+  renderTitle = title => {
+    const parts = title.split(' ')
+    return parts.map((p, i) => <span key={`title-part-${i}`}>{p}</span>)
   }
 }
 
@@ -89,8 +102,8 @@ export const crewOverviewQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             image {
               childImageSharp {
-                fluid(maxWidth: 900) {
-                  ...GatsbyImageSharpFluid_withWebp
+                fixed(width: 500, height: 500) {
+                  ...GatsbyImageSharpFixed
                 }
               }
             }
