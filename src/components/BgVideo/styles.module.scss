@@ -21,7 +21,8 @@
     top: 0;
     left: 0;
 
-    &::-webkit-media-controls {
+    &::-webkit-media-controls,
+    &::-webkit-media-controls-start-playback-button {
       display: none;
     }
   }
