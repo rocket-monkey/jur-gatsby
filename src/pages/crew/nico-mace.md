@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: nico mace
-image: /img/jumbotron.jpg
+image: /img/nico-mace.jpg
 since: 1st.02.2019
 role: asfd
 ---
