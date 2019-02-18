@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: semtex
-image: /img/kagk9rq.jpg
+image: /img/semtex.jpg
 since: 1st.02.2019
 role: adsf
 ---
