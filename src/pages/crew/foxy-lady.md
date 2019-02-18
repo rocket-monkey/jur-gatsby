@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: foxy lady
-image: /img/miss-foxy.jpg
+image: /img/miss-foxy2.jpg
 since: 17.11.2018
 role: Miss Foxy
 ---
