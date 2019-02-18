@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: '''nade'
-image: /img/flavor_wheel.jpg
+image: /img/nade.jpg
 since: 2nd.02.2019
 role: asfdasfd
 soundcloud: asdfafd
