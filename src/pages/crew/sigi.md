@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Z-Groove
-image: /img/jumbotron.jpg
+image: /img/z-groove.jpg
 since: 1st.02.2019
 role: dsaf
 ---
