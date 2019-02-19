@@ -12,6 +12,18 @@
   display: block;
   position: relative;
 
+  &.even {
+    height: 240px;
+  }
+
+  &.odd {
+    height: 150px;
+
+    @include from($tablet) {
+      height: 180px;
+    }
+  }
+
   @include from($tablet) {
     width: 33.334%;
   }

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import classNames from 'class-names'
 import MasonryLayout from 'react-masonry-layout'
 import Img from 'gatsby-image'
 import styles from './styles.module.scss'
@@ -26,19 +27,14 @@ export default class CrewOverviewPage extends React.Component {
                 ]}
               >
                 {posts.map(({ node: post }, i) => {
-                  let height = i % 2 === 0 ? 200 : 100
+                  const even = i % 2 === 0
                   return (
                     <Link
                       key={post.id}
-                      className={styles.crew}
-                      style={{
-                        height: `${height}px`,
-                        lineHeight: `${height}px`,
-                        color: 'white',
-                        fontSize: '32px',
-                        display: 'block',
-                        background: 'rgba(0,0,0,0.7)',
-                      }}
+                      className={classNames(styles.crew, {
+                        [styles.even]: even,
+                        [styles.odd]: !even,
+                      })}
                       to={post.fields.slug}
                     >
                       <Img {...post.frontmatter.image.childImageSharp} />
