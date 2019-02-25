@@ -1,6 +1,6 @@
 ---
 templateKey: crew-entry
-title: Dianne Gort
+title: DJane Gort
 image: /img/djane-gort.jpg
 since: 01.09.2018
 role: Grafikerin
