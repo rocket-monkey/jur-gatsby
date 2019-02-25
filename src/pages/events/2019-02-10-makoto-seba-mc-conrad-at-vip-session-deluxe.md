@@ -2,14 +2,14 @@
 templateKey: event-post
 date: 2019-02-01T20:12:25.995Z
 title: Makoto & Seba & MC Conrad at VIP Session Deluxe
-type: vip-session
-location: amboss-rampe
 image: /img/48360720_2003510309695538_5903351270390890496_o.jpg
 fbLink: 'https://www.facebook.com/events/2097688360252099/'
+type: vip-session
+location: amboss-rampe
 timeTable:
   - act: MAKOTO  (JAP)
-    label: Hospital
-    time: '00:00'
+    label: Hospital Records
+    time: ''
   - act: Seba (SWE)
     label: Secret Operation
   - act: MC Conrad (UK)
