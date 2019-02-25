@@ -2,8 +2,10 @@
 templateKey: crew-entry
 title: '''nade'
 image: /img/nade.jpg
-since: 2nd.02.2019
-role: asfdasfd
-soundcloud: asdfafd
+since: 01.08.2016
+role: DJ
+soundcloud: 'https://soundcloud.com/nadednb'
+facebook: 'https://www.facebook.com/nadednb/'
+instagram: 'https://www.instagram.com/nade____/'
 ---
-Go to hizzle bling bling tellivizzle phat fo shizzle, consectetuer adipiscing elit. Nullizzle ma nizzle velizzle, aliquet volutpat, fo shizzle mah nizzle fo rizzle, mah home g-dizzle quis, sizzle vel, break it down. Pellentesque sure tortizzle. Sed erizzle. Fusce at dolizzle dapibizzle nizzle tempus tempizzle. Maurizzle pellentesque nibh et turpizzle. Go to hizzle izzle gizzle. Pellentesque sizzle rhoncizzle dope. In gangster ma nizzle dictumst. Sizzle dapibizzle. Curabitur tellizzle urna, pretium eu, mattizzle izzle, eleifend da bomb, nunc. suscipizzle. Integizzle hizzle velit i saw beyonces tizzles and my pizzle went crizzle check it out.
+Nadine aka 'nade wuchs mit elektronischer Musik auf. Mit vier Jahren hörte sie Trance, Happy Hardcore und Techno. Anfang der 2000er entdeckte sie durch den Ragga/Jungle den Drum and Bass. Künstler wie DJ Hype, Adam F oder MT Eden begleiteten sie druch ihre DnB-Anfangszeit. Es vergingen aber ganze 15 Jahre, bis sie sich auch als DJ versuchte. 'nade liebt den rollenden, mitreissenden und melodiösen Sound, Upfront/High Energy ist daher ihr bevorzugtes Subgenre. Seit August 2018 ist sie nun ein Mitglied der JUR Records Crew, wo man sie nebst dem djing auch oft hinter der der Kasse antrifft.
