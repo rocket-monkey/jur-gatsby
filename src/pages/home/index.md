@@ -2,7 +2,7 @@
 templateKey: home-page
 title: JUR Records
 ---
-Lorizzle ipsizzle bow wow wow sit , adipiscing elit. Fo shizzle black velizzle, aliquet volutpizzle, suscipizzle boofron, gravida fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gizzle. Pellentesque eget tortizzle. Sizzle rizzle. Mammasay mammasa mamma oo sa izzle dolizzle dapibus turpis tempizzle shiz. Its fo rizzle pellentesque nibh izzle turpizzle. Vestibulum in tortizzle. Pellentesque rhoncizzle that's the shizzle. Shit hizzle away fo shizzle dictumst. Donec dapibizzle. Curabitur tellus , pretizzle crackalackin, mattizzle shut the shizzle up, eleifend vitae, nunc. suscipizzle. Integizzle semper break yo neck, yall sed its fo rizzle.
+Welcome to JUR Records, das schweizer Drum and Bass Label seit 1991.
 
 ![](/img/kagk9rq.jpg)
 
