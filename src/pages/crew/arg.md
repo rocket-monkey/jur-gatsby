@@ -1,6 +1,6 @@
 ---
 templateKey: crew-entry
-title: arg
+title: ARG
 image: /img/chemex.jpg
 since: 01.02.2019
 role: asdf
