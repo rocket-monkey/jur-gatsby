@@ -1,8 +1,12 @@
 ---
 templateKey: crew-entry
-title: foxy lady
+title: Foxy Lady
 image: /img/miss-foxy2.jpg
-since: 17.11.2018
-role: Miss Foxy
+since: 01.10.2018
+role: Promoterin
 ---
-Go to hizzle bling bling tellivizzle phat fo shizzle, consectetuer adipiscing elit. Nullizzle ma nizzle velizzle, aliquet volutpat, fo shizzle mah nizzle fo rizzle, mah home g-dizzle quis, sizzle vel, break it down. Pellentesque sure tortizzle. Sed erizzle. Fusce at dolizzle dapibizzle nizzle tempus tempizzle. Maurizzle pellentesque nibh et turpizzle. Go to hizzle izzle gizzle. Pellentesque sizzle rhoncizzle dope. In gangster ma nizzle dictumst. Sizzle dapibizzle. Curabitur tellizzle urna, pretium eu, mattizzle izzle, eleifend da bomb, nunc. suscipizzle. Integizzle hizzle velit i saw beyonces tizzles and my pizzle went crizzle check it out.
+Sofia aka Foxy Lady lernte Drum and Bass druch ihren älteren Bruder kennen. Er war bei der Massive-Crew dabei und hatte zu Hause sein Mischpult und seine Plattensammlung. Entsprechend bekam Sofia von klein an die bassigen Klänge mit. Faszinierend an Drum and Bass findet Sofia, dass sich Rhytmen, Bass und Melodie auf vielfältigere Weise als bei anderen Musikrichtungen kombinieren lassen und dies diverse Variationen zulässt, weshalb es auch so viele verschiedene Richtungen innerhalb des Drum and Bass gibt. Besonders inspiriert und geprägt haben sie Künstler wie Ed Rush, Twisted Individual und DJ Hazard, welche sie seit klein auf begleiten. 
+
+An den Sommer 2018 denkt Sofia gerne zurück: Sie erinnert sich an die unvergessliche Stimmung an einer Daydance, als alle Leute um sie herum mit einem Lächeln auf dem Gesicht tanzten: Nicht, um gut auszusehen, nicht, um sich zu zeigen, sondern hier für den Sound. 
+
+Seit Herbst 2018 ist Sofia Mitglied von JUR Records, wo sie an Partys am Merchandise Stand mithilft, in der vordersten Reihe gute Stimmung verbreitet, aber auch die Partys mit ihren bekannten Tier-Comics promoted.
