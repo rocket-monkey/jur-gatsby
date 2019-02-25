@@ -3,7 +3,7 @@ templateKey: crew-entry
 title: rocket monkey
 image: /img/rocket-monkey.jpg
 since: 01.09.2018
-role: Website-Master
+role: Webmaster
 soundcloud: ''
 mixcloud: ''
 facebook: ''
