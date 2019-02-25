@@ -2,11 +2,13 @@
 templateKey: crew-entry
 title: rocket monkey
 image: /img/rocket-monkey.jpg
-since: 2nd.02.2019
-role: maskottchen
-soundcloud: test
-mixcloud: test
-facebook: test
-instagram: test
+since: 01.09.2018
+role: Website-Master
+soundcloud: ''
+mixcloud: ''
+facebook: ''
+instagram: ''
 ---
-Crazy nec mauris egizzle nisi consectetuer pretizzle. Vivamizzle sit shizzlin dizzle lacizzle. Nam eu nisl eget lacizzle auctizzle crackalackin. Praesent ass viverra for sure. Funky fresh that's the shizzle arcu. Boofron black enizzle, auctizzle nizzle, congue eu, dignissim its fo rizzle, libero. Go to hizzle vitae pede non erizzle posuere cool. Quisque pede tortor, congue pulvinizzle, the bizzle dang, mollis sit ghetto, erizzle. Dawg izzle dui. Aliquam we gonna chung doggy, fo shizzle my nizzle consectetizzle, fo shizzle mah nizzle fo rizzle, mah home g-dizzle izzle, consequizzle imperdizzle, nizzle. Mofo a ipsum fizzle the bizzle boom shackalack vehicula. crunk fizzle ipsizzle. Black habitant morbi tristique boofron izzle break it down izzle malesuada its fo rizzle izzle gizzle gangster. In est. Curabitizzle the bizzle. Ut mah nizzle brizzle, gizzle mofo, suscipit ac, fo dang, my shizz. Boom shackalack sagittis you son of a bizzle mofo.
+Remo aka Rocket Monkey stiess im Alter von 13 Jahren auf Ronny Size’s Album „Reprazent", welches ihn in seinen Bann zog. Zum damaligen Zeitpunkt wusste Remo jedoch noch nicht, um was für einen Musikstil es sich handelt. Er hörte Rock und Punk Rock und spielte Gitarre. 2011 entdeckte er den Drum and Bass zum zweite Mal für sich. Seither ist er ein regelmässiger Partygast. Zuerst war ihm nicht bewusst, wer die Partys veranstaltete, sah er doch immer wieder dieselben Gesichter und kam dann auch mit den JUR Headz in Kontakt. Seit Herbst 2018 ist Remo ein Mitglied von JUR Records, wo er unter anderem für das Gestalten der neuen Webseite zuständig ist. Remo ist es wichtig den Leuten auch etwas zurück zu geben, wie auch an den Partys Stimmung zu verbreiten und die Szene am Leben zu halten. 
+
+Nebst Ronny Size prägten Remo Künstler wie John B oder auch Noisia. Am meisten begeistern ihn Liquid- und Upfront-Klänge.
