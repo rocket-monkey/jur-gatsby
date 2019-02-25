@@ -1,6 +1,6 @@
 ---
 templateKey: crew-entry
-title: agent c
+title: Agent C
 image: /img/agent-c.jpg
 since: 01.02.2019
 role: dasf
