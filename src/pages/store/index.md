@@ -9,7 +9,7 @@ In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Sam
 ### Vinyl-Sortiment
 
 * Rap (french, US, british, german, international) 
-* Drum and Bass  (Liquid, Upfront, Jungle, Neurofunk, Deep, Cressbread) 
+* Drum and Bass  (Liquid, Upfront, Jungle, Neurofunk, Deep, Crossbread) 
 * Breaks / Bigbeats
 * Triphop / Lounge / Electronica
 * Minimal / Techhouse
