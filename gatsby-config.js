@@ -4,6 +4,7 @@ module.exports = {
     description: 'Drum & Bass Vinyl Store, Veranstaltungen',
   },
   plugins: [
+    'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -48,6 +49,8 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 2048,
+              withWebp: true,
+              quality: 80,
             },
           },
           {
@@ -59,6 +62,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-remove-serviceworker',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {

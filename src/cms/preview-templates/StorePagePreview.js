@@ -5,6 +5,7 @@ import { StorePageTemplate } from '../../templates/store-page'
 const StorePagePreview = ({ entry, widgetFor }) => (
   <StorePageTemplate
     title={entry.getIn(['data', 'title'])}
+    hero={entry.getIn(['data', 'image'])}
     content={widgetFor('body')}
   />
 )

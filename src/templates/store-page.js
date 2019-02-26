@@ -1,12 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import classNames from 'class-names'
 import IconFacebook from '../components/icons/Facebook'
 import styles from './store-page.module.scss'
 import Content, { HTMLContent } from '../components/Content'
+import HorizontalLine from '../components/HorizontalLine'
 
-export const StorePageTemplate = ({ title, content, contentComponent }) => {
+export const StorePageTemplate = ({
+  title,
+  hero,
+  content,
+  contentComponent,
+}) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -15,6 +22,18 @@ export const StorePageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
+            {hero && !!hero.fluid ? (
+              <Img {...hero} />
+            ) : (
+              <div
+                className="full-width-image-container margin-top-0"
+                style={{
+                  backgroundImage: `url(${hero})`,
+                }}
+              />
+            )}
+
+            <HorizontalLine />
             <PageContent className="content" content={content} />
 
             <a
@@ -45,6 +64,7 @@ const StorePage = ({ data }) => {
   return (
     <StorePageTemplate
       contentComponent={HTMLContent}
+      hero={post.frontmatter.image.childImageSharp}
       title={post.frontmatter.title}
       content={post.html}
     />
@@ -63,6 +83,13 @@ export const storePageQuery = graphql`
       html
       frontmatter {
         title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     }
   }
