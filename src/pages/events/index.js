@@ -33,7 +33,7 @@ EventsOverviewPage.propTypes = {
 export const eventsOverviewQuery = graphql`
   query EventsOverviewQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "event-post" } } }
     ) {
       edges {

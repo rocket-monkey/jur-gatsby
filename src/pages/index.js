@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 // import BlogPosts from '../components/BlogPosts'
 import Events from '../components/Events'
+import HorizontalLine from '../components/HorizontalLine'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -16,6 +17,7 @@ export default class IndexPage extends React.Component {
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <Events teaser events={events} />
+
               <h2>{data.home.frontmatter.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
               {/*
@@ -66,7 +68,7 @@ export const pageQuery = graphql`
       }
     }
     events: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "event-post" } } }
     ) {
       edges {

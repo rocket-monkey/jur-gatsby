@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 
 export default ({ events, teaser }) => {
   const now = new Date()
-  const upcoming = events.filter(event => {
+  let upcoming = events.filter(event => {
     const eventDate = new Date(event.node.frontmatter.dateJs)
     if (eventDate.getTime() >= now.getTime()) {
       return true
@@ -21,9 +21,13 @@ export default ({ events, teaser }) => {
     return true
   })
 
+  if (teaser) {
+    upcoming = [upcoming[0]]
+  }
+
   const upcomingJsx = (
     <>
-      <h1>Latest Events</h1>
+      <h1>{teaser ? 'Next Event' : 'Upcoming Events'}</h1>
       {upcoming.map(({ node: post }) => (
         <Link key={post.id} className={styles.event} to={post.fields.slug}>
           <Img {...post.frontmatter.image.childImageSharp} />
