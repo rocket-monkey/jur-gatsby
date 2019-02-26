@@ -1,10 +1,13 @@
 ---
 templateKey: store-page
 title: Jungle Underground Recordstore Aarau
+image: /img/dsc00050.jpg
 ---
+In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Samstagen im Monat seine Tore. 
+
 ![](/img/record-store.jpg "JUR-Store Aarau")
 
-In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Samstagen im Monat seine Tore. 
+![](/img/dsc00060.jpg)
 
 ### Vinyl-Sortiment
 
