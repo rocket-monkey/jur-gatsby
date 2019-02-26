@@ -7,12 +7,14 @@ import IconMixcloud from '../icons/Mixcloud'
 import IconSoundcloud from '../icons/Soundcloud'
 import styles from './styles.module.scss'
 
+const renderYearOnly = dateStr => dateStr.split('.').pop()
+
 const CrewCard = ({ data }) => (
   <Table>
     <>
       <tr>
         <th>Dabei seit</th>
-        <td>{data.since}</td>
+        <td>{renderYearOnly(data.since)}</td>
       </tr>
       <tr>
         <th>Rolle</th>
