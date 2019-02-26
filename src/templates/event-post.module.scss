@@ -1,0 +1,21 @@
+@import '../components/_variables.sass';
+
+.link {
+  svg {
+    width: 63px;
+    height: 63px;
+  }
+}
+
+.fb,
+.ig,
+.mc,
+.sc {
+  width: 64px;
+  height: 64px;
+  margin: 6px 0;
+  vertical-align: middle;
+  display: block;
+  background: $light;
+  border-radius: 50%;
+}

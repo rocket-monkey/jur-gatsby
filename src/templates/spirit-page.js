@@ -3,7 +3,12 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 
-export const SpiritPageTemplate = ({ title, content, contentComponent }) => {
+export const SpiritPageTemplate = ({
+  title,
+  hero,
+  content,
+  contentComponent,
+}) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -12,6 +17,17 @@ export const SpiritPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1>{title}</h1>
+            {hero && !!hero.fluid ? (
+              <Img {...hero} />
+            ) : (
+              <div
+                className="full-width-image-container margin-top-0"
+                style={{
+                  backgroundImage: `url(${hero})`,
+                }}
+              />
+            )}
+            <HorizontalLine />
             <PageContent className="content" content={content} />
           </div>
         </div>
@@ -33,6 +49,7 @@ const SpiritPage = ({ data }) => {
     <SpiritPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
+      hero={null}
       content={post.html}
     />
   )

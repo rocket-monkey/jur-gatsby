@@ -149,6 +149,12 @@ collections:
               default: 'spirit-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+              name: image,
+              label: 'Hero Image',
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
       - file: 'src/pages/store/index.md'

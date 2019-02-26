@@ -2,10 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import classNames from 'class-names'
+import IconFacebook from '../components/icons/Facebook'
 import Content, { HTMLContent } from '../components/Content'
 import TimeTable from '../components/TimeTable'
 import BackTo from '../components/BackTo'
 import Map from '../components/Map'
+import styles from './event-post.module.scss'
+import HorizontalLine from '../components/HorizontalLine'
 
 const parseTable = (timeTable, isPreview) => {
   if (!isPreview) {
@@ -76,6 +80,7 @@ export const EventPageTemplate = ({
   image,
   timeTable,
   location,
+  fbLink,
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
@@ -109,6 +114,16 @@ export const EventPageTemplate = ({
                 location={mapLocation(location)}
               />
             )}
+            <h2>Facebook Link</h2>
+            <a
+              title={`${title} on facebook!`}
+              href={fbLink}
+              rel="noopener noreferrer"
+              target="_blank"
+              className={classNames(styles.link, styles.fb)}
+            >
+              <IconFacebook />
+            </a>
           </div>
         </div>
       </div>
@@ -132,6 +147,7 @@ const EventPage = ({ data }) => {
       image={post.frontmatter.image.childImageSharp}
       content={post.html}
       timeTable={post.frontmatter.timeTable}
+      fbLink={post.frontmatter.fbLink}
       location={post.frontmatter.location}
     />
   )
@@ -151,6 +167,7 @@ export const eventPageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         location
+        fbLink
         image {
           childImageSharp {
             fluid(maxWidth: 2048) {
