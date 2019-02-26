@@ -15,4 +15,4 @@ In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Sam
 * Minimal / Techhouse
 * Indie
 
-Mehr Infos [hier](https://www.facebook.com/groups/542491245766121/about/).
+Mehr Infos auf Facebook:
