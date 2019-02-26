@@ -10,6 +10,7 @@ import HorizontalLine from '../components/HorizontalLine'
 
 export const StorePageTemplate = ({
   title,
+  fbLink,
   hero,
   content,
   contentComponent,
@@ -39,7 +40,7 @@ export const StorePageTemplate = ({
             <p>JUR Store auf Facebook:</p>
             <a
               title="Follow us on facebook!"
-              href="https://www.facebook.com/groups/542491245766121/about/"
+              href={fbLink}
               rel="noopener noreferrer"
               target="_blank"
               className={classNames(styles.link, styles.fb)}
@@ -67,6 +68,7 @@ const StorePage = ({ data }) => {
       contentComponent={HTMLContent}
       hero={post.frontmatter.image.childImageSharp}
       title={post.frontmatter.title}
+      fbLink={post.frontmatter.fbLink}
       content={post.html}
     />
   )
@@ -84,6 +86,7 @@ export const storePageQuery = graphql`
       html
       frontmatter {
         title
+        fbLink
         image {
           childImageSharp {
             fluid(maxWidth: 2048) {

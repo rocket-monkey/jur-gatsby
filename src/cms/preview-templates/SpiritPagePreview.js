@@ -5,6 +5,7 @@ import { SpiritPageTemplate } from '../../templates/spirit-page'
 const SpiritPagePreview = ({ entry, widgetFor }) => (
   <SpiritPageTemplate
     title={entry.getIn(['data', 'title'])}
+    hero={entry.getIn(['data', 'image'])}
     content={widgetFor('body')}
   />
 )

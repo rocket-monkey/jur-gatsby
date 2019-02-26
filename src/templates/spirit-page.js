@@ -51,7 +51,7 @@ const SpiritPage = ({ data }) => {
     <SpiritPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      hero={null}
+      hero={post.frontmatter.image.childImageSharp}
       content={post.html}
     />
   )
@@ -69,6 +69,13 @@ export const spiritPageQuery = graphql`
       html
       frontmatter {
         title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     }
   }
