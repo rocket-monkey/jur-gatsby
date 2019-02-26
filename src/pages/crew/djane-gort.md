@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: DJane Gort
-image: /img/djane-gort.jpg
+image: /img/chemex.jpg
 since: 01.09.2018
 role: Grafikerin
 instagram: 'https://www.instagram.com/djane_gort/'
