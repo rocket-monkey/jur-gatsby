@@ -20,7 +20,9 @@ export const StorePageTemplate = ({
     <section className="section">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
+          <div
+            className={classNames('column is-10 is-offset-1', styles.wrapper)}
+          >
             <h1>{title}</h1>
             {hero && !!hero.fluid ? (
               <Img {...hero} />
@@ -32,10 +34,9 @@ export const StorePageTemplate = ({
                 }}
               />
             )}
-
             <HorizontalLine />
             <PageContent className="content" content={content} />
-
+            <p>JUR Store auf Facebook:</p>
             <a
               title="Follow us on facebook!"
               href="https://www.facebook.com/groups/542491245766121/about/"

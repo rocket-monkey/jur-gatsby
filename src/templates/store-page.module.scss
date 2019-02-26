@@ -1,5 +1,16 @@
 @import '../components/_variables.sass';
 
+.wrapper {
+  @include from(500px) {
+    :global(.gatsby-resp-image-link) {
+      float: left;
+      width: 30%;
+      min-width: 200px;
+      margin-right: 12px;
+    }
+  }
+}
+
 .link {
   svg {
     width: 32px;
