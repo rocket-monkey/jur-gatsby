@@ -7,8 +7,6 @@ In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Sam
 
 ![](/img/record-store.jpg "JUR-Store Aarau")
 
-![](/img/dsc00060.jpg)
-
 ### Vinyl-Sortiment
 
 * Rap (french, US, british, german, international) 
