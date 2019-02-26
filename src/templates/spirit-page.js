@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Content, { HTMLContent } from '../components/Content'
+import HorizontalLine from '../components/HorizontalLine'
 
 export const SpiritPageTemplate = ({
   title,

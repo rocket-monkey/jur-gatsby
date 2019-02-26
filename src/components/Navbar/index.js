@@ -1,10 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import classNames from 'class-names'
-import JurLogoFont from '../icons/JurLogoFont'
 import BgVideo from '../../components/BgVideo'
 import Menu from './Menu'
-import styles from './styles.module.scss'
 
 const Navbar = class extends React.Component {
   state = {

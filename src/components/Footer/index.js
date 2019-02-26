@@ -16,7 +16,7 @@ const Footer = ({ data }) => {
             </div>
             JUR Records
             <br />
-            <span>Ochsengässli</span>
+            <span>Ochsengässli 7</span>
             <br />
             <span>5000 Aarau</span>
             <div className={styles.socialMedia}>

@@ -1,9 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
 // import BlogPosts from '../components/BlogPosts'
 import Events from '../components/Events'
-import HorizontalLine from '../components/HorizontalLine'
 
 export default class IndexPage extends React.Component {
   render() {
