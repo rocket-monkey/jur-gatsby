@@ -17,6 +17,6 @@ Dieser ermunterte ihn, ein Demo-Tape einzureichen und bald darauf wurde er ein M
 
 Segis Stil zeichnet sich durch Bass und Groove aus, in welchen sphärische Klänge einfliessen. Für ihn spielt es keine Rolle, wer den Track produziert hat, es muss einfach flashen. 
 
-Ein Highlight für ihn war unter anderem die erste Street Parade 2010, an welcher JUR zusammen mit der Lost in Nature Crew ein Love Mobile auf die Beine stellte. Aber auch allgemein die viele Leute, die man durch die Jahre kennen lernen durfte, sieht Segi als sehr gewinnend. 
+Ein Highlight für ihn war unter anderem die erste Street Parade 2010, an welcher JUR zusammen mit der Lost in Nature Crew ein Love Mobile auf die Beine stellte. Aber auch allgemein die viele Leute, die man durch die Jahre kennen lernen durfte, sieht Segi als sehr gewinnbringend. 
 
 Bei JUR Records ist Segi an den Partys die rechte Hand von Sasha und fungiert oft als erste Ansprechperson.
