@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: hellchild
-image: /img/gxqy3oq.jpg
+image: /img/mstile-144x144.png
 since: 1st.02.2019
 role: adsf
 ---
