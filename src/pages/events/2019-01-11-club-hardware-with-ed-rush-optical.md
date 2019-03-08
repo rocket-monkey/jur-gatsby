@@ -2,10 +2,10 @@
 templateKey: event-post
 date: 2019-01-11T12:17:45.060Z
 title: Club Hardware with Ed Rush & Optical
-image: /img/45617379_1956661587713744_7861298222071808000_n.jpg
+image: /img/20190111_club-hardware.jpg
+fbLink: 'https://www.facebook.com/events/112755839665520/'
 type: therapy-session
 location: kiff-aarau
-fbLink: 'https://www.facebook.com/events/112755839665520/'
 timeTable:
   - act: Ed Rush & Optical (UK)
     label: Virus Records
