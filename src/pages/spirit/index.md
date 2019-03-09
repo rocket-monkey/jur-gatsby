@@ -15,8 +15,6 @@ JUR Records ist nicht nur ein Label, welches Partys veranstaltet, sondern möcht
 
 Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, diverse Openairs, Love Mobiles an der Street Parade, und und und… 
 
-
-
 ## **Milestones:**
 
 * 1991:		Gründung des Labels
@@ -31,3 +29,5 @@ Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, dive
 * 2016:		25-jähriges Jubiläum / Jungle Street Groove Festival, Basel 
 * 2017:		Love Mobile an der Street Parade, Zürich
 * 2018:		Love Mobile an der Street Parade, Zürich
+
+![](/img/1991_sasha-in-uk.jpg "Sashas erster Trip nach England")
