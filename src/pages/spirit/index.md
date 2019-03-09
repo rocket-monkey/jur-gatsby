@@ -26,7 +26,7 @@ Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, dive
 * 2011:		Lost in Nature Openair, Aargau / Love Mobile an der Street Parade, Zürich
 * 2012:		Lost in Nature Openair, Aargau / Love Mobile an der Street Parade, Zürich
 * 2013:		Love Mobile an der Street Parade, Zürich
-* 2016:		25-jähriges Jubiläum / Jungle Street Groove Festival, Basel 
+* 2016:		Jungle Street Groove Festival, Basel 
 * 2017:		Love Mobile an der Street Parade, Zürich
 * 2018:		Love Mobile an der Street Parade, Zürich
 
