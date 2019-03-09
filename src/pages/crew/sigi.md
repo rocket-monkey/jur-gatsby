@@ -3,7 +3,7 @@ templateKey: crew-entry
 title: Z-Groove
 image: /img/z-groove.jpg
 since: 01.01.2008
-role: Organisator
+role: DJ
 mixcloud: 'https://www.mixcloud.com/michaelsiegrist58/'
 instagram: 'https://www.instagram.com/z_groove/'
 ---
