@@ -1,8 +1,8 @@
 ---
 templateKey: crew-entry
-title: movemental
+title: MoveMental
 image: /img/movemental.jpg
 since: 01.02.2019
-role: asfd
+role: DJ
 ---
 Infos folgen...
