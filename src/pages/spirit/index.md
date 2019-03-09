@@ -9,8 +9,6 @@ Semtex sieht viele Parallelen zwischen JUR Records und Goldies Label Metalheadz:
 
 Mit den Jahren wuchs die Crew an, es kamen immer wieder neue Gesichter dazu oder verabschiedeten sich. Insgesamt waren es bis heute rund 80 DJ’s, die bei JUR Records dabei waren oder sind. 
 
-Auch viele DJ’s die heute zum Teil auch eigene Labels haben, hatten ihren ersten Gig bei JUR Records. 
-
 JUR Records ist nicht nur ein Label, welches Partys veranstaltet, sondern möchte jungen, talentierten DJ’s eine Plattform bieten, um ihre Musik präsentieren zu können. Viele DJ’s, die heute eigene Labels besitzen, hatten ihren ersten Auftritt bei JUR. 
 
 Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, diverse Openairs, Love Mobiles an der Street Parade, und und und… 
