@@ -3,7 +3,7 @@ templateKey: crew-entry
 title: DJ Muck
 image: /img/android-chrome-192x192.png
 since: 01.01.2005
-role: Store & Merchandise
+role: Store & DJ
 ---
 Guido aka DJ Muck verschlug es schon früh in die Welt der Beats. Zu Beginn mit Techno und Detroit, näherte er sich vor über 20 Jahren dem Drum and Bass an. Durch seinen Bruder lernte er schon damals den Umgang mit Turntables kennen. Guido kannte man als Drum and Bass DJ der harten Sorte: düstere, brachiale Amen Breaks, sowie Breakcore zeichneten seine Sets aus. Mittlerweile spielt er vorzugsweise Jungle und Jump Up.  
 
