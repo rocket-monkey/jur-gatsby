@@ -23,11 +23,10 @@ Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, dive
 * Plattenladen in Freiburg (DE)
 * 2008:		Plattennladen in Aarau
 * 2010:		Love Mobile an der Street Parade, Zürich
-* 2011:		Lost in Nature Openair, Aargau / Love Mobile an der Street Parade, Zürich
-* 2012:		Lost in Nature Openair, Aargau / Love Mobile an der Street Parade, Zürich
+* 2011:		Love Mobile an der Street Parade, Zürich
+* 2012:		Love Mobile an der Street Parade, Zürich
 * 2013:		Love Mobile an der Street Parade, Zürich
-* 2016:		
-  Jungle Street Groove Festival, Basel 
+* 2016:		Lost in Nature Openair, Aargau / Jungle Street Groove Festival, Basel 
 * 2017:		Love Mobile an der Street Parade, Zürich
 * 2018:		Love Mobile an der Street Parade, Zürich
 
