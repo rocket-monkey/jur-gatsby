@@ -7,8 +7,8 @@ fbLink: 'https://www.facebook.com/events/492468130929951/'
 type: vip-session
 location: amboss-rampe
 timeTable:
-  - act: Frontline
-    label: Project Riot
+  - act: 'John B (UK) '
+    label: 'BETA Recordings, Metalheadz'
     time: ''
   - act: Rollin John
     label: Divercity
@@ -16,6 +16,8 @@ timeTable:
     label: Xenocracy
   - act: Hellchild & Nico Mace
     label: JUR Records
+  - act: Frontline
+    label: Project Riot
 ---
 Die Sommerpause ist vorbei und die Nächte werden wieder kälter... zwei von unzähligen guten Gründen, sich an der nächsten VIP Session am 25. September zu heissen Beats warmzutanzen! 
 
