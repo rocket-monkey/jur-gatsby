@@ -4,6 +4,7 @@ title: Phil Wild
 image: /img/mstile-144x144.png
 since: 01.01.2008
 role: DJ
+mixcloud: 'https://www.mixcloud.com/JUR_Rec/'
 ---
 Phil aka Phil Wild wuchs in England auf und hörte daher schon ab und an am Rande Drum and Bass. Seine bevorzugte Musikrichtung war damals aber Techno und Hip Hop. 1997 erhielt er von einem Freund eine CD, auf der Drum and Bass zu hören war und so kam dieser Stil dazu. Phil erinnert sich gerne an die ersten Rohstofflagerpartys in Zürich zurück. 
 
