@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-date: 2019-03-10T16:55:28.767Z
+date: 2016-10-13T22:00:00.000Z
 title: DJ Storm at VIP Session Deluxe
 image: /img/20161014_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/340046576333371/'
