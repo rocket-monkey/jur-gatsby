@@ -2,7 +2,7 @@
 templateKey: crew-entry
 title: Hellchild
 image: /img/mstile-144x144.png
-since: 1st.02.2019
+since: 01.01.2013
 role: DJ
 ---
 Als Rock-DJ bei Rockstar stiess Patrick aka Hellchild am Greenfield Festival 2013 auf ein Zelt, in welchem Drum and Bass gespielt wurde. Er kannte bis dato diese Musikrichtung nicht allzu gut - LTJ Bukem war ihm aber ein Begriff. 
