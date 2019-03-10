@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/312834525742191/'
 type: therapy-session
 location: kiff-aarau
 timeTable:
-  - time: '00:00'
   - act: The Panacea
   - act: 'Limewax '
   - act: Nico Mace
