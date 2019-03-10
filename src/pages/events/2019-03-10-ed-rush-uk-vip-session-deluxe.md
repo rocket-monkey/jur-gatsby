@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/1706997849579849/'
 type: vip-session
 location: amboss-rampe
 timeTable:
-  - time: '00:00'
   - act: 'Ed Rush Official (UK) '
     label: VIRUS Recordings
   - act: Randy b2b Eskil
