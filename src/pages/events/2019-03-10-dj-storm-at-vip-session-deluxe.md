@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/340046576333371/'
 type: vip-session
 location: amboss-rampe
 timeTable:
-  - time: '00:00'
   - act: DJ Storm (UK)
     label: Metalheadz
   - act: '''nade'
