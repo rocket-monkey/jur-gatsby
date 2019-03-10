@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/877583542296327/'
 type: vip-session
 location: amboss-rampe
 timeTable:
-  - time: '00:00'
   - act: LTJ Bukem (UK)
   - act: Phil Wild b2b Dy-Namics
     label: JUR Records / Project Riot
