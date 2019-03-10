@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/1699105916996303/'
 type: therapy-session
 location: kiff-aarau
 timeTable:
-  - time: '00:00'
   - act: Counterstrike
     label: 'Algorhythm, PRSPCT, Freak'
   - act: Katharsys
