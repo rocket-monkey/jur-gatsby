@@ -22,7 +22,7 @@ timeTable:
     label: Jungle Raiders / JUR Records
   - act: Nasjo b2b Engineer
     label: 'Subvercity, bEASTside.crew'
-  - act: Rollin John b2b Rufftec
+  - act: Rollin John b2b Ruftec
     label: Divercity
   - act: Frontline b2b Dynamics
     label: Project Riot
