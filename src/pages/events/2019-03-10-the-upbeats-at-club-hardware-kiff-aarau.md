@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/520284094831296/'
 type: vip-session
 location: kiff-aarau
 timeTable:
-  - time: '00:00'
   - act: The Upbeats (NZ)
     label: 'Blackout, Vision'
   - act: MonNsta b2b Ray Tracer
