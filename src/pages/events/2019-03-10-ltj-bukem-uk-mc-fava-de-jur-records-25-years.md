@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/628250260659123/'
 type: vip-session
 location: kiff-aarau
 timeTable:
-  - time: '00:00'
   - act: LTJ Bukem (UK)
   - act: MC Fava (DE)
     label: 'Hospital Records, Commercial Suicide'
