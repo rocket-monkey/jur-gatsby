@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-date: 2019-03-09T18:13:17.168Z
+date: 2016-03-11T23:00:00.000Z
 title: GRIDLOK (USA) VIP Club Hardware at AMBOSS RAMPE
 image: /img/20160316_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/1650188928588081/'
