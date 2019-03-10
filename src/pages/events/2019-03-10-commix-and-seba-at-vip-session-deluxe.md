@@ -7,7 +7,6 @@ fbLink: 'https://www.facebook.com/events/1735676330034068/'
 type: vip-session
 location: amboss-rampe
 timeTable:
-  - time: '00:00'
   - act: 'Commix (UK)   '
     label: Metalheadz
   - act: 'Seba (SWE) '
