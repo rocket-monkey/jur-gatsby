@@ -17,7 +17,8 @@ Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, dive
 
 * 1991:		Gründung des Labels
 * 1993:		erster Plattenladen in Olten
-* 1997:		erste Drum and Bass Party in Zürich im Volkshaus mit Nicky Blackmarket
+* 1993:              UK Rapfestival in Basel
+* 1997:		erste Drum and Bass Party von JUR Records in Zürich im Volkshaus mit Nicky Blackmarket
 * Plattenladen in Freiburg (DE)
 * 2008:		Plattennladen in Aarau
 * 2010:		Love Mobile an der Street Parade, Zürich
