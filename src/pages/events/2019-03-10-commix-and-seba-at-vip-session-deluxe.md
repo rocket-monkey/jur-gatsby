@@ -19,8 +19,6 @@ timeTable:
 ---
 JUR Records ist nach der Sommerpause wieder back in Zürich!
 
-Diesmal haben wir für euch wahrlich ein VIP Deluxe Doppelpack im Köcher…
-
-Mit Seba aus Schweden besucht uns ein altbekannter Künstler, der schon auf einer der allerersten VIP Sessions mit dabei war und zu dem wir stets guten Kontakt pflegen und gepflegt haben. Der Skandinavier versteht es wie kaum ein anderer, einen gelungenen Mix aus Melancholie und Deepness auf die Teller zu bringen, bei dem einem niemals langweilig wird!
+Diesmal haben wir für euch wahrlich ein VIP Deluxe Doppelpack im Köcher… Mit Seba aus Schweden besucht uns ein altbekannter Künstler, der schon auf einer der allerersten VIP Sessions mit dabei war und zu dem wir stets guten Kontakt pflegen und gepflegt haben. Der Skandinavier versteht es wie kaum ein anderer, einen gelungenen Mix aus Melancholie und Deepness auf die Teller zu bringen, bei dem einem niemals langweilig wird!
 
 Seba teilt sich die VIP-Bühne an diesem Abend mit dem absoluten Knüller Commix aus London, dem ersten Produzenten überhaupt, der auf Metalheadz ein Album herausgab. Lasst euch diese beiden Classics auf keinen Fall entgehen – wir freuen uns auf eine fette Drum and Bass Session mit euch!
