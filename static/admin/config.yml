@@ -52,12 +52,7 @@ collections:
           widget: 'select',
           options: ['vip-session', 'therapy-session', 'golden-age-of-hiphop'],
         }
-      - {
-          label: 'Location',
-          name: 'location',
-          widget: 'select',
-          options: ['amboss-rampe', 'kiff-aarau'],
-        }
+      - { label: 'Location', name: 'location', default: 'amboss-rampe' }
       - { name: type, label: Type, widget: hidden, default: event }
       - name: timeTable
         label: 'Time Table'
