@@ -14,4 +14,4 @@ timeTable:
 ---
 Classic Session & JUR Recordsstore Aarau present: Golden Age of Rap
 
-Ein Hoch auf das Goldene Zeitalter des Hip Hop! An der Golden Age of Rap-Party erwartet euch Hip Hop aus den glorreichen 80er, 90er und 00er Jahren mit Songs von Beastie Boys, N.W.A, Dr. Dre, Das EFX, Wu-Tang Clan, Cypress Hill – einfach all die guten Künstler, die den Hip Hop bis heute geprägt haben. Ein Muss für alle, die diese Zeit miterlebt haben und für diejenigen, die sich wünschen, sie wären dabei gewesen!
+Ein Hoch auf das Goldene Zeitalter des Hip Hop! An der Golden Age of Rap-Party erwartet euch Hip Hop aus den glorreichen 80er-, 90er- und 00er-Jahren mit Songs von Beastie Boys, N.W.A, Dr. Dre, Das EFX, Wu-Tang Clan, Cypress Hill – einfach all den genialen Künstlern, die den Hip Hop bis heute geprägt haben. Ein Muss für alle, die diese Zeit miterlebt haben und für diejenigen, die sich wünschen, sie wären dabei gewesen!
