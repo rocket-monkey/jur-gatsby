@@ -15,8 +15,8 @@ timeTable:
   - act: '''nade'
     label: JUR Records
 ---
-Als weiteres und sicher nicht letztes Goodie der Saison, startet die Bolgenschanze noch eine Drum and Bass Party. Sowas habt Ihr im ganzen Kanton Graubünden noch nie gesehen. Seid dabei, wenn unsere Freunde von JUR Records von Ihrem Lovemobile herunter steigen und zu uns in die Berge kommen.
+Als weiteres und sicher nicht letztes Goodie der Saison startet die Bolgenschanze eine Drum and Bass Party in den Bergen. Sowas habt ihr im ganzen Kanton Graubünden noch nie gesehen! Seid dabei, wenn unsere Freunde von JUR Records von ihrem Lovemobile heruntersteigen und zu uns in die Berge kommen.
 
-Eines sei Euch garantiert! Drum and Bass, wie Ihr ihn noch nie gehört habt und das die ganze Nacht lang.
+Eines sei euch garantiert – Drum and Bass, wie ihr ihn noch nie gehört habt und das die ganze Nacht lang.
 
-Das ganze Goodie ist natürlich KOSTENLOS für Euch! Plätze solange der Vorrat reicht!
+Das ganze Goodie ist natürlich KOSTENLOS für euch! Plätze solange der Vorrat reicht!
