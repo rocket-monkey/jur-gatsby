@@ -18,4 +18,4 @@ timeTable:
   - act: K-Base
     label: JUR Records
 ---
-Die Kälte ist übers Land hereingebrochen… aber nach all dem herbstlichen Sonnenschein wollen wir die sonnigen Vibes noch ein bisschen beibehalten! Mit Etherwood aus England haben wir nächsten Samstag einen Künstler am Start, der dem Regen trotzen und uns allen totz kalten Temperaturen ein warmes Lächeln ins Gesicht zaubern kann. Mit seinen harmonischen Klängen, mitreissenden Melodien und herzberührenden Vocals ist „Woody“ ein Garant für eine märchenhafte, liquide Turntable-Session am 3. November im KiFF Aarau!
+Die Kälte ist übers Land hereingebrochen… aber nach all dem herbstlichen Sonnenschein wollen wir die sonnigen Vibes noch ein bisschen beibehalten! Mit Etherwood aus England haben wir nächsten Samstag einen Künstler am Start, der dem Regen trotzen und uns allen selbst bei eisig kalten Temperaturen ein warmes Lächeln ins Gesicht zaubern kann. Mit seinen harmonischen Klängen, mitreissenden Melodien und herzberührenden Vocals ist „Woody“ ein Garant für eine märchenhafte, liquide Turntable-Session am 3. November im KiFF Aarau!
