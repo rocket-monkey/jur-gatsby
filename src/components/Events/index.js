@@ -4,22 +4,34 @@ import { Link } from 'gatsby'
 import MasonryLayout from 'react-masonry-layout'
 import styles from './styles.module.scss'
 
+const isSameDay = (date1, date2) =>
+  date1.getDate() === date2.getDate() &&
+  date1.getMonth() === date2.getMonth() &&
+  date1.getYear() === date2.getYear()
+
 export default ({ events, teaser }) => {
   const now = new Date()
   let upcoming = events.filter(event => {
     const eventDate = new Date(event.node.frontmatter.dateJs)
-    if (eventDate.getTime() >= now.getTime()) {
-      return true
-    }
-    return false
+    return isSameDay(eventDate, now) || eventDate.getTime() > now.getTime()
   })
-  const past = events.filter(event => {
-    const eventDate = new Date(event.node.frontmatter.dateJs)
-    if (eventDate.getTime() >= now.getTime()) {
-      return false
-    }
-    return true
-  })
+
+  const past = events
+    .filter(event => {
+      const eventDate = new Date(event.node.frontmatter.dateJs)
+      return !isSameDay(eventDate, now) && eventDate.getTime() < now.getTime()
+    })
+    .sort((a, b) => {
+      const eventDateA = new Date(a.node.frontmatter.dateJs)
+      const eventDateB = new Date(b.node.frontmatter.dateJs)
+      if (eventDateA.getTime() < eventDateB.getTime()) {
+        return 1
+      } else {
+        return -1
+      }
+
+      return 0
+    })
 
   if (teaser) {
     upcoming = [upcoming[0]]

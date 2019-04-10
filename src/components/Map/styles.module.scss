@@ -5,3 +5,10 @@
   color: $dark;
   position: relative;
 }
+
+.icon {
+  svg {
+    width: 63px;
+    height: 63px;
+  }
+}

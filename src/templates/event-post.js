@@ -33,10 +33,12 @@ const parseTable = (timeTable, isPreview) => {
 const mapLocation = location => {
   switch (location) {
     case 'amboss-rampe':
-      return { lat: 47.381717, lng: 8.531592 }
+      // return { lat: 47.381717, lng: 8.531592 }
+      return 'https://www.google.de/maps?f=q&hl=de&q=Amboss+Rampe+Zollstrasse+Zurich'
     default:
     case 'kiff-aarau':
-      return { lat: 47.398671, lng: 8.064249 }
+      // return { lat: 47.398671, lng: 8.064249 }
+      return 'https://www.google.de/maps?f=q&hl=de&q=Kiff+Telistrasse+118+Aarau'
   }
 }
 
@@ -44,9 +46,10 @@ const mapLocationShortName = location => {
   switch (location) {
     case 'amboss-rampe':
       return 'Amboss Rampe, Zürich'
-    default:
     case 'kiff-aarau':
       return 'KIFF, Aarau'
+    default:
+      return location
   }
 }
 

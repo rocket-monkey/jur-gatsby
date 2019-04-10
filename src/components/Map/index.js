@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import { GoogleApiWrapper, InfoWindow, Map, Marker } from 'google-maps-react'
+import IconGoogleMaps from '../../components/icons/GoogleMaps'
 import styles from './styles.module.scss'
 
 const defaultMapHeight = '252px'
@@ -268,8 +269,15 @@ class MapInternal extends PureComponent {
   }
 }
 
-export default GoogleApiWrapper(() => ({
-  apiKey: 'AIzaSyDteYynUBuOMTmgxhcIfUCLtQvYrvSa-WQ',
-  language: 'de',
-  LoadingContainer: MapLoading,
-}))(MapInternal)
+// export default GoogleApiWrapper(() => ({
+//   apiKey: 'AIzaSyBGpENY848xzRzdAEnVxIEHS6WMX_L-d-8',
+//   language: 'de',
+//   LoadingContainer: MapLoading,
+// }))(MapInternal)
+
+export default ({ location }) => (
+  <div className={styles.icon}>
+    {console.log(location)}
+    <IconGoogleMaps />
+  </div>
+)
