@@ -3,6 +3,10 @@
 .footer {
   border-top: 2px solid $grey-accent;
 
+  > div > div {
+    position: relative;
+  }
+
   h3 {
     @include from($lg) {
       margin-top: 27px;
@@ -55,4 +59,11 @@
     width: 28px;
     height: 28px;
   }
+}
+
+.news {
+  display: block;
+  margin-top: 24px;
+  font-style: italic;
+  color: $purple;
 }

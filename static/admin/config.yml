@@ -129,6 +129,24 @@ collections:
       - { name: size, label: Size }
       - { name: gender, label: Gender }
 
+  - name: artis
+    label: Artists
+    folder: 'src/pages/artist'
+    create: true
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'artist-entry',
+        }
+      - { name: name, label: Name }
+      - { name: page, label: Page, required: false }
+      - { name: soundcloud, label: Soundcloud, required: false }
+      - { name: mixcloud, label: Mixcloud, required: false }
+      - { name: facebook, label: Facebook, required: false }
+      - { name: instagram, label: Instagram, required: false }
+
   - name: 'pages'
     label: 'Pages'
     files:
