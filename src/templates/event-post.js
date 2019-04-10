@@ -9,7 +9,6 @@ import TimeTable from '../components/TimeTable'
 import BackTo from '../components/BackTo'
 import Map from '../components/Map'
 import styles from './event-post.module.scss'
-import HorizontalLine from '../components/HorizontalLine'
 
 const parseTable = (timeTable, isPreview) => {
   if (!isPreview) {
@@ -76,7 +75,6 @@ const mapLocationName = location => {
           <br /> 5000 Aarau
         </>
       )
-      return 'KIFF, Tellistrasse, Aarau'
   }
 }
 

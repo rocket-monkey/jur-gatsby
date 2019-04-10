@@ -63,11 +63,11 @@ const Menu = class extends React.Component {
                 </li>
                 <li
                   className={classNames(styles.item, {
-                    [styles.active]: this.isActive('/ware'),
+                    [styles.active]: this.isActive('/wear'),
                   })}
                 >
-                  <Link to="/ware" className="hover-target">
-                    ware
+                  <Link to="/wear" className="hover-target">
+                    wear
                   </Link>
                 </li>
               </ul>

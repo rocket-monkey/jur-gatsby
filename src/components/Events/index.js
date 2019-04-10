@@ -26,11 +26,8 @@ export default ({ events, teaser }) => {
       const eventDateB = new Date(b.node.frontmatter.dateJs)
       if (eventDateA.getTime() < eventDateB.getTime()) {
         return 1
-      } else {
-        return -1
       }
-
-      return 0
+      return -1
     })
 
   if (teaser) {

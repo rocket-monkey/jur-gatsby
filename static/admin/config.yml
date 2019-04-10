@@ -107,16 +107,16 @@ collections:
       - { name: facebook, label: Facebook, required: false }
       - { name: instagram, label: Instagram, required: false }
 
-  - name: ware
-    label: Ware
-    folder: 'src/pages/ware'
+  - name: wear
+    label: Wear
+    folder: 'src/pages/wear'
     create: true
     fields:
       - {
           label: 'Template Key',
           name: 'templateKey',
           widget: 'hidden',
-          default: 'ware-entry',
+          default: 'wear-entry',
         }
       - { name: title, label: Title }
       - {

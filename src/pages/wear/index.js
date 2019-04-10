@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-export default class WareOverviewPage extends React.Component {
+export default class WearOverviewPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -13,7 +13,7 @@ export default class WareOverviewPage extends React.Component {
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <h1>Ware</h1>
+              <h1>Wear</h1>
 
               <p>coming soon!</p>
               {/*
@@ -53,7 +53,7 @@ export default class WareOverviewPage extends React.Component {
   }
 }
 
-WareOverviewPage.propTypes = {
+WearOverviewPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -61,11 +61,11 @@ WareOverviewPage.propTypes = {
   }),
 }
 
-export const wareOverviewQuery = graphql`
-  query WareOverviewQuery {
+export const wearOverviewQuery = graphql`
+  query WearOverviewQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { templateKey: { eq: "ware-entry" } } }
+      filter: { frontmatter: { templateKey: { eq: "wear-entry" } } }
     ) {
       edges {
         node {

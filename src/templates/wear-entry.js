@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Content, { HTMLContent } from '../components/Content'
 import BackTo from '../components/BackTo'
 
-export const WarePageTemplate = ({ title, content, contentComponent }) => {
+export const WearPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -12,7 +12,7 @@ export const WarePageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <BackTo to="/ware">Ware</BackTo>
+            <BackTo to="/wear">wear</BackTo>
             <h1>{title}</h1>
             <PageContent className="content" content={content} />
           </div>
@@ -22,17 +22,17 @@ export const WarePageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-WarePageTemplate.propTypes = {
+WearPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const WarePage = ({ data }) => {
+const WearPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <WarePageTemplate
+    <WearPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
@@ -40,14 +40,14 @@ const WarePage = ({ data }) => {
   )
 }
 
-WarePage.propTypes = {
+WearPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default WarePage
+export default WearPage
 
-export const warePageQuery = graphql`
-  query WarePage($id: String!) {
+export const wearPageQuery = graphql`
+  query WearPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
