@@ -277,7 +277,8 @@ class MapInternal extends PureComponent {
 
 export default ({ location }) => (
   <div className={styles.icon}>
-    {console.log(location)}
-    <IconGoogleMaps />
+    <a href={location} alt="Google Maps" target="_blank">
+      <IconGoogleMaps />
+    </a>
   </div>
 )

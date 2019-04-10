@@ -8,7 +8,7 @@ const TimeTable = ({ timeTable }) => (
       {timeTable.map((entry, i) => (
         <tr key={`time-table-${i}`}>
           <th>
-            {entry.act} <small>({entry.label})</small>
+            {entry.act} {entry.label && <small>({entry.label})</small>}
           </th>
           <td>{entry.time}</td>
         </tr>

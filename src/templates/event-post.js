@@ -30,7 +30,11 @@ const parseTable = (timeTable, isPreview) => {
   return table
 }
 
-const mapLocation = location => {
+const mapLocation = (location, locationAlt) => {
+  if (locationAlt) {
+    return `https://www.google.de/maps?f=q&hl=de&q=${encodeURI(locationAlt)}`
+  }
+
   switch (location) {
     case 'amboss-rampe':
       // return { lat: 47.381717, lng: 8.531592 }
