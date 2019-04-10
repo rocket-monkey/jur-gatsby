@@ -6,6 +6,7 @@ image: /img/20190322_schanze-drum-and-bass.jpg
 fbLink: 'https://www.facebook.com/events/2185080531703938/'
 type: event
 location: kiff-aarau
+locationAlt: 'Bar Bolgenschanze, Skistrasse, Davos Platz'
 timeTable:
   - act: Hellchild
     label: JUR Records
