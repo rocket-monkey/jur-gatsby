@@ -87,6 +87,7 @@ export const EventPageTemplate = ({
   image,
   timeTable,
   location,
+  locationAlt,
   fbLink,
   contentComponent,
 }) => {
@@ -115,12 +116,10 @@ export const EventPageTemplate = ({
             <h2>Time Table</h2>
             <TimeTable timeTable={parseTable(timeTable, isPreview)} />
             <h2>Wo? {mapLocationShortName(location)}</h2>
-            {!isPreview && (
-              <Map
-                name={mapLocationName(location)}
-                location={mapLocation(location)}
-              />
-            )}
+            <Map
+              name={mapLocationName(location)}
+              location={mapLocation(location, locationAlt)}
+            />
             <h2>Facebook Link</h2>
             <a
               title={`${title} on facebook!`}
@@ -156,6 +155,7 @@ const EventPage = ({ data }) => {
       timeTable={post.frontmatter.timeTable}
       fbLink={post.frontmatter.fbLink}
       location={post.frontmatter.location}
+      locationAlt={post.frontmatter.locationAlt}
     />
   )
 }
@@ -174,6 +174,7 @@ export const eventPageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         location
+        locationAlt
         fbLink
         image {
           childImageSharp {

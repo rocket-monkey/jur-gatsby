@@ -11,6 +11,7 @@ const EventPostPreview = ({ entry, widgetFor }) => (
     timeTable={entry.getIn(['data', 'timeTable'])}
     fbLink={entry.getIn(['data', 'fbLink'])}
     location={entry.getIn(['data', 'location'])}
+    locationAlt={entry.getIn(['data', 'locationAlt'])}
   />
 )
 
