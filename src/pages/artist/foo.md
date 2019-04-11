@@ -1,5 +1,7 @@
 ---
 templateKey: artist-entry
-title: foo
+title: Limewax
+soundcloud: 'https://soundcloud.com/maxim-anokhin'
+facebook: 'https://www.facebook.com/LimewaxOfficial/'
 ---
 
