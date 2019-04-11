@@ -140,7 +140,7 @@ collections:
           widget: 'hidden',
           default: 'artist-entry',
         }
-      - { name: name, label: Name }
+      - { name: title, label: Title }
       - { name: page, label: Page, required: false }
       - { name: soundcloud, label: Soundcloud, required: false }
       - { name: mixcloud, label: Mixcloud, required: false }
