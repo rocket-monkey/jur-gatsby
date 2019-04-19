@@ -16,3 +16,5 @@ In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Sam
 * Triphop / Lounge / Electronica
 * Minimal / Techhouse
 * Indie
+
+![](/img/blub.jpg)
