@@ -182,6 +182,19 @@ collections:
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
+      - file: 'src/pages/wear/index.md'
+        label: 'Wear'
+        name: 'wear'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'wear-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
       - file: 'src/pages/store/index.md'
         label: 'Store'
         name: 'store'
