@@ -35,7 +35,8 @@ exports.createPages = ({ actions, graphql }) => {
       const id = edge.node.id
       if (
         edge.node.frontmatter.templateKey &&
-        edge.node.frontmatter.templateKey !== 'artist-entry'
+        edge.node.frontmatter.templateKey !== 'artist-entry' &&
+        edge.node.frontmatter.templateKey !== 'wear-page'
       ) {
         createPage({
           path: edge.node.fields.slug,

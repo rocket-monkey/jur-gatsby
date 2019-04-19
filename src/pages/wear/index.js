@@ -15,7 +15,7 @@ export default class WearOverviewPage extends React.Component {
             <div className="column is-10 is-offset-1">
               <h1>Wear</h1>
 
-              <p>coming soon!</p>
+              <div dangerouslySetInnerHTML={{ __html: data.wear.html }} />
               {/*
 
               {posts.map(({ node: post }) => {
@@ -63,6 +63,13 @@ WearOverviewPage.propTypes = {
 
 export const wearOverviewQuery = graphql`
   query WearOverviewQuery {
+    wear: markdownRemark(frontmatter: { templateKey: { eq: "wear-page" } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+      }
+    }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "wear-entry" } } }
