@@ -2,7 +2,7 @@
 templateKey: store-page
 title: Jungle Underground Recordstore Aarau
 fbLink: 'https://www.facebook.com/Jungle-Underground-Records-336401653403334/'
-image: /img/dsc00050.jpg
+image: /img/blub.jpg
 ---
 In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Samstagen im Monat seine Tore. 
 
@@ -17,4 +17,4 @@ In der Altstadt von Aarau öffnet der Jungle Underground Recordstore an zwei Sam
 * Minimal / Techhouse
 * Indie
 
-![](/img/blub.jpg)
+![](/img/dsc00050.jpg)
