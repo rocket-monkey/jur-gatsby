@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import classNames from 'class-names'
-import IconNewsLetter from '../icons/NewsLetter'
+import IconNewsLetter from '../icons/Email'
 import styles from './styles.module.scss'
 
 export default class SubscribeNews extends PureComponent {

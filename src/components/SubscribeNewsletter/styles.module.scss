@@ -11,12 +11,12 @@
   }
 
   svg {
-    width: 64px;
-    height: 64px;
+    width: 42px;
+    height: 42px;
 
     @include from($lg) {
-      width: 96px;
-      height: 96px;
+      width: 64px;
+      height: 64px;
     }
   }
 }
