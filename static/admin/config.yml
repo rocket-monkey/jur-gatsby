@@ -58,7 +58,7 @@ collections:
           widget: 'select',
           options: ['amboss-rampe', 'kiff-aarau'],
         }
-      - { label: 'Andere Location', name: 'locationAlt' }
+      - { label: 'Andere Location', name: 'locationAlt', required: false }
       - { name: type, label: Type, widget: hidden, default: event }
       - name: timeTable
         label: 'Time Table'
