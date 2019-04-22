@@ -18,7 +18,7 @@ export default class WearOverviewPage extends React.Component {
             <div className="column is-10 is-offset-1">
               <h1>Wear</h1>
 
-              <h5 dangerouslySetInnerHTML={{ __html: data.wear.html }} />
+              {/* <h5 dangerouslySetInnerHTML={{ __html: data.wear.html }} /> */}
 
               <MasonryLayout
                 id="masonry-layout"
