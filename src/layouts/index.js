@@ -6,7 +6,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Transition from '../components/Transition'
-import WorkInProgress from '../components/WorkInProgress'
 import './all.sass'
 
 // Note that we need to pass location to our functional component  so we have access to it down there in <Transition/>
