@@ -11,22 +11,8 @@ import './all.sass'
 
 // Note that we need to pass location to our functional component  so we have access to it down there in <Transition/>
 class Layout extends React.Component {
-  state = {
-    beta: false,
-  }
-
-  componentDidMount() {
-    if (localStorage.getItem('beta')) {
-      this.setState({ beta: true })
-    }
-  }
-
   render() {
     const { children, location } = this.props
-
-    if (!this.state.beta && !location.pathname.includes('start')) {
-      return <WorkInProgress />
-    }
 
     return (
       <StaticQuery
