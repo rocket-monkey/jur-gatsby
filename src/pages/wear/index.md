@@ -2,5 +2,4 @@
 templateKey: wear-page
 title: JUR Records
 ---
-
-Coming soon!
+Alles im Store in Aarau, eine Auswahl auch an den JUR-Partys am Merch-Stand erhältlich.
