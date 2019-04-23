@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: MoveMental
-image: /img/movemental.jpg
+image: /img/mstile-70x70.png
 since: 02.01.2018
 role: DJ
 soundcloud: 'https://soundcloud.com/movemental-ch'
