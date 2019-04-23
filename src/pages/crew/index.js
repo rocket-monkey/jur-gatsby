@@ -22,7 +22,7 @@ export default class CrewOverviewPage extends React.Component {
                 id="masonry-layout"
                 sizes={[
                   { columns: 2, gutter: 10 },
-                  { mq: '768px', columns: 2, gutter: 15 },
+                  { mq: '768px', columns: 3, gutter: 15 },
                   { mq: '1024px', columns: 3, gutter: 25 },
                 ]}
               >
