@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-06-01T22:00:00.000Z
 title: Plattenbörse - Make the Hood look good Festival 2018
-image: /img/20180602_plattenbörse.jpg
+image: /img/dsc00050.jpg
 fbLink: 'https://www.facebook.com/events/2152961498268382/'
 type: golden-age-of-hiphop
 location: kiff-aarau
