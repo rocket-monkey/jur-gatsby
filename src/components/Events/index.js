@@ -9,8 +9,26 @@ const isSameDay = (date1, date2) =>
   date1.getMonth() === date2.getMonth() &&
   date1.getYear() === date2.getYear()
 
-export default ({ events, teaser }) => {
+export default ({ events: eventsRaw, teaser }) => {
   const now = new Date()
+
+  console.log('event count', eventsRaw.length)
+
+  const events = eventsRaw.filter(
+    event =>
+      event.node.frontmatter.image &&
+      event.node.frontmatter.image.childImageSharp
+  )
+  const eventsWithoutImage = eventsRaw.filter(
+    event =>
+      !event.node.frontmatter.image ||
+      !event.node.frontmatter.image.childImageSharp
+  )
+
+  if (eventsWithoutImage.length) {
+    console.log('events without image are unusable!', eventsWithoutImage)
+  }
+
   let upcoming = events.filter(event => {
     const eventDate = new Date(event.node.frontmatter.dateJs)
     return isSameDay(eventDate, now) || eventDate.getTime() > now.getTime()
