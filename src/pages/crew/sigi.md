@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Z-Groove
-image: /img/z-groove.jpg
+image: /img/mstile-70x70.png
 since: 01.01.2008
 role: DJ
 mixcloud: 'https://www.mixcloud.com/michaelsiegrist58/'
