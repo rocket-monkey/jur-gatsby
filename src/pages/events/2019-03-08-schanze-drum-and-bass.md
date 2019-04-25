@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2019-03-22T19:10:32.091Z
-title: Schanze Drum and Bass
+title: 'Schanze Drum and Bass: ''nade & Hellchild & Semtex'
 image: /img/20190322_schanze-drum-and-bass.jpg
 fbLink: 'https://www.facebook.com/events/2185080531703938/'
 type: event
