@@ -96,16 +96,19 @@ export const EventPageTemplate = ({
   console.log(image)
   return (
     <>
-      <Helmet>
-        <title>JUR Records - {title}</title>
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={content} />
-        <meta
-          property="og:image"
-          content={`https://jurrecords.ch${image.fluid.src}`}
-        />
-        <meta property="og:url" content={href} />
-      </Helmet>
+      {!isPreview && (
+        <Helmet>
+          <title>JUR Records - {title}</title>
+          <meta property="og:title" content={title} />
+          <meta property="og:description" content={content} />
+          <meta
+            property="og:image"
+            content={`https://jurrecords.ch${image.fluid.src}`}
+          />
+          <meta property="og:url" content={href} />
+        </Helmet>
+      )}
+
       <section className="section">
         <div className="container">
           <div className="columns">
