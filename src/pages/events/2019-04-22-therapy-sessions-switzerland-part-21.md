@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2017-04-07T22:00:00.000Z
-title: Therapy Sessions Switzerland Part 21
+title: 'Swiss Therapy Sessions: DJ Hidden & Fragz'
 image: /img/20170408_therapy-session.jpg
 fbLink: 'https://www.facebook.com/events/199817033833653/'
 type: therapy-session
