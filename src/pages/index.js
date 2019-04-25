@@ -11,21 +11,36 @@ export default class IndexPage extends React.Component {
     const { edges: events } = data.events
 
     return (
-      <section className="section">
-        <div className="container content">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <Events teaser events={events} />
+      <>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <meta property="og:title" content="JUR Records" />
+          <meta
+            property="og:description"
+            content="Welcome to JUR Records, dem Schweizer Drum and Bass Label seit 1991."
+          />
+          <meta
+            property="og:image"
+            content="blob:https://www.jurrecords.ch/ca2b4c68-2d4c-4fbd-a496-41138572f069"
+          />
+          <meta property="og:url" content="https://www.jurrecords.ch" />
+        </Helmet>
+        <section className="section">
+          <div className="container content">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <Events teaser events={events} />
 
-              <h2>{data.home.frontmatter.title}</h2>
-              <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
-              {/*
-                  <BlogPosts posts={posts} />
-                */}
+                <h2>{data.home.frontmatter.title}</h2>
+                <div dangerouslySetInnerHTML={{ __html: data.home.html }} />
+                {/*
+                    <BlogPosts posts={posts} />
+                  */}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </>
     )
   }
 }

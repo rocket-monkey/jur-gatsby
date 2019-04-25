@@ -93,7 +93,6 @@ export const EventPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-  console.log('image.fluid', href)
   return (
     <>
       <Helmet>
