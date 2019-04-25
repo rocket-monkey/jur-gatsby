@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2019-05-17T21:24:32.101Z
-title: 'Spectrasoul, Skeptical and DJ Trace at VIP Session Deluxe'
+title: 'VIP Session Deluxe: Spectrasoul, Skeptical and DJ Trace'
 image: /img/20190517_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/387037688742519/'
 type: vip-session
