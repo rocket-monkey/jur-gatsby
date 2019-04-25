@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2015-09-24T22:00:00.000Z
-title: JOHN B (UK) VIP Session Deluxe @ AMBOSS RAMPE
+title: John B at VIP Session Deluxe
 image: /img/20150925_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/492468130929951/'
 type: vip-session
