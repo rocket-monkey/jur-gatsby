@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-09-16T22:00:00.000Z
-title: Commix and Seba at VIP Session Deluxe
+title: 'VIP Session Deluxe: Commix & Seba'
 image: /img/20160917_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/1735676330034068/'
 type: vip-session
