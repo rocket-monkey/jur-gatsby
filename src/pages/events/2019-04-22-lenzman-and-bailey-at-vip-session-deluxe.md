@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-05-18T22:00:00.000Z
-title: Lenzman and Bailey at VIP Session Deluxe
+title: 'VIP Session Deluxe: Lenzman & Bailey'
 image: /img/20180519_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/1905120319818702/'
 type: vip-session
