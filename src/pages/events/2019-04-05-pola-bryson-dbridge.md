@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2019-04-05T21:27:52.790Z
-title: Pola & Bryson and DBridge at VIP Session Deluxe
+title: 'VIP Session Deluxe: Pola&Bryson & DBridge'
 image: /img/20190405_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/635319010243043/'
 type: vip-session
