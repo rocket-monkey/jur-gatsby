@@ -5,7 +5,7 @@ image: /img/img_0018.png
 ---
 JUR Records wurde 1991 durch den damals 16-jährigen Semtex aus dem Nichts aus dem Boden gestampft und ist noch heute sein ganzes Herzblut. 
 
-Semtex sieht viele Parallelen zwischen JUR Records und Goldies Label Metalheadz: der Family-Aspekt ist ihm sehr wichtig. 
+Semtex sieht Parallelen zwischen JUR Records und Goldies Label Metalheadz: vor allem der Family-Aspekt ist ihm sehr wichtig. 
 
 Mit den Jahren wuchs die Crew an, es kamen immer wieder neue Gesichter dazu oder verabschiedeten sich. Insgesamt waren es bis heute rund 80 DJs, die bei JUR Records dabei waren oder sind. 
 
