@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2017-10-20T22:00:00.000Z
-title: Alix Perez at VIP Session Deluxe
+title: 'VIP Session Deluxe: Alix Perez'
 image: /img/20171021_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/119457715384084/'
 type: vip-session
