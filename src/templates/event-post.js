@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import classNames from 'class-names'
+import { Helmet } from 'react-helmet'
 import IconFacebook from '../components/icons/Facebook'
 import Content, { HTMLContent } from '../components/Content'
 import TimeTable from '../components/TimeTable'
@@ -88,50 +89,65 @@ export const EventPageTemplate = ({
   locationAlt,
   fbLink,
   contentComponent,
+  href,
 }) => {
   const PageContent = contentComponent || Content
 
+  console.log('image.fluid', href)
   return (
-    <section className="section">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <BackTo to="/events">Alle Events</BackTo>
-            <h1>{title}</h1>
-            <div className="image-container">
-              {image && !!image.fluid ? (
-                <Img {...image} />
-              ) : (
-                <div
-                  className="full-width-image-container margin-top-0"
-                  style={{
-                    backgroundImage: `url(${image})`,
-                  }}
-                />
-              )}
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>JUR Records - {title}</title>
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={content} />
+        <meta
+          property="og:image"
+          content={`https://jurrecords.ch${image.fluid.src}`}
+        />
+        <meta property="og:url" content={href} />
+      </Helmet>
+      <section className="section">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <BackTo to="/events">Alle Events</BackTo>
+              <h1>{title}</h1>
+              <div className="image-container">
+                {image && !!image.fluid ? (
+                  <Img {...image} />
+                ) : (
+                  <div
+                    className="full-width-image-container margin-top-0"
+                    style={{
+                      backgroundImage: `url(${image})`,
+                    }}
+                  />
+                )}
+              </div>
+              <PageContent className="content" content={content} />
+              <h2>Time Table</h2>
+              <TimeTable timeTable={parseTable(timeTable, isPreview)} />
+              <h2>Wo? {mapLocationShortName(location)}</h2>
+              <Map
+                name={mapLocationName(location)}
+                location={mapLocation(location, locationAlt)}
+              />
+              <h2>Facebook Link</h2>
+              <a
+                title={`${title} on facebook!`}
+                href={fbLink}
+                rel="noopener noreferrer"
+                target="_blank"
+                className={classNames(styles.link, styles.fb)}
+              >
+                <IconFacebook />
+              </a>
             </div>
-            <PageContent className="content" content={content} />
-            <h2>Time Table</h2>
-            <TimeTable timeTable={parseTable(timeTable, isPreview)} />
-            <h2>Wo? {mapLocationShortName(location)}</h2>
-            <Map
-              name={mapLocationName(location)}
-              location={mapLocation(location, locationAlt)}
-            />
-            <h2>Facebook Link</h2>
-            <a
-              title={`${title} on facebook!`}
-              href={fbLink}
-              rel="noopener noreferrer"
-              target="_blank"
-              className={classNames(styles.link, styles.fb)}
-            >
-              <IconFacebook />
-            </a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }
 
@@ -141,7 +157,7 @@ EventPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 }
 
-const EventPage = ({ data }) => {
+const EventPage = ({ data, ...props }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -154,6 +170,7 @@ const EventPage = ({ data }) => {
       fbLink={post.frontmatter.fbLink}
       location={post.frontmatter.location}
       locationAlt={post.frontmatter.locationAlt}
+      href={props.location.href}
     />
   )
 }
