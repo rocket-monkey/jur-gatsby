@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2017-12-08T23:00:00.000Z
-title: S.P.Y and Etherwood at VIP Session Deluxe
+title: 'VIP Session Deluxe: S.P.Y and Etherwood'
 image: /img/20171209_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/126930014743061/'
 type: vip-session
