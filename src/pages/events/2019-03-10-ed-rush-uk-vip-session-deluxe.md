@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-05-13T22:00:00.000Z
-title: Ed Rush at VIP Session Deluxe
+title: 'VIP Session Deluxe: Ed Rush'
 image: /img/20160514_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/1706997849579849/'
 type: vip-session
