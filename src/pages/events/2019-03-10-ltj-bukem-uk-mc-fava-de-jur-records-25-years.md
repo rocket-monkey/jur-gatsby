@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-05-26T22:00:00.000Z
-title: LTJ Bukem UK & MC Fava DE // JUR Records 25 Years
+title: 'Kiff-Fest: LTJ Bukem & MC Fava // 25 Years of JUR Records'
 image: /img/20160527_kiff-fest.jpg
 fbLink: 'https://www.facebook.com/events/628250260659123/'
 type: vip-session
