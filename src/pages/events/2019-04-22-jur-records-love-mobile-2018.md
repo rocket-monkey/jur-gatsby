@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-08-10T22:00:00.000Z
-title: JUR Records Love Mobile 2018
+title: 'Street Parade: JUR Offical Love Mobile 2018'
 image: /img/20180811_street-parade.jpg
 fbLink: 'https://www.facebook.com/events/227722911286038/'
 type: vip-session

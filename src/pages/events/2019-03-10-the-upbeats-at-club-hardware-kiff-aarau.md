@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-09-29T22:00:00.000Z
-title: 'The Upbeats at Club Hardware, Kiff Aarau'
+title: 'VIP Club Hardware: The Upbeats'
 image: /img/20160930_club-hardware.jpg
 fbLink: 'https://www.facebook.com/events/520284094831296/'
 type: vip-session

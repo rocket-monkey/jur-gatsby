@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-04-12T22:00:00.000Z
-title: 'Living Room Session mit Ed:it (UK)'
+title: 'Living Room Session: Ed:it'
 image: /img/20180413_living-room-session.jpg
 fbLink: 'https://www.facebook.com/events/136300360524713/'
 type: vip-session

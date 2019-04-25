@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-11-25T23:00:00.000Z
-title: Therapy Sessions Switzerland Part 20
+title: 'Swiss Therapy Sessions: Panacea & Limewax as Goldberg Variations'
 image: /img/20161126_therapy-session.jpg
 fbLink: 'https://www.facebook.com/events/312834525742191/'
 type: therapy-session

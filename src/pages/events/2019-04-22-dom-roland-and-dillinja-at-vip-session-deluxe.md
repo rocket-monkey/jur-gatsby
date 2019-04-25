@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2017-04-21T22:00:00.000Z
-title: Dom&Roland and Dillinja at VIP Session Deluxe
+title: 'VIP Session Deluxe: Dom&Roland & Dillinja '
 image: /img/20170422_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/585286858328626/'
 type: vip-session
