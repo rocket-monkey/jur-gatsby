@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2019-02-01T20:12:25.995Z
-title: Makoto & Seba & MC Conrad at VIP Session Deluxe
+title: 'VIP Session Deluxe: Makoto & Seba & MC Conrad'
 image: /img/20190201_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/2097688360252099/'
 type: vip-session
