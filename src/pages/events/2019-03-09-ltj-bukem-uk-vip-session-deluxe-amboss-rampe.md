@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2015-12-04T23:00:00.000Z
-title: LTJ BUKEM (UK) VIP Session Deluxe @ AMBOSS RAMPE
+title: LTJ Bukem at VIP Session Deluxe
 image: /img/20151205_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/877583542296327/'
 type: vip-session
