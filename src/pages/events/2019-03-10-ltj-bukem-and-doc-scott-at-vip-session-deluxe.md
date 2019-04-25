@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2017-02-17T23:00:00.000Z
-title: LTJ BUKEM and DOC SCOTT at VIP Session Deluxe
+title: 'VIP Session Deluxe: LTJ Bukem & Doc Scott'
 image: /img/20170218_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/792232280924498/'
 type: vip-session
