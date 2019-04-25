@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-09-21T22:00:00.000Z
-title: 'BCee and Ed:it at VIP Session Deluxe'
+title: 'VIP Session Deluxe: BCee and Ed:it'
 image: /img/20180922_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/275870206360896/'
 type: vip-session
