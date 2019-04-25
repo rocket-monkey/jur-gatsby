@@ -93,10 +93,10 @@ export const EventPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
+  console.log(image)
   return (
     <>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>JUR Records - {title}</title>
         <meta property="og:title" content={title} />
         <meta property="og:description" content={content} />
