@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-03-11T23:00:00.000Z
-title: Gridlok at VIP Club Hardware
+title: 'VIP Club Hardware: Gridlok'
 image: /img/20160316_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/1650188928588081/'
 type: vip-session
