@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2017-01-16T23:00:00.000Z
-title: Prspct Label Night mit Bong-Ra und Thrasher
+title: 'Prspct Label Night: Bong-Ra & Thrasher'
 image: /img/20170117_prspct-label-night.jpg
 fbLink: 'https://www.facebook.com/events/1801578000057232/'
 type: therapy-session
