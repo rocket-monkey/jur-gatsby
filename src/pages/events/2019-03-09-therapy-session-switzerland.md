@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2015-11-27T23:00:00.000Z
-title: Therapy Session Switzerland
+title: 'Swiss Therapy Sessions: Hallucinator & Raiden'
 image: /img/20151128_therapy-session.jpg
 fbLink: 'https://www.facebook.com/events/1705884419627119/'
 type: therapy-session
