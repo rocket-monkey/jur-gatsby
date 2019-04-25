@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-12-08T23:00:00.000Z
-title: Fierce and Nicky Blackmarket at VIP Session Deluxe
+title: 'VIP Session Deluxe: Fierce & Nicky Blackmarket'
 image: /img/20161209_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/1237313663007877/'
 type: vip-session
