@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-03-09T23:00:00.000Z
-title: Adam F and Klute at VIP Session Deluxe
+title: 'VIP Session Deluxe: Adam F & Klute'
 image: /img/20180310_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/581460782203779/'
 type: vip-session
