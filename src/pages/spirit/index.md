@@ -7,13 +7,13 @@ JUR Records wurde 1991 durch den damals 16-jährigen Semtex aus dem Nichts aus d
 
 Semtex sieht viele Parallelen zwischen JUR Records und Goldies Label Metalheadz: der Family-Aspekt ist ihm sehr wichtig. 
 
-Mit den Jahren wuchs die Crew an, es kamen immer wieder neue Gesichter dazu oder verabschiedeten sich. Insgesamt waren es bis heute rund 80 DJ’s, die bei JUR Records dabei waren oder sind. 
+Mit den Jahren wuchs die Crew an, es kamen immer wieder neue Gesichter dazu oder verabschiedeten sich. Insgesamt waren es bis heute rund 80 DJs, die bei JUR Records dabei waren oder sind. 
 
 ![JUR Store](/img/e8afb13a-fea7-472f-905c-a9cfc5e68648.jpg "JUR Store")
 
-JUR Records ist nicht nur ein Label, welches Partys veranstaltet, sondern möchte jungen, talentierten DJ’s eine Plattform bieten, um ihre Musik präsentieren zu können. Viele DJ’s, die heute eigene Labels besitzen, hatten ihren ersten Auftritt bei JUR. 
+JUR Records ist nicht nur ein Label, welches Partys veranstaltet, sondern möchte jungen, talentierten DJs eine Plattform bieten, um ihre Musik präsentieren zu können. Viele DJs, die heute eigene Labels besitzen, hatten ihren ersten Auftritt bei JUR. 
 
-Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, diverse Openairs, Love Mobiles an der Street Parade, und und und… 
+Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diverse Openairs, Love Mobiles an der Street Parade und andere Events. 
 
 ## **Milestones:**
 
@@ -22,7 +22,7 @@ Heute kann JUR Records zurück blicken auf über 1000 veranstaltete Partys, dive
 * 1993:              UK Rapfestival in Basel
 * 1997:		erste Drum and Bass Party von JUR Records in Zürich im Volkshaus mit Nicky Blackmarket
 * Plattenladen in Freiburg (DE)
-* 2008:		Plattennladen in Aarau
+* 2008:		Plattenladen in Aarau
 * 2010:		Love Mobile an der Street Parade, Zürich
 * 2011:		Love Mobile an der Street Parade, Zürich
 * 2012:		Love Mobile an der Street Parade, Zürich
