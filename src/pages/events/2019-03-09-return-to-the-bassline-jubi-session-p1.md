@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2016-02-19T23:00:00.000Z
-title: Return to the Bassline Jubi Session P1
+title: 'Return to the Bassline: Randall'
 image: /img/20160220_return-to-the-bassline.jpg
 fbLink: 'https://www.facebook.com/events/210381039300361/'
 type: vip-session
