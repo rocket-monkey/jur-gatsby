@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-11-09T21:34:28.773Z
-title: DJ Lee & Technimatic at VIP Session Deluxe
+title: 'VIP Session Deluxe: DJ Lee & Technimatic'
 image: /img/20181109_vip-session.jpg
 fbLink: 'https://www.facebook.com/events/2623453657933472/'
 type: vip-session
