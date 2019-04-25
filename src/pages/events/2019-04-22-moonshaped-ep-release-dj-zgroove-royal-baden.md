@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-11-01T23:00:00.000Z
-title: Moonshaped (EP Release) & DJ Zgroove - Royal Baden
+title: 'Royal Baden: Moonshaped (EP Release) & DJ Zgroove'
 image: /img/20181102_moonshaped.jpg
 fbLink: 'https://www.facebook.com/events/163798551206801/'
 type: golden-age-of-hiphop
