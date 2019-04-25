@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2017-08-11T22:00:00.000Z
-title: 'Street Parade: JUR Offical Love Mobile'
+title: 'Street Parade: JUR Offical Love Mobile 2017'
 image: /img/20170812_street-parade.jpg
 fbLink: 'https://www.facebook.com/events/112868139338598/'
 type: event
