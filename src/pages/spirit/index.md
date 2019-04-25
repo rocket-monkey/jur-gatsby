@@ -36,25 +36,25 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 
 1999:              
 
-* Drum and Bass Night im Hammer Olten
+* Drum and Bass Night im Hammer, Olten
 
 2000:              
 
-* History of drumandbass in der Boa Halle Luzern 
-* Rakete 2000 im Kiff Aarau
+* History of Drum and Bass in der Boa Halle, Luzern 
+* Rakete 2000 im Kiff, Aarau
 
 2002:              
 
-* Club Hardware mit Photek & Teebee im Kiff Aarau
-* Club Hardware mit Bad Company im Kiff Aarau
+* Club Hardware mit Photek & Teebee im Kiff, Aarau
+* Club Hardware mit Bad Company im Kiff, Aarau
 
 2004:              
 
-* London Electricty Live mit Band im Kiff Aarau
+* London Electricty Live mit Band im Kiff, Aarau
 
 2006:              
 
-* Start der Deluxe Session im Varioclub Olten
+* Start der Deluxe Session im Varioclub, Olten
 
 2007:              
 
@@ -63,13 +63,13 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 2008:		
 
 * Plattenladen in Aarau
-* Start der Therapy Session im Varioclub Olten
-* Start der VIP Session in der Variobar Olten
+* Start der Therapy Session im Varioclub, Olten
+* Start der VIP Session in der Variobar, Olten
 
 2009:              
 
-* Kaleidoskop Festival im Kiff Aarau
-* Start der Return to the Bassline Serie im Kiff Aarau
+* Kaleidoskop Festival im Kiff, Aarau
+* Start der Return to the Bassline Serie im Kiff, Aarau
 
 2010:		
 
@@ -100,7 +100,7 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 2017:		
 
 * Love Mobile an der Street Parade, Zürich
-* 15 years PRSPCT Label Night im Kiff Aarau
+* 15 years PRSPCT Label Night im Kiff, Aarau
 
 2018:		
 
@@ -108,6 +108,6 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 
 2019:
 
-* 20 years VIRUS im Kiff Aarau
+* 20 years VIRUS im Kiff, Aarau
 
 ![Sashas erster Trip nach England](/img/unbenannt-1.jpg "Sashas erster Trip nach England")
