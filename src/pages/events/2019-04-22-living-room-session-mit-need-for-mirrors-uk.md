@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2018-10-19T22:00:00.000Z
-title: Living Room Session mit Need for Mirrors (UK)
+title: 'Living Room Session: Need for Mirrors'
 image: /img/20181020_living-room-session.jpg
 fbLink: 'https://www.facebook.com/events/771443486520261/'
 type: vip-session
