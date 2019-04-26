@@ -93,14 +93,14 @@ export const EventPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-  console.log(image)
+  const desc = content.replace(/<p>/i, '').replace(/<\/p>/i, '')
   return (
     <>
       {!isPreview && (
         <Helmet>
           <title>JUR Records - {title}</title>
           <meta property="og:title" content={title} />
-          <meta property="og:description" content={content} />
+          <meta property="og:description" content={desc} />
           <meta
             property="og:image"
             content={`https://jurrecords.ch${image.fluid.src}`}
