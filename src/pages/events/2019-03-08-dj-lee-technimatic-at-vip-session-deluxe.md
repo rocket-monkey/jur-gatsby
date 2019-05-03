@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-11-09T21:34:28.773Z
 title: 'VIP Session Deluxe: DJ Lee & Technimatic'
-image: /img/20181109_vip-session.jpg
+image: /img/2018_09_11_vip_technimatic.jpg
 fbLink: 'https://www.facebook.com/events/2623453657933472/'
 type: vip-session
 location: amboss-rampe
