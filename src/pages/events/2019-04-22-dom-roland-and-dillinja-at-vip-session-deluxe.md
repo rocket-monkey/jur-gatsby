@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2017-04-21T22:00:00.000Z
 title: 'VIP Session Deluxe: Dom&Roland & Dillinja '
-image: /img/20170422_vip-session.jpg
+image: /img/2017_04_22_vip_domroland.jpg
 fbLink: 'https://www.facebook.com/events/585286858328626/'
 type: vip-session
 location: amboss-rampe
