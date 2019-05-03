@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-03-09T23:00:00.000Z
 title: 'VIP Session Deluxe: Adam F & Klute'
-image: /img/20180310_vip-session.jpg
+image: /img/2018_10_03_vip_adamf-klute.jpg
 fbLink: 'https://www.facebook.com/events/581460782203779/'
 type: vip-session
 location: amboss-rampe
