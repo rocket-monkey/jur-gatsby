@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-09-21T22:00:00.000Z
 title: 'VIP Session Deluxe: BCee and Ed:it'
-image: /img/20180922_vip-session.jpg
+image: /img/2018_22_09_vip_bcee.jpg
 fbLink: 'https://www.facebook.com/events/275870206360896/'
 type: vip-session
 location: amboss-rampe
