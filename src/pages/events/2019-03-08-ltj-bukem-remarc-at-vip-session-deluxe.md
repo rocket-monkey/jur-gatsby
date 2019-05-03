@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-12-08T21:28:17.205Z
 title: 'VIP Session Deluxe: LTJ Bukem & Remarc'
-image: /img/20181208_vip-session.jpg
+image: /img/2018_12_08_vip_ltjbukemremarc.jpg
 fbLink: 'https://www.facebook.com/events/2254952371453943/'
 type: vip-session
 location: amboss-rampe
