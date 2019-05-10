@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: '''nade'
-image: /img/mstile-70x70.png
+image: /img/crew_-nade.jpg
 since: 01.08.2016
 role: DJ
 soundcloud: 'https://soundcloud.com/nadednb'
