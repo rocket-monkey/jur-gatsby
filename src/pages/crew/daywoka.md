@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Daywoka
-image: /img/mstile-144x144.png
+image: /img/crew_daywoka.jpg
 since: 01.09.2018
 role: DJ
 soundcloud: 'https://soundcloud.com/daywoka'
