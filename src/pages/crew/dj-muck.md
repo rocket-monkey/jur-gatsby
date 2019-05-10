@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: DJ Muck
-image: /img/android-chrome-192x192.png
+image: /img/crew_muck.jpg
 since: 01.01.2005
 role: Store & DJ
 ---
