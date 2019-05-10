@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Hellchild
-image: /img/mstile-144x144.png
+image: /img/crew_hellchild.jpg
 since: 01.01.2013
 role: DJ
 instagram: 'https://instagram.com/hellchild_jurrecords'
