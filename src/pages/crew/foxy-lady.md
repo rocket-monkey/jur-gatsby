@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Foxy Lady
-image: /img/mstile-70x70.png
+image: /img/crew_foxy-lady.jpg
 since: 01.10.2018
 role: Promoterin
 instagram: 'https://www.instagram.com/foxylady_jur/'
