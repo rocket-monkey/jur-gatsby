@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Infernal Bastard
-image: /img/apple-touch-icon.png
+image: /img/crew_infernal-bastard.jpg
 since: 30.01.2019
 role: DJ
 facebook: 'https://www.facebook.com/InfernalBastard/'
