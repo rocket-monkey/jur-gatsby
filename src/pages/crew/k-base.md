@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: K-Base
-image: /img/mstile-70x70.png
+image: /img/crew_k-base.jpg
 since: 01.12.2016
 role: DJ
 soundcloud: 'https://soundcloud.com/k_base_dnb'
