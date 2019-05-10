@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: rocket monkey
-image: /img/mstile-70x70.png
+image: /img/crew_rocket-monkey.jpg
 since: 01.09.2018
 role: Webmaster
 soundcloud: ''
