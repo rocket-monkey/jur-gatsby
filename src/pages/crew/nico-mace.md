@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Nico Mace
-image: /img/mstile-70x70.png
+image: /img/crew_nico-mace.jpg
 since: 01.01.2008
 role: DJ
 soundcloud: 'https://soundcloud.com/nico-mace'
