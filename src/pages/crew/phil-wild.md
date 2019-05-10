@@ -1,7 +1,7 @@
 ---
 templateKey: crew-entry
 title: Phil Wild
-image: /img/mstile-144x144.png
+image: /img/crew_phil-wild.jpeg
 since: 01.01.2008
 role: DJ
 mixcloud: 'https://www.mixcloud.com/JUR_Rec/'
