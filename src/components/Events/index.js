@@ -26,7 +26,10 @@ export default ({ events: eventsRaw, teaser }) => {
   )
 
   if (eventsWithoutImage.length) {
-    console.log('events without image are unusable!', eventsWithoutImage)
+    console.log(
+      'events without image are unusable! Found: ',
+      eventsWithoutImage.length
+    )
   }
 
   let upcoming = events.filter(event => {

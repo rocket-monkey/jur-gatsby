@@ -103,7 +103,7 @@ export const EventPageTemplate = ({
           <meta property="og:description" content={desc} />
           <meta
             property="og:image"
-            content={`https://jurrecords.ch${image.fluid.src}`}
+            content={`https://jurrecords.ch${image && image.fluid.src}`}
           />
           <meta property="og:url" content={href} />
         </Helmet>
@@ -166,7 +166,7 @@ const EventPage = ({ data, ...props }) => {
     <EventPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      image={post.frontmatter.image.childImageSharp}
+      image={post.frontmatter.image && post.frontmatter.image.childImageSharp}
       content={post.html}
       timeTable={post.frontmatter.timeTable}
       fbLink={post.frontmatter.fbLink}
