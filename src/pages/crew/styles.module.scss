@@ -12,16 +12,16 @@
   display: block;
   position: relative;
 
+  img {
+    object-position: center -20px !important;
+  }
+
   &.even {
     height: 240px;
   }
 
   &.odd {
-    height: 150px;
-
-    @include from($tablet) {
-      height: 180px;
-    }
+    height: 240px;
   }
 
   @include from($tablet) {

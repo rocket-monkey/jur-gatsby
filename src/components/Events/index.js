@@ -30,6 +30,10 @@ export default ({ events: eventsRaw, teaser }) => {
       'events without image are unusable! Found: ',
       eventsWithoutImage.length
     )
+
+    eventsWithoutImage.forEach(e => {
+      console.log(e.node.fields.slug)
+    })
   }
 
   let upcoming = events.filter(event => {
