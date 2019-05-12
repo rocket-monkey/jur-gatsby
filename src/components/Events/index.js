@@ -55,11 +55,11 @@ export default ({ events: eventsRaw, teaser }) => {
       return -1
     })
 
-  if (teaser) {
+  if (teaser && upcoming.length) {
     upcoming = [upcoming[0]]
   }
 
-  const upcomingJsx = (
+  const upcomingJsx = upcoming.length ? (
     <>
       <h1>{teaser ? 'Next Event' : 'Upcoming Events'}</h1>
       {upcoming.map(({ node: post }) => (
@@ -72,7 +72,12 @@ export default ({ events: eventsRaw, teaser }) => {
         </Link>
       ))}
     </>
-  )
+  ) : !teaser ? (
+    <>
+      <h1>{teaser ? 'Next Event' : 'Upcoming Events'}</h1>
+      <p>Neue Events werden bald angekündigt - stay tuned! 😉</p>
+    </>
+  ) : null
 
   if (teaser) {
     return upcomingJsx
