@@ -93,7 +93,10 @@ export const EventPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-  const desc = content && content.replace(/<p>/i, '').replace(/<\/p>/i, '') || ''
+  const desc =
+    typeof content.replace !== 'undefined'
+      ? content.replace(/<p>/i, '').replace(/<\/p>/i, '')
+      : ''
   return (
     <>
       {!isPreview && (
