@@ -21,6 +21,4 @@ timeTable:
   - act: Hellchild
     label: JUR
 ---
-JUR Records presents VIP  Session Deluxe
-
-JUR Records presents VIP Session Deluxe
+Wir alle lieben Sommer, Sonne und Sonnenschein… aber davon haben wir jetzt genug getankt und es ist wieder an der Zeit, unsere Batterien mit fetten Beats und Basslines aufzuladen! Am 27. September werden in der Amboss Rampe endlich wieder die Plattenteller gedreht an der ersten VIP Deluxe Session nach der Sommerpause. Dabei haben wir mit Logistics und Jubei zwei englische Grössen als Headliner, die sich an diesem Abend perfekt ergänzen und für die nötige Abwechslung sorgen: Logistics übernimmt dabei den leichtfüssigen, soulig-liquiden Part und Jubei erkennt man an seinem eher schwermütigen, klinisch-deepen Sound. Still stehen möchte man bei keinem dieser Acts – und als wäre dies nicht schon Grund genug zur Vorfreude, hauen euch nebst unseren JUR-DJs Nico Mace, ‚Nade und Hellchild auch noch die beiden hübschen Jungs von ARCNET ordentlich Pfeffer um die Ohren! Die Saison kann beginnen!
