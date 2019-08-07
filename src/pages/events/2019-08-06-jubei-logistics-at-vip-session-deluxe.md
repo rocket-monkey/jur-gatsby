@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2019-09-27T13:28:03.687Z
 title: Jubei & Logistics at VIP Session Deluxe
-image: /img/68701588_2360824537297445_3627464129058439168_n.jpg
+image: /img/vip_2019_09_27_jubeilogistics_facebook_large.jpg
 fbLink: 'https://www.facebook.com/events/2364801247127676/'
 type: vip-session
 location: amboss-rampe
