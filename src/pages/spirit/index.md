@@ -46,7 +46,7 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 2002:              
 
 * Club Hardware mit Photek & Teebee im Kiff, Aarau
-* Club Hardware mit Bad Company im Kiff, Aarau
+* Club Hardware mit Bad Company UK im Kiff, Aarau
 
 2004:              
 
