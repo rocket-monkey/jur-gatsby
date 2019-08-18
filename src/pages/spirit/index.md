@@ -112,6 +112,6 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 
 2019:
 
-* 20 years VIRUS im Kiff, Aarau
+* 20 Jahre VIRUS im Kiff, Aarau
 
 ![Sashas erster Trip nach England](/img/unbenannt-1.jpg "Sashas erster Trip nach England")
