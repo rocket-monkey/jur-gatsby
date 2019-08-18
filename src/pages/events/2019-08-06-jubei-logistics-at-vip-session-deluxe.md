@@ -15,7 +15,7 @@ timeTable:
   - act: Arcnet
     label: Divercity
   - act: Nico Mace
-    label: JUR
+    label: JUR Records
   - act: '''Nade'
     label: JUR Records
   - act: Hellchild
