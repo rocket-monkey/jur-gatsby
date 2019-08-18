@@ -16,7 +16,7 @@ timeTable:
     label: Divercity
   - act: Nico Mace
     label: JUR
-  - act: Nade
+  - act: '''Nade'
     label: JUR
   - act: Hellchild
     label: JUR
