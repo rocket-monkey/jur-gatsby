@@ -78,6 +78,7 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 2011:		
 
 * Love Mobile an der Street Parade, Zürich
+* 20 Jahre JUR Records im Kiff, Aarau
 
 2012:		
 
@@ -105,6 +106,9 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 2018:		
 
 * Love Mobile an der Street Parade, Zürich
+* 10 Jahre Therapy Session im Kiff, Aarau
+* 10 Jahre VIP Session Amboss Rampe, Zürich
+* 10 Jahre Jungle Underground Recordstore, Aarau
 
 2019:
 
