@@ -7,13 +7,13 @@ JUR Records wurde 1991 durch den damals 16-jährigen Semtex aus dem Nichts aus d
 
 Semtex sieht Parallelen zwischen JUR Records und Goldies Label Metalheadz: vor allem der Family-Aspekt ist ihm sehr wichtig. 
 
-Mit den Jahren wuchs die Crew an, es kamen immer wieder neue Gesichter dazu oder verabschiedeten sich. Insgesamt waren es bis heute rund 80 DJs, die bei JUR Records dabei waren oder sind. 
+Mit den Jahren wuchs die Crew an, es kamen immer wieder neue Gesichter dazu oder verabschiedeten sich. Insgesamt waren es bis heute rund 80 DJs, die JUR-Crewmembers waren oder sind. 
 
 ![JUR Store](/img/e8afb13a-fea7-472f-905c-a9cfc5e68648.jpg "JUR Store")
 
-JUR Records ist nicht nur ein Label, welches Partys veranstaltet, sondern möchte jungen, talentierten DJs eine Plattform bieten, um ihre Musik präsentieren zu können. Viele DJs, die heute eigene Labels besitzen, hatten ihren ersten Auftritt bei JUR. 
+JUR Records ist nicht nur ein Label oder Veranstalter, sondern möchte jungen, talentierten DJs eine Plattform bieten, um ihre Musik präsentieren zu können. Viele DJs, die heute eigene Labels besitzen, hatten ihren ersten Auftritt bei JUR. 
 
-Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diverse Openairs, Love Mobiles an der Street Parade und andere Events. 
+JUR Records blickt heute auf über 1000 veranstaltete Partys, diverse Openairs, Love Mobiles an der Street Parade und andere Events zurück. 
 
 ## **Milestones:**
 
@@ -29,10 +29,10 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 
 1997:		
 
-* erste Drum and Bass Party von JUR Records in Zürich im Volkshaus mit Nicky Blackmarket
+* erste Drum and Bass Party von JUR Records im Volkshaus Zürich mit Nicky Blackmarket
 * Plattenladen in Freiburg (DE)
-* Trouble on Vinyl Labelnight im Kiff Aarau
-* Urban Jungle Night im Metro Club Olten
+* Trouble on Vinyl Labelnight im Kiff, Aarau
+* Urban Jungle Night im Metro Club, Olten
 
 1999:              
 
@@ -58,7 +58,7 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 
 2007:              
 
-* Breakzland 3 @ Lahr Germany mit Nicky Blackmarket und Skitty
+* Breakzland 3 in Lahr (DE) mit Nicky Blackmarket und Skitty
 
 2008:		
 
@@ -90,7 +90,7 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 
 2014:		
 
-* Lost in Nature Openair, Aargau
+* Lost in Nature Openair, Birmenstorf
 * Breakcult in der Härterei, Zürich
 * Touch the Air Festival, Drum and Bass Floor
 
@@ -106,7 +106,7 @@ Heute kann JUR Records zurückblicken auf über 1000 veranstaltete Partys, diver
 2018:		
 
 * Love Mobile an der Street Parade, Zürich
-* 10 Jahre Therapy Session im Kiff, Aarau
+* 10 Jahre Therapy Sessions im Kiff, Aarau
 * 10 Jahre VIP Session in der Amboss Rampe, Zürich
 * 10 Jahre Jungle Underground Recordstore, Aarau
 
