@@ -22,10 +22,10 @@ const TimeTable = ({ timeTable, artists, crew }) => (
           })
         const foundCrew =
           crew &&
-          crew.find(
-            a =>
-              a.node.frontmatter.title.toLowerCase() === entry.act.toLowerCase()
-          )
+          crew.find(a => {
+            const cleanAct = entry && entry.act && entry.act.toLowerCase()
+            return a.node.frontmatter.title.toLowerCase() === cleanAct
+          })
 
         if (foundArtist) {
           entryAct = (
