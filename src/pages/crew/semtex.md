@@ -21,4 +21,4 @@ Sasha störte, dass viele junge, talentierte DJ’s nur dann die Chance hatten z
 
 Nebst den Partys und dem Auflegen führt Sasha seit Jahren den Plattenladen in Aarau – zuvor auch in Olten und Freiburg (DE). 
 
-Sasha ist open minded: Durch seine umfangreiche Sammlung von 16’000 Platten spielt er alles von Newbreak, Trip Hop, Lounnge bis hin zum harten abstrakten Drum and Bass – dies allerdings ausschliesslich auf Vinyl!
+Sasha ist open minded: Durch seine umfangreiche Sammlung von 16’000 Platten spielt er alles von Newbreak, Trip Hop, Lounge bis hin zum harten abstrakten Drum and Bass – dies allerdings ausschliesslich auf Vinyl!
