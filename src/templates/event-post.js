@@ -90,6 +90,8 @@ export const EventPageTemplate = ({
   fbLink,
   contentComponent,
   href,
+  artists,
+  crew,
 }) => {
   const PageContent = contentComponent || Content
 
@@ -132,7 +134,11 @@ export const EventPageTemplate = ({
               </div>
               <PageContent className="content" content={content} />
               <h2>Time Table</h2>
-              <TimeTable timeTable={parseTable(timeTable, isPreview)} />
+              <TimeTable
+                timeTable={parseTable(timeTable, isPreview)}
+                crew={crew}
+                artists={artists}
+              />
               <h2>Wo? {mapLocationShortName(location)}</h2>
               <Map
                 name={mapLocationName(location)}
@@ -163,7 +169,7 @@ EventPageTemplate.propTypes = {
 }
 
 const EventPage = ({ data, ...props }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post, artists, crew } = data
 
   return (
     <EventPageTemplate
@@ -176,6 +182,8 @@ const EventPage = ({ data, ...props }) => {
       location={post.frontmatter.location}
       locationAlt={post.frontmatter.locationAlt}
       href={props.location.href}
+      artists={artists.edges}
+      crew={crew.edges}
     />
   )
 }
@@ -207,6 +215,35 @@ export const eventPageQuery = graphql`
           act
           label
           time
+        }
+      }
+    }
+    artists: allMarkdownRemark(
+      sort: { order: ASC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "artist-entry" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            page
+          }
+        }
+      }
+    }
+    crew: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "crew-entry" } } }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
         }
       }
     }
