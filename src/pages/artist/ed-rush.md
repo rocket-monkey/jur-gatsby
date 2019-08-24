@@ -1,6 +1,5 @@
 ---
 templateKey: artist-entry
 title: Ed Rush
-soundcloud: www.soundcloud.com/edrush
+page: www.soundcloud.com/edrush
 ---
-

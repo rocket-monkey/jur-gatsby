@@ -141,11 +141,7 @@ collections:
           default: 'artist-entry',
         }
       - { name: title, label: Title }
-      - { name: page, label: Page, required: false }
-      - { name: soundcloud, label: Soundcloud, required: false }
-      - { name: mixcloud, label: Mixcloud, required: false }
-      - { name: facebook, label: Facebook, required: false }
-      - { name: instagram, label: Instagram, required: false }
+      - { name: page, label: Page, required: true }
 
   - name: 'pages'
     label: 'Pages'

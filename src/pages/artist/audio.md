@@ -1,6 +1,5 @@
 ---
 templateKey: artist-entry
 title: Audio
-soundcloud: www.soundcloud.com/audiofreakcult
+page: www.soundcloud.com/audiofreakcult
 ---
-
