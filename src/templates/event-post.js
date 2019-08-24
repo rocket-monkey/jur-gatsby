@@ -41,7 +41,7 @@ const mapLocation = (location, locationAlt) => {
     default:
     case 'kiff-aarau':
       return 'https://www.google.de/maps?f=q&hl=de&q=Kiff+Telistrasse+118+Aarau'
-    case 'xtra':
+    case 'x-tra':
       return 'https://www.google.de/maps?f=q&hl=de&q=Limmatstrasse+118+8005+Zürich'
   }
 }

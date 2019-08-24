@@ -28,11 +28,12 @@ const TimeTable = ({ timeTable, artists, crew }) => (
           })
 
         if (foundArtist) {
+          let pageLink = foundArtist.node.frontmatter.page
+          pageLink = pageLink.includes('http')
+            ? pageLink
+            : `https://${pageLink}`
           entryAct = (
-            <a
-              href={`https://${foundArtist.node.frontmatter.page}`}
-              target="_blank"
-            >
+            <a href={pageLink} target="_blank">
               {entry.act}
             </a>
           )
