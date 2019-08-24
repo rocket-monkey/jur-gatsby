@@ -37,12 +37,12 @@ const mapLocation = (location, locationAlt) => {
 
   switch (location) {
     case 'amboss-rampe':
-      // return { lat: 47.381717, lng: 8.531592 }
       return 'https://www.google.de/maps?f=q&hl=de&q=Amboss+Rampe+Zollstrasse+Zurich'
     default:
     case 'kiff-aarau':
-      // return { lat: 47.398671, lng: 8.064249 }
       return 'https://www.google.de/maps?f=q&hl=de&q=Kiff+Telistrasse+118+Aarau'
+    case 'xtra':
+      return 'https://www.google.de/maps?f=q&hl=de&q=Limmatstrasse+118+8005+Zürich'
   }
 }
 
