@@ -191,6 +191,31 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
+      - file: 'src/pages/eventArchive/index.md'
+        label: 'Event Archiv'
+        name: 'eventArchive'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'eventArchive-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - name: flyers
+            label: 'Flyers'
+            widget: list
+            required: false
+            fields:
+              - { label: Label, name: label, required: false }
+              - {
+                  name: image,
+                  label: Image,
+                  widget: image,
+                  media_library: { config: { multiple: false } },
+                }
+
       - file: 'src/pages/store/index.md'
         label: 'Store'
         name: 'store'

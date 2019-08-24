@@ -11,6 +11,18 @@ export default class CrewOverviewPage extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
+    const sortedCrew = posts.sort((a, b) => {
+      const titleA = a.node.frontmatter.title.toLowerCase()
+      const titleB = b.node.frontmatter.title.toLowerCase()
+      if (titleA < titleB) {
+        return -1
+      }
+      if (titleA > titleB) {
+        return 1
+      }
+      return 0
+    })
+
     return (
       <section className="section">
         <div className="container content">
@@ -26,7 +38,7 @@ export default class CrewOverviewPage extends React.Component {
                   { mq: '1024px', columns: 3, gutter: 25 },
                 ]}
               >
-                {posts.map(({ node: post }, i) => {
+                {sortedCrew.map(({ node: post }, i) => {
                   const even = i % 2 === 0
                   return (
                     <Link
