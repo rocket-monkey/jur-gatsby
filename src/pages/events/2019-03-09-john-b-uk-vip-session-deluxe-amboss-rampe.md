@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2015-09-24T22:00:00.000Z
 title: 'VIP Session Deluxe: John B'
-image: /img/20150925_vip-session.jpg
+image: /img/2015_09_25_vip_johnb.jpg
 fbLink: 'https://www.facebook.com/events/492468130929951/'
 type: vip-session
 location: amboss-rampe
