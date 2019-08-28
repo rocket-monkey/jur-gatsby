@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-01-19T23:00:00.000Z
 title: 'VIP Session Deluxe: Robyn Chaos & DJ Storm'
-image: /img/20180120_vip-session.jpg
+image: /img/2018_01_20_vip_ladiesnight.jpg
 fbLink: 'https://www.facebook.com/events/1596899773697064/'
 type: vip-session
 location: amboss-rampe
