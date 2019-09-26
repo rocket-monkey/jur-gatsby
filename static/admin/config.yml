@@ -151,7 +151,7 @@ collections:
           label: 'Gender',
           name: 'gender',
           widget: 'select',
-          options: ['male', 'female'],
+          options: ['female', 'male'],
         }
 
   - name: artis
