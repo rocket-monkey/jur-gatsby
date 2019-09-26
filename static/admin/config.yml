@@ -126,15 +126,33 @@ collections:
           default: 'wear-entry',
         }
       - { name: title, label: Title }
+      - name: images
+        label: 'Images'
+        widget: list
+        required: false
+        fields:
+          - { label: Title, name: title, required: false }
+          - {
+              name: image,
+              label: Image,
+              widget: image,
+              media_library: { config: { multiple: false } },
+            }
+
+      - { name: description, label: Description, widget: markdown }
       - {
-          name: image,
-          label: Image,
-          widget: image,
-          media_library: { config: { multiple: false } },
+          label: 'Size',
+          name: 'size',
+          widget: 'select',
+          multiple: true,
+          options: ['XS', 'S', 'M', 'L', 'XL'],
         }
-      - { name: body, label: Body, widget: markdown }
-      - { name: size, label: Size }
-      - { name: gender, label: Gender }
+      - {
+          label: 'Gender',
+          name: 'gender',
+          widget: 'select',
+          options: ['male', 'female'],
+        }
 
   - name: artis
     label: Artists
