@@ -3,7 +3,6 @@ import classNames from 'class-names'
 import JurLogoFont from '../icons/JurLogo'
 import IconFacebook from '../icons/Facebook'
 import IconInstagram from '../icons/Instagram'
-import SubscribeNewsletter from '../SubscribeNewsletter'
 import styles from './styles.module.scss'
 
 const Footer = ({ data }) => {
@@ -15,7 +14,6 @@ const Footer = ({ data }) => {
             <div className={styles.logo}>
               <JurLogoFont />
             </div>
-            <SubscribeNewsletter />
             JUR Records
             <br />
             <span>Ochsengässli 7</span>
@@ -41,15 +39,6 @@ const Footer = ({ data }) => {
                 <IconInstagram />
               </a>
             </div>
-            <a
-              title="Jurrecords Newsletter"
-              href="https://mailchi.mp/0cb800a8f1d4/jurrecords-newsletter"
-              rel="noopener noreferrer"
-              target="_blank"
-              className={classNames(styles.link, styles.news)}
-            >
-              Melde dich für den JUR-Newsletter an!
-            </a>
           </div>
         </div>
       </div>
