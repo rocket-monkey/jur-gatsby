@@ -3,7 +3,7 @@ templateKey: event-post
 date: 2019-11-02T15:58:08.190Z
 title: 'Living Room Session: Lenzman & Riya LIVE'
 image: /img/2019_11_02_livingroomsession_lenzman.jpg
-fbLink: 'https://www.facebook.com/JUR-Records-834721536574427/'
+fbLink: 'https://www.facebook.com/events/2684326828286314/'
 type: living-room-session
 location: kiff-aarau
 timeTable:
