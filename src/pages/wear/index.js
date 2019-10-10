@@ -18,8 +18,6 @@ export default class WearOverviewPage extends React.Component {
             <div className="column is-10 is-offset-1">
               <h1>Wear</h1>
 
-              <div dangerouslySetInnerHTML={{ __html: data.wear.html }} />
-
               <MasonryLayout
                 id="masonry-layout"
                 sizes={[
@@ -30,6 +28,8 @@ export default class WearOverviewPage extends React.Component {
               >
                 {posts.map(({ node: post }, i) => {
                   const even = i % 2 === 0
+                  console.log({ post })
+
                   return (
                     <div
                       key={post.id}
@@ -38,7 +38,7 @@ export default class WearOverviewPage extends React.Component {
                         [styles.odd]: !even,
                       })}
                     >
-                      <Img {...post.frontmatter.image.childImageSharp} />
+                      {/* <Img {...post.frontmatter.image.childImageSharp} /> */}
                     </div>
                   )
                 })}
@@ -83,10 +83,13 @@ export const wearOverviewQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
-            image {
-              childImageSharp {
-                fluid(maxWidth: 900) {
-                  ...GatsbyImageSharpFluid_withWebp
+            images {
+              title
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 900) {
+                    ...GatsbyImageSharpFluid_withWebp
+                  }
                 }
               }
             }
