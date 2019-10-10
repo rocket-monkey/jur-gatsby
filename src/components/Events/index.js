@@ -13,7 +13,7 @@ export default ({ events: eventsRaw, teaser, archive }) => {
   const now = new Date()
 
   console.log('event count', eventsRaw.length)
-  console.log('flyers', archive.frontmatter.flyers)
+  console.log('flyers', archive && archive.frontmatter.flyers)
 
   const events = eventsRaw.filter(
     event =>
@@ -122,40 +122,44 @@ export default ({ events: eventsRaw, teaser, archive }) => {
         })}
       </MasonryLayout>
 
-      <h2>Archive</h2>
-      <MasonryLayout
-        id="masonry-layout"
-        sizes={[
-          { columns: 2, gutter: 10 },
-          { mq: '768px', columns: 3, gutter: 15 },
-          { mq: '1024px', columns: 3, gutter: 25 },
-        ]}
-      >
-        {archive.frontmatter.flyers.map(({ label, image }, i) => {
-          let height = i % 2 === 0 ? 200 : 100
-          return (
-            <a
-              key={i}
-              href={image.childImageSharp.fluid.src}
-              target="_blank"
-              className={styles.pastEvent}
-              style={{
-                height: `${height}px`,
-                lineHeight: `${height}px`,
-                color: 'white',
-                fontSize: '32px',
-                display: 'block',
-                background: 'rgba(0,0,0,0.7)',
-              }}
-            >
-              <Img {...image.childImageSharp} />
-              <h5>
-                <span>{label}</span>
-              </h5>
-            </a>
-          )
-        })}
-      </MasonryLayout>
+      {archive && (
+        <>
+          <h2>Archive</h2>
+          <MasonryLayout
+            id="masonry-layout"
+            sizes={[
+              { columns: 2, gutter: 10 },
+              { mq: '768px', columns: 3, gutter: 15 },
+              { mq: '1024px', columns: 3, gutter: 25 },
+            ]}
+          >
+            {archive.frontmatter.flyers.map(({ label, image }, i) => {
+              let height = i % 2 === 0 ? 200 : 100
+              return (
+                <a
+                  key={i}
+                  href={image.childImageSharp.fluid.src}
+                  target="_blank"
+                  className={styles.pastEvent}
+                  style={{
+                    height: `${height}px`,
+                    lineHeight: `${height}px`,
+                    color: 'white',
+                    fontSize: '32px',
+                    display: 'block',
+                    background: 'rgba(0,0,0,0.7)',
+                  }}
+                >
+                  <Img {...image.childImageSharp} />
+                  <h5>
+                    <span>{label}</span>
+                  </h5>
+                </a>
+              )
+            })}
+          </MasonryLayout>
+        </>
+      )}
     </>
   )
 }
