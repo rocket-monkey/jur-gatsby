@@ -10,6 +10,7 @@ export default class WearOverviewPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    console.log({ posts })
 
     return (
       <section className="section">
@@ -18,31 +19,34 @@ export default class WearOverviewPage extends React.Component {
             <div className="column is-10 is-offset-1">
               <h1>Wear</h1>
 
-              <MasonryLayout
-                id="masonry-layout"
-                sizes={[
-                  { columns: 2, gutter: 10 },
-                  { mq: '768px', columns: 3, gutter: 15 },
-                  { mq: '1024px', columns: 3, gutter: 25 },
-                ]}
-              >
-                {posts.map(({ node: post }, i) => {
-                  const even = i % 2 === 0
-                  console.log({ post })
+              <table className={styles.table}>
+                <tbody>
+                  {posts.map(({ node: post }, i) => {
+                    const firstImg =
+                      post.frontmatter.images &&
+                      post.frontmatter.images.length &&
+                      post.frontmatter.images[0]
 
-                  return (
-                    <div
-                      key={post.id}
-                      className={classNames(styles.wear, {
-                        [styles.even]: even,
-                        [styles.odd]: !even,
-                      })}
-                    >
-                      {/* <Img {...post.frontmatter.image.childImageSharp} /> */}
-                    </div>
-                  )
-                })}
-              </MasonryLayout>
+                    console.log({ firstImg })
+
+                    return (
+                      <tr>
+                        <td>
+                          {firstImg && (
+                            <Img {...firstImg.image.childImageSharp} />
+                          )}
+                        </td>
+                        <td>
+                          <h3>{post.frontmatter.title}</h3>
+                          <p>{post.frontmatter.description}</p>
+                        </td>
+                        <td>{post.frontmatter.size.join(' / ')}</td>
+                        <td>{post.frontmatter.gender}</td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
@@ -81,13 +85,16 @@ export const wearOverviewQuery = graphql`
           }
           frontmatter {
             title
+            description
+            size
+            gender
             templateKey
             date(formatString: "MMMM DD, YYYY")
             images {
               title
               image {
                 childImageSharp {
-                  fluid(maxWidth: 900) {
+                  fluid(maxWidth: 600) {
                     ...GatsbyImageSharpFluid_withWebp
                   }
                 }

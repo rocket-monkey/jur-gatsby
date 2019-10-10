@@ -25,3 +25,12 @@
     height: 100%;
   }
 }
+
+.table {
+  tbody {
+    :global(.gatsby-image-wrapper) {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}

@@ -13,7 +13,7 @@ export default class EventsOverviewPage extends React.Component {
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Events events={events} />
+              <Events events={events} archive={data.archive} />
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ export const eventsOverviewQuery = graphql`
             dateJs: date(formatString: "YYYY/MM/DD")
             image {
               childImageSharp {
-                fluid(maxWidth: 2048) {
+                fluid(maxWidth: 1115) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
@@ -60,6 +60,25 @@ export const eventsOverviewQuery = graphql`
               act
               label
               time
+            }
+          }
+        }
+      }
+    }
+    archive: markdownRemark(
+      frontmatter: { templateKey: { eq: "eventArchive-page" } }
+    ) {
+      html
+      frontmatter {
+        title
+        templateKey
+        flyers {
+          label
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1115) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
             }
           }
         }
