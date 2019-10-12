@@ -1,6 +1,6 @@
 ---
 templateKey: artist-entry
 title: Photek
-page: 'https://soundcloud.com/photek'
+page: www.soundcloud.com/photek
 ---
 
