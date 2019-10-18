@@ -2,7 +2,7 @@
 templateKey: crew-entry
 title: Djane Gort
 image: /img/crew_djane-gort.jpg
-since: 01.09.2018
+since: 01.09.2013
 role: Grafikerin
 soundcloud: www.soundcloud.com/djane-gort
 instagram: 'https://www.instagram.com/djane_gort/'
