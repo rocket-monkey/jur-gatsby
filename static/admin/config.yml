@@ -73,7 +73,7 @@ collections:
         required: false
         fields:
           - { label: Act, name: act }
-          - { label: Label, name: label }
+          - { label: Label, name: label, required: false }
           - {
               label: Time,
               name: time,
