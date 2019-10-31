@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2019-01-11T12:17:45.060Z
 title: 'VIP Club Hardware: Ed Rush & Optical'
-image: /img/20190111_club-hardware.jpg
+image: /img/2019_01_11_20jahrevirus.jpg
 fbLink: 'https://www.facebook.com/events/112755839665520/'
 type: therapy-session
 location: kiff-aarau
