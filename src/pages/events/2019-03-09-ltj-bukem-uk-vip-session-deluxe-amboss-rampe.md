@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2015-12-04T23:00:00.000Z
 title: 'VIP Session Deluxe: LTJ Bukem'
-image: /img/20151205_vip-session.jpg
+image: /img/2015_12_05_vip_ltjbukem.jpg
 fbLink: 'https://www.facebook.com/events/877583542296327/'
 type: vip-session
 location: amboss-rampe
