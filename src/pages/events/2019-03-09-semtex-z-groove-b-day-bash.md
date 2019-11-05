@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2015-05-15T22:00:00.000Z
 title: Semtex & Z-Groove B-Day Bash
-image: /img/20150516_b-day-bash.jpg
+image: /img/2015_05_16_bdaybash_segi_sasha.jpg
 fbLink: 'https://www.facebook.com/events/1381171638879342/'
 type: vip-session
 location: kiff-aarau
