@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-date: 2017-04-19T22:00:00.000Z
+date: 2017-05-19T22:00:00.000Z
 title: 'VIP Session Deluxe: Ed Rush'
 image: /img/2017_05_20_vip_edrush.jpg
 fbLink: 'https://www.facebook.com/events/1964939753738865/'
