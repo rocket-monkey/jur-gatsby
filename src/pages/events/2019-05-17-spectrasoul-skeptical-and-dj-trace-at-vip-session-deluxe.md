@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2019-05-17T21:24:32.101Z
 title: 'VIP Session Deluxe: Spectrasoul, Skeptical and DJ Trace'
-image: /img/20190517_vip-session.jpg
+image: /img/2019_05_17_vip_skepticaltracespectrasoul.jpg
 fbLink: 'https://www.facebook.com/events/387037688742519/'
 type: vip-session
 location: amboss-rampe
