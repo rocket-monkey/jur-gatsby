@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2016-09-16T22:00:00.000Z
 title: 'VIP Session Deluxe: Commix & Seba'
-image: /img/20160917_vip-session.jpg
+image: /img/2016_09_17_vip_seba.jpg
 fbLink: 'https://www.facebook.com/events/1735676330034068/'
 type: vip-session
 location: amboss-rampe
