@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-04-12T22:00:00.000Z
 title: 'Living Room Session: Ed:it'
-image: /img/20180413_living-room-session.jpg
+image: /img/2018_04_13_livingroomsession_edit.jpg
 fbLink: 'https://www.facebook.com/events/136300360524713/'
 type: vip-session
 location: kiff-aarau
