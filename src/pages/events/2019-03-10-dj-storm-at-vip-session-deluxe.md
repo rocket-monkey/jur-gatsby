@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2016-10-13T22:00:00.000Z
 title: 'VIP Session Deluxe: DJ Storm'
-image: /img/20161014_vip-session.jpg
+image: /img/2016_10_14_vip_storm.jpg
 fbLink: 'https://www.facebook.com/events/340046576333371/'
 type: vip-session
 location: amboss-rampe
