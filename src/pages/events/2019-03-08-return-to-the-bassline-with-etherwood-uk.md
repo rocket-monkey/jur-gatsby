@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-11-03T21:53:29.351Z
 title: 'Return to the Bassline: Etherwood'
-image: /img/20181103_returnn-to-the-basslinne.jpg
+image: /img/2018_11_03_rttb_etherwood.jpg
 fbLink: 'https://www.facebook.com/events/1491411714224405/'
 type: vip-session
 location: kiff-aarau
