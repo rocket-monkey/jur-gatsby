@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-01-12T23:00:00.000Z
 title: 'VIP Club Hardware: Audio & Ed Rush'
-image: /img/20180113_club-hardware.jpg
+image: /img/2018_01_13_vip_killbox.jpg
 fbLink: 'https://www.facebook.com/events/134218537258611/'
 type: therapy-session
 location: kiff-aarau
