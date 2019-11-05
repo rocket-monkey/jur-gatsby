@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2017-02-17T23:00:00.000Z
 title: 'VIP Session Deluxe: LTJ Bukem & Doc Scott'
-image: /img/20170218_vip-session.jpg
+image: /img/2017_18_02_vip_ltjbukem.jpg
 fbLink: 'https://www.facebook.com/events/792232280924498/'
 type: vip-session
 location: amboss-rampe
