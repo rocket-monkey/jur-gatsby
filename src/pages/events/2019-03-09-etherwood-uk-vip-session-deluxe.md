@@ -2,12 +2,11 @@
 templateKey: event-post
 date: 2016-01-21T23:00:00.000Z
 title: 'VIP Session Deluxe: Etherwood'
-image: /img/20160122_vip-session.jpg
+image: /img/2016_01_22_vip_etherwood.jpg
 fbLink: 'https://www.facebook.com/events/945692182132629/'
 type: vip-session
 location: amboss-rampe
 timeTable:
-  - time: '00:00'
   - act: Etherwood (UK)
     label: 'MED SCHOOL MUSIC, HOSPITAL REC'
   - act: QBIG & Zenith B
