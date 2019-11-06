@@ -2,12 +2,11 @@
 templateKey: event-post
 date: 2016-02-19T23:00:00.000Z
 title: 'Return to the Bassline: Randall'
-image: /img/20160220_return-to-the-bassline.jpg
+image: /img/2016_02_20_rttb_randall.jpg
 fbLink: 'https://www.facebook.com/events/210381039300361/'
 type: vip-session
 location: kiff-aarau
 timeTable:
-  - time: '00:00'
   - act: 'Dj Randall (UK) '
     label: 'MACII, Metalheadz,Reinforced'
   - act: RYCK
