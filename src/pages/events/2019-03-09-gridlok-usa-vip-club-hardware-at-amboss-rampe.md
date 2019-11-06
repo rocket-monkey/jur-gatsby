@@ -2,12 +2,11 @@
 templateKey: event-post
 date: 2016-03-11T23:00:00.000Z
 title: 'VIP Club Hardware: Gridlok'
-image: /img/20160316_vip-session.jpg
+image: /img/2016_03_12_vip_gridlok.jpg
 fbLink: 'https://www.facebook.com/events/1650188928588081/'
 type: vip-session
 location: amboss-rampe
 timeTable:
-  - time: '00:00'
   - act: Gridlok (USA)
     label: 'PROJECT 51,VIRUS,VIOLENCE'
   - act: Nico Mace b2b Z-Groove
