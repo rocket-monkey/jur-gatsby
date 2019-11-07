@@ -145,13 +145,13 @@ collections:
           name: 'size',
           widget: 'select',
           multiple: true,
-          options: ['XS', 'S', 'M', 'L', 'XL'],
+          options: ['XS', 'S', 'M', 'L', 'XL', 'One Size'],
         }
       - {
           label: 'Gender',
           name: 'gender',
           widget: 'select',
-          options: ['female', 'male'],
+          options: ['female', 'male', 'unisex'],
         }
 
   - name: artis

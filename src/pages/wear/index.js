@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import MasonryLayout from 'react-masonry-layout'
-import classNames from 'class-names'
+import { graphql } from 'gatsby'
+import { capitalize } from '../../helpers/capitalize'
 import Img from 'gatsby-image'
 import styles from './styles.module.scss'
 
@@ -21,13 +20,11 @@ export default class WearOverviewPage extends React.Component {
 
               <table className={styles.table}>
                 <tbody>
-                  {posts.map(({ node: post }, i) => {
+                  {posts.map(({ node: post }) => {
                     const firstImg =
                       post.frontmatter.images &&
                       post.frontmatter.images.length &&
                       post.frontmatter.images[0]
-
-                    console.log({ firstImg })
 
                     return (
                       <tr>
@@ -41,7 +38,7 @@ export default class WearOverviewPage extends React.Component {
                           <p>{post.frontmatter.description}</p>
                         </td>
                         <td>{post.frontmatter.size.join(' / ')}</td>
-                        <td>{post.frontmatter.gender}</td>
+                        <td>{capitalize(post.frontmatter.gender)}</td>
                       </tr>
                     )
                   })}
