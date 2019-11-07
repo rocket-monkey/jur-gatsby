@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2016-04-15T22:00:00.000Z
 title: 'Swiss Therapy Sessions: Counterstrike & Katharsys & Wadjit'
-image: /img/20160416_thearpy-session.jpg
+image: /img/201x_xx_xx_therapy_counterstrike_katharsys.jpg
 fbLink: 'https://www.facebook.com/events/1699105916996303/'
 type: therapy-session
 location: kiff-aarau
