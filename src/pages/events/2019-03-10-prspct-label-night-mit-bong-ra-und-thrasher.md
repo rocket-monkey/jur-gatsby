@@ -1,8 +1,8 @@
 ---
 templateKey: event-post
-date: 2017-01-16T23:00:00.000Z
+date: 2017-01-27T23:00:00.000Z
 title: 'Prspct Label Night: Bong-Ra & Thrasher'
-image: /img/20170117_prspct-label-night.jpg
+image: /img/2017_28_01_prspct_bongra.jpg
 fbLink: 'https://www.facebook.com/events/1801578000057232/'
 type: therapy-session
 location: kiff-aarau
