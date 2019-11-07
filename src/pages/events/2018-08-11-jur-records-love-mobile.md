@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2018-08-10T22:00:00.000Z
 title: 'Street Parade: JUR Offical Love Mobile 2018'
-image: /img/20180811_street-parade.jpg
+image: /img/2018_08_11_streetparade.jpg
 fbLink: 'https://www.facebook.com/events/227722911286038/'
 type: vip-session
 location: amboss-rampe
