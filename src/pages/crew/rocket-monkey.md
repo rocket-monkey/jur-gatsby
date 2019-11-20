@@ -13,4 +13,4 @@ Remo aka Rocket Monkey stiess im Alter von 13 Jahren auf Ronny Size’s Album �
 
 Nebst Ronny Size prägten Remo Künstler wie John B oder auch Noisia. Am meisten begeistern ihn Liquid- und Upfront-Klänge.
 
-https://f1f11a53.ngrok.io/de/s3/product/hyperice-hypervolt-fitnessmassage-8855225
+https://3b2b6ef8.ngrok.io/de/s3/product/hyperice-hypervolt-fitnessmassage-8855225
