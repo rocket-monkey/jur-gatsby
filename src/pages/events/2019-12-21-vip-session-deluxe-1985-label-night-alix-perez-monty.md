@@ -3,7 +3,7 @@ templateKey: event-post
 date: 2019-12-21T12:59:40.629Z
 title: 'VIP Session Deluxe: 1985 Label Night Alix Perez & Monty'
 image: /img/2019_12_21_vip_alixperez_monty.jpg
-fbLink: 'https://www.facebook.com/JUR-Records-834721536574427/'
+fbLink: 'https://www.facebook.com/events/2174742929495860/'
 type: vip-session
 location: amboss-rampe
 timeTable:
