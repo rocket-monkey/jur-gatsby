@@ -6,7 +6,7 @@ images:
   - image: /img/jur_wear_belt_2.jpg
 description: Unisex-Gürtel in schwarz mit Schnallenverschluss.
 size:
-  - M
-gender: female
+  - One Size
+gender: unisex
 ---
 
