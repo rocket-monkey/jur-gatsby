@@ -6,6 +6,7 @@ images:
 description: Dieser tolle Shopper kann auch als Rucksäckli getragen werden.
 size:
   - M
-gender: female
+  - One Size
+gender: unisex
 ---
 
