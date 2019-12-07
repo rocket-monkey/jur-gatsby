@@ -1,6 +1,6 @@
 ---
 templateKey: wear-entry
-title: JUR Kids Hoodie
+title: Kids Hoodie
 images:
   - image: /img/jur_wear_hoodie_kids_grey_back.jpg
   - image: /img/jur_wear_hoodie_kids_grey_front.jpg
