@@ -1,6 +1,6 @@
 ---
 templateKey: wear-entry
-title: Shorts "91" mit Logo
+title: Shorts "91" mit Logoprint
 images:
   - image: /img/jur_wear_shorts_91_front.jpg
   - image: /img/jur_wear_shorts_91_back.jpg
