@@ -88,7 +88,6 @@ export const wearOverviewQuery = graphql`
             templateKey
             date(formatString: "MMMM DD, YYYY")
             images {
-              title
               image {
                 childImageSharp {
                   fluid(maxWidth: 600) {
