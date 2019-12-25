@@ -3,7 +3,7 @@ templateKey: event-post
 date: 2020-01-11T08:47:09.798Z
 title: 'Swiss Therapy Sessions: Robyn Chaos (Therapy History Set!)'
 image: /img/2020_01_11_therapy_sessions_robyn_chaos.jpg
-fbLink: www.facebook.com/events/574132406731134/
+fbLink: 'https://www.facebook.com/events/574132406731134/'
 type: therapy-session
 location: kiff-aarau
 timeTable:
