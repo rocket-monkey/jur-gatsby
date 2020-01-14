@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2019-09-27T13:28:03.687Z
-title: Jubei & Logistics at VIP Session Deluxe
+title: 'VIP Session Deluxe: Jubei & Logistics'
 image: /img/2019_09_37_vip_jubeilogistics.jpg
 fbLink: 'https://www.facebook.com/events/2364801247127676/'
 type: vip-session
