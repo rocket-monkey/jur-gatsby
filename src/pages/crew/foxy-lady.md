@@ -1,6 +1,6 @@
 ---
 templateKey: crew-entry
-title: Foxy Lady
+title: Lobsta
 image: /img/crew_foxy-lady.jpg
 since: 01.10.2018
 role: Promoterin
