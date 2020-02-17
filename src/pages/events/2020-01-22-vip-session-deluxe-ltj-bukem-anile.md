@@ -3,7 +3,7 @@ templateKey: event-post
 date: 2020-03-06T07:16:28.210Z
 title: 'VIP Session Deluxe: LTJ Bukem & Anile'
 image: /img/2020_03_06_vip_ltjbukem_anile.jpg
-fbLink: www.facebook.com/jurrecords
+fbLink: 'https://www.facebook.com/events/2964871926879175/'
 type: vip-session
 location: amboss-rampe
 timeTable:
