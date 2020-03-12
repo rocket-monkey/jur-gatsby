@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-date: 2020-03-12T14:13:53.968Z
+date: 2020-04-18T13:13:53.968Z
 title: Bryan Gee and Loxy at VIP Session Deluxe
 image: /img/whatsapp-image-2020-03-09-at-09.38.49.jpeg
 fbLink: >-
