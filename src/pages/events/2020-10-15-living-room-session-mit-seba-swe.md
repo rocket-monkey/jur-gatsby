@@ -25,6 +25,6 @@ Living Room Session im KIFF mit Seba (SWE)
 
 Heimelig und familiär, als wärs eine Jam Session zu Hause im eigenen Wohnzimmer – aber nichts desto trotz wieder mal ein wahnsinns Lineup für heisse Stimmung bei herbstlichen Temperaturen...
 
-SEBA (SWE, Secret Operation, Metalheadz, Hospital) 
+SEBA (SWE, Secret Operations, Metalheadz, Hospital) 
 
 Zu diesem Kandidaten braucht es keine Erklärung mehr, unser Liebling aus dem Norden, in der Zwischenzeit schon wieder um einiges bekannter geworden aber noch immer unverkennbar. Schon viele Male hat er uns verzaubert mit seiner melodiösen Musikkunst.
