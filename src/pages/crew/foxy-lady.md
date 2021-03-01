@@ -3,7 +3,7 @@ templateKey: crew-entry
 title: Lobsta
 image: /img/crew_foxy-lady.jpg
 since: 01.10.2018
-role: Promoterin
+role: 'DJ, Promoterin'
 instagram: 'https://www.instagram.com/foxylady_jur/'
 ---
 Sofia aka Foxy Lady lernte Drum and Bass durch ihren älteren Bruder kennen. Er war bei der Massive-Crew dabei und hatte zu Hause ein Mischpult und seine Plattensammlung. Entsprechend bekam Sofia von klein an die bassigen Klänge mit. Faszinierend an Drum and Bass findet Sofia, dass sich Rhythmen, Bass und Melodie auf vielfältigere Weise als bei anderen Musikrichtungen kombinieren lassen und dies diverse Variationen zulässt, weshalb es auch so viele verschiedene Richtungen innerhalb des Drum and Bass gibt. Besonders inspiriert und geprägt haben sie Künstler wie Ed Rush, Twisted Individual und DJ Hazard, welche sie seit klein auf begleiten. 
