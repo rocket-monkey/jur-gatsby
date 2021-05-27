@@ -6,7 +6,7 @@ since: 01.10.2018
 role: 'DJ, Promoterin'
 instagram: 'https://www.instagram.com/foxylady_jur/'
 ---
-Sofia aka Lobsta lernte Drum and Bass durch ihren älteren Bruder kennen. Er hatte zu Hause ein Mischpult und seine Plattensammlung. Entsprechend bekam Sofia von klein an die bassigen Klänge mit. Faszinierend an Drum and Bass findet Sofia, dass sich Rhythmen, Bass und Melodie auf vielfältigere Weise als bei anderen Musikrichtungen kombinieren lassen und dies diverse Variationen zulässt, weshalb es auch so viele verschiedene Richtungen innerhalb des Drum and Bass gibt. Besonders inspiriert und geprägt haben sie Künstler wie Ed Rush, Twisted Individual und DJ Hazard, welche sie seit klein auf begleiten. 
+Sofia aka Lobsta lernte Drum and Bass durch ihren älteren Bruder kennen. Er hatte zu Hause ein Mischpult und eine Plattensammlung. Entsprechend bekam Sofia von klein an die bassigen Klänge mit. Faszinierend an Drum and Bass findet Sofia, dass sich Rhythmen, Bass und Melodie auf vielfältigere Weise als bei anderen Musikrichtungen kombinieren lassen und dies diverse Variationen zulässt, weshalb es auch so viele verschiedene Richtungen innerhalb des Drum and Bass gibt. Besonders inspiriert und geprägt haben sie Künstler wie Ed Rush, Twisted Individual und DJ Hazard, welche sie seit klein auf begleiten. 
 
 An den Sommer 2018 denkt Sofia gerne zurück: Sie erinnert sich an die unvergessliche Stimmung an einer Daydance, als alle Leute um sie herum mit einem Lächeln im Gesicht tanzten: Nicht, um gut auszusehen, nicht, um sich zu zeigen, sondern nur für den Sound. 
 
