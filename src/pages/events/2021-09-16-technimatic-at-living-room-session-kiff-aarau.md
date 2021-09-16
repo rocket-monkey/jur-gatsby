@@ -22,6 +22,5 @@ Bis bald, liebe Headz
 
 Infos zum Einlass:
 
-\- Tickets sind an der Abendkasse erhältlich
-
-\- Zutritt nur mit Covid-Zertifikat
+\- Tickets sind an der Abendkasse erhältlich\
+- Zutritt nur mit Covid-Zertifikat
