@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
 import Events from '../../components/Events'
 
 export default class EventsOverviewPage extends React.Component {
@@ -72,16 +72,16 @@ export const eventsOverviewQuery = graphql`
       frontmatter {
         title
         templateKey
-        flyers {
-          label
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1115) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-        }
+        # flyers {
+        #   label
+        #   image {
+        #     childImageSharp {
+        #       fluid(maxWidth: 1115) {
+        #         ...GatsbyImageSharpFluid_withWebp
+        #       }
+        #     }
+        #   }
+        # }
       }
     }
   }
