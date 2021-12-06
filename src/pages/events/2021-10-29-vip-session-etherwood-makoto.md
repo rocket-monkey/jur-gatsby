@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2021-12-11T16:10:24.448Z
-title: 'VIP Session: Etherwood & Makoto'
+title: 'VERSCHOBEN AUF 2022 // VIP Session: Etherwood & Makoto'
 image: /img/20211211_vip-session_etherwood-makoto.jpg
 fbLink: 'https://fb.me/e/10FFHjWZz'
 type: vip-session
