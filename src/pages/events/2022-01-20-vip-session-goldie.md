@@ -31,7 +31,7 @@ Nebst Goldie bespassen uns unsere Local Djs K-Base, Z-Groove, 'nade und Hellchil
 
 Infos zum Einlass
 
-* Tickets sind an der Abendkasse (nur Barzahlung) oder im Vorverkauf (Link folgt) erhältlich
+* Tickets sind an der Abendkasse (nur Barzahlung) oder im [Vorverkauf](https://eventfrog.ch/de/p/party/electro/vip-session-w-goldie-6890236049680221619.html) erhältlich
 * Zutritt nur mit Covid-Zertifikat 2G+
 
 Wir freuen uns auf euch!
