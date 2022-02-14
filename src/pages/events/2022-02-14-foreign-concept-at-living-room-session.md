@@ -19,7 +19,7 @@ timeTable:
   - act: Methis
     label: Sine Function
 ---
-Wir haben es gerade wieder etwas streng, kündigen wir euch doch gerne unseren nächsten Streich an!
+Wir haben es gerade wieder etwas streng, kündigen wir euch doch schon unseren nächsten Streich an!
 
 Loungig und gemütlich heissen wir niemand geringeres als Foreign Concept im Kiff willkommen. 
 
