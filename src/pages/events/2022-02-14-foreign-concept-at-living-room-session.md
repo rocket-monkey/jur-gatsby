@@ -9,7 +9,7 @@ location: kiff-aarau
 timeTable:
   - act: Foreign Concept (UK)
     label: Critical Music
-    time: '00:00'
+    time: ''
   - act: Agent C
     label: JUR Records
   - act: Ivory Towerz
@@ -17,7 +17,7 @@ timeTable:
   - act: Hypatia
     label: Drum Army
   - act: Methis
-    label: Sine Función
+    label: Sine Funcion
 ---
 Wir haben es gerade wieder etwas streng, kündigen wir euch doch gerne unseren nächsten Streich an!
 
