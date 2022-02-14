@@ -17,7 +17,7 @@ timeTable:
   - act: Hypatia
     label: Drum Army
   - act: Methis
-    label: Sine Funcion
+    label: Sine Function
 ---
 Wir haben es gerade wieder etwas streng, kündigen wir euch doch gerne unseren nächsten Streich an!
 
