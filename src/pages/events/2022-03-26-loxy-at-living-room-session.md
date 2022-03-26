@@ -17,7 +17,7 @@ timeTable:
   - act: Hellchild
     label: JUR Records
   - act: FYM
-    label: Random
+    label: 'Random, Drum Army'
   - act: Styx
     label: Project Riot
 ---
