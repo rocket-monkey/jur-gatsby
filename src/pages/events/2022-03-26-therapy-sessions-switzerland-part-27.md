@@ -18,4 +18,6 @@ timeTable:
   - act: Critical Carnage
     label: 'AmenBass, Digital Darkness Recordings'
 ---
-Therapy Sessions Switzerland Part 27
+Wie immer gibt es eine Abendkasse und auch einen Vorverkauf. 
+
+Einlass ab 18 Jahren.
