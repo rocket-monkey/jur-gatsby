@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2022-05-14T09:57:13.070Z
-title: 'VIP Session: Makoto und Seba'
+title: 'VIP Session: Makoto & Seba'
 image: /img/makoto_web1.jpg
 fbLink: 'https://www.facebook.com/events/1171267900077659'
 type: vip-session
