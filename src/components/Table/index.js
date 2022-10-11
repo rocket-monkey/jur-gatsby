@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './styles.module.scss'
+import { table } from './styles.module.scss'
 
 const Table = ({ children }) => (
-  <table className={styles.table}>
+  <table className={table}>
     <tbody>{children}</tbody>
   </table>
 )

@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react'
 import { Link } from 'gatsby'
-import classNames from 'class-names'
+import classNames from 'classnames'
 
 import JurLogoFont from '../icons/JurLogoFont'
-import styles from './styles.module.scss'
+import { section, wrapper, showLogo } from './styles.module.scss'
 
 export default class BgVideo extends PureComponent {
   ref = React.createRef()
@@ -40,7 +40,7 @@ export default class BgVideo extends PureComponent {
     return (
       <>
         {showSection && (
-          <section className={classNames(styles.section)}>
+          <section className={classNames(section)}>
             <Link to="/">
               <JurLogoFont />
             </Link>
@@ -48,8 +48,8 @@ export default class BgVideo extends PureComponent {
         )}
 
         <div
-          className={classNames(styles.wrapper, {
-            [styles.showLogo]: this.state.showLogo,
+          className={classNames(wrapper, {
+            [showLogo]: this.state.showLogo,
           })}
           ref={this.ref}
         >

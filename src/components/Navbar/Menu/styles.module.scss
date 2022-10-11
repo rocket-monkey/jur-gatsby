@@ -110,75 +110,75 @@
   left: 0;
   width: 100%;
 }
-body.navActive .content {
+.navActive .content {
   visibility: visible;
 }
-body.navActive .menu-icon__line {
+.navActive .menu-icon__line {
   background-color: $light;
   transform: translate(0px, 0px) rotate(-45deg);
 }
-body.navActive .menu-icon__line-left {
+.navActive .menu-icon__line-left {
   width: 15px;
   transform: translate(2px, 4px) rotate(45deg);
 }
-body.navActive .menu-icon__line-right {
+.navActive .menu-icon__line-right {
   width: 15px;
   float: right;
   transform: translate(-3px, -3.5px) rotate(45deg);
 }
-body.navActive .menu-icon:hover .menu-icon__line-left,
-body.navActive .menu-icon:hover .menu-icon__line-right {
+.navActive .menu-icon:hover .menu-icon__line-left,
+.navActive .menu-icon:hover .menu-icon__line-right {
   width: 15px;
 }
-body.navActive .nav {
+.navActive .nav {
   visibility: visible;
 }
-body.navActive .nav:before,
-body.navActive .nav:after {
+.navActive .nav:before,
+.navActive .nav:after {
   transform: translateX(0%) translateY(0%);
   border-radius: 0;
 }
-body.navActive .nav:after {
+.navActive .nav:after {
   transition-delay: 0.1s;
 }
-body.navActive .nav:before {
+.navActive .nav:before {
   transition-delay: 0s;
 }
-body.navActive .item {
+.navActive .item {
   opacity: 1;
   transform: translateX(0%);
   transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
 }
-body.navActive .item:nth-child(0) {
+.navActive .item:nth-child(0) {
   transition-delay: 0.3s;
 }
-body.navActive .item:nth-child(1) {
+.navActive .item:nth-child(1) {
   transition-delay: 0.4s;
 }
-body.navActive .item:nth-child(2) {
+.navActive .item:nth-child(2) {
   transition-delay: 0.5s;
 }
-body.navActive .item:nth-child(3) {
+.navActive .item:nth-child(3) {
   transition-delay: 0.6s;
 }
-body.navActive .item:nth-child(4) {
+.navActive .item:nth-child(4) {
   transition-delay: 0.7s;
 }
-body.navActive .item:nth-child(5) {
+.navActive .item:nth-child(5) {
   transition-delay: 0.8s;
 }
-body.navActive .item:nth-child(6) {
+.navActive .item:nth-child(6) {
   transition-delay: 0.9s;
 }
-body.navActive .item:nth-child(7) {
+.navActive .item:nth-child(7) {
   transition-delay: 1s;
 }
-body.navActive .item:nth-child(8) {
+.navActive .item:nth-child(8) {
   transition-delay: 1.1s;
 }
-body.navActive .item:nth-child(9) {
+.navActive .item:nth-child(9) {
   transition-delay: 1.2s;
 }
-body.navActive .item:nth-child(10) {
+.navActive .item:nth-child(10) {
   transition-delay: 1.3s;
 }

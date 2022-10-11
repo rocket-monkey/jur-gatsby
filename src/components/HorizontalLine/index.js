@@ -1,7 +1,5 @@
 import React from 'react'
-import classNames from 'class-names'
-import styles from './styles.module.scss'
+import classNames from 'classnames'
+import { hr, half } from './styles.module.scss'
 
-export default ({ half }) => (
-  <hr className={classNames(styles.hr, { [styles.half]: half })} />
-)
+export default ({ half }) => <hr className={classNames(hr, { [half]: half })} />

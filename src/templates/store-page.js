@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import classNames from 'class-names'
+import classNames from 'classnames'
 import IconFacebook from '../components/icons/Facebook'
-import styles from './store-page.module.scss'
+import { wrapper, link, fb } from './store-page.module.scss'
 import Content, { HTMLContent } from '../components/Content'
 import HorizontalLine from '../components/HorizontalLine'
 
@@ -21,9 +21,7 @@ export const StorePageTemplate = ({
     <section className="section">
       <div className="container">
         <div className="columns">
-          <div
-            className={classNames('column is-10 is-offset-1', styles.wrapper)}
-          >
+          <div className={classNames('column is-10 is-offset-1', wrapper)}>
             <h1>{title}</h1>
             {hero && !!hero.fluid ? (
               <Img {...hero} />
@@ -43,7 +41,7 @@ export const StorePageTemplate = ({
               href={fbLink}
               rel="noopener noreferrer"
               target="_blank"
-              className={classNames(styles.link, styles.fb)}
+              className={classNames(link, fb)}
             >
               <IconFacebook />
             </a>

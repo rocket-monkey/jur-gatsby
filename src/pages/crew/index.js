@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import classNames from 'class-names'
+import classNames from 'classnames'
 import MasonryLayout from 'react-masonry-layout'
 import Img from 'gatsby-image'
-import styles from './styles.module.scss'
+import { crew, even, odd } from './styles.module.scss'
 
 export default class CrewOverviewPage extends React.Component {
   render() {
@@ -39,13 +39,13 @@ export default class CrewOverviewPage extends React.Component {
                 ]}
               >
                 {sortedCrew.map(({ node: post }, i) => {
-                  const even = i % 2 === 0
+                  const isEven = i % 2 === 0
                   return (
                     <Link
                       key={post.id}
-                      className={classNames(styles.crew, {
-                        [styles.even]: even,
-                        [styles.odd]: !even,
+                      className={classNames(crew, {
+                        [even]: isEven,
+                        [odd]: !isEven,
                       })}
                       to={post.fields.slug}
                     >

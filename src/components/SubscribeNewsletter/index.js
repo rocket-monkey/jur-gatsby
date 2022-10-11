@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
-import classNames from 'class-names'
+import classNames from 'classnames'
 import IconNewsLetter from '../icons/Email'
-import styles from './styles.module.scss'
+import { newsFloating, visible } from './styles.module.scss'
 
 export default class SubscribeNews extends PureComponent {
   state = {
@@ -17,15 +17,14 @@ export default class SubscribeNews extends PureComponent {
   }
 
   render() {
-    const { visible } = this.state
     return (
       <a
         title="Jurrecords Newsletter"
         href="https://mailchi.mp/0cb800a8f1d4/jurrecords-newsletter"
         rel="noopener noreferrer"
         target="_blank"
-        className={classNames(styles.newsFloating, {
-          [styles.visible]: visible,
+        className={classNames(newsFloating, {
+          [visible]: this.state.visible,
         })}
       >
         <IconNewsLetter />

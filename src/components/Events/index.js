@@ -2,7 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import { Link } from 'gatsby'
 import MasonryLayout from 'react-masonry-layout'
-import styles from './styles.module.scss'
+import { event, pastEvent } from './styles.module.scss'
 
 const isSameDay = (date1, date2) =>
   date1.getDate() === date2.getDate() &&
@@ -64,7 +64,7 @@ export default ({ events: eventsRaw, teaser, archive }) => {
     <>
       <h1>{teaser ? 'Next Event' : 'Upcoming Events'}</h1>
       {upcoming.map(({ node: post }) => (
-        <Link key={post.id} className={styles.event} to={post.fields.slug}>
+        <Link key={post.id} className={event} to={post.fields.slug}>
           <Img {...post.frontmatter.image.childImageSharp} />
           <h5>
             <span>{post.frontmatter.title}</span>
@@ -101,7 +101,7 @@ export default ({ events: eventsRaw, teaser, archive }) => {
           return (
             <Link
               key={post.id}
-              className={styles.pastEvent}
+              className={pastEvent}
               to={post.fields.slug}
               style={{
                 height: `${height}px`,
@@ -140,7 +140,7 @@ export default ({ events: eventsRaw, teaser, archive }) => {
                   key={i}
                   href={image.childImageSharp.fluid.src}
                   target="_blank"
-                  className={styles.pastEvent}
+                  className={pastEvent}
                   style={{
                     height: `${height}px`,
                     lineHeight: `${height}px`,

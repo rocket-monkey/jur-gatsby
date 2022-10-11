@@ -1,11 +1,11 @@
 import React from 'react'
-import classNames from 'class-names'
+import classNames from 'classnames'
 import Table from '../Table'
 import IconFacebook from '../icons/Facebook'
 import IconInstagram from '../icons/Instagram'
 import IconMixcloud from '../icons/Mixcloud'
 import IconSoundcloud from '../icons/Soundcloud'
-import styles from './styles.module.scss'
+import { link, fb, ig, mc, sc } from './styles.module.scss'
 
 const renderYearOnly = dateStr => dateStr.split('.').pop()
 
@@ -28,7 +28,7 @@ const CrewCard = ({ data }) => (
               href={data.facebook}
               target="_blank"
               rel="noopener noreferrer"
-              className={classNames(styles.link, styles.fb)}
+              className={classNames(link, fb)}
             >
               <IconFacebook />
             </a>
@@ -43,7 +43,7 @@ const CrewCard = ({ data }) => (
               href={data.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className={classNames(styles.link, styles.ig)}
+              className={classNames(link, ig)}
             >
               <IconInstagram />
             </a>
@@ -58,7 +58,7 @@ const CrewCard = ({ data }) => (
               href={data.mixcloud}
               target="_blank"
               rel="noopener noreferrer"
-              className={classNames(styles.link, styles.mc)}
+              className={classNames(link, mc)}
             >
               <IconMixcloud />
             </a>
@@ -73,7 +73,7 @@ const CrewCard = ({ data }) => (
               href={data.soundcloud}
               target="_blank"
               rel="noopener noreferrer"
-              className={classNames(styles.link, styles.sc)}
+              className={classNames(link, sc)}
             >
               <IconSoundcloud />
             </a>

@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import classNames from 'class-names'
+import classNames from 'classnames'
 import { Helmet } from 'react-helmet'
 import IconFacebook from '../components/icons/Facebook'
 import Content, { HTMLContent } from '../components/Content'
 import TimeTable from '../components/TimeTable'
 import BackTo from '../components/BackTo'
 import Map from '../components/Map'
-import styles from './event-post.module.scss'
+import { link, fb } from './event-post.module.scss'
 
 const parseTable = (timeTable, isPreview) => {
   if (!isPreview) {
@@ -150,7 +150,7 @@ export const EventPageTemplate = ({
                 href={fbLink}
                 rel="noopener noreferrer"
                 target="_blank"
-                className={classNames(styles.link, styles.fb)}
+                className={classNames(link, fb)}
               >
                 <IconFacebook />
               </a>

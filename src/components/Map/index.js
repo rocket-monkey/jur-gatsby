@@ -1,7 +1,7 @@
 import React from 'react'
 // import { GoogleApiWrapper, InfoWindow, Map, Marker } from 'google-maps-react'
 import IconGoogleMaps from '../../components/icons/GoogleMaps'
-import styles from './styles.module.scss'
+import { icon } from './styles.module.scss'
 
 // const defaultMapHeight = '252px'
 
@@ -276,7 +276,7 @@ import styles from './styles.module.scss'
 // }))(MapInternal)
 
 export default ({ location }) => (
-  <div className={styles.icon}>
+  <div className={icon}>
     <a
       href={location}
       alt="Google Maps"

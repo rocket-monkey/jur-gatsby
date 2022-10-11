@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { capitalize } from '../../helpers/capitalize'
 import Img from 'gatsby-image'
-import styles from './styles.module.scss'
+import { table } from './styles.module.scss'
 
 export default class WearOverviewPage extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class WearOverviewPage extends React.Component {
             <div className="column is-10 is-offset-1">
               <h1>Wear</h1>
 
-              <table className={styles.table}>
+              <table className={table}>
                 <tbody>
                   {posts.map(({ node: post }) => {
                     const firstImg =

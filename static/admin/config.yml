@@ -47,8 +47,8 @@ collections:
       - { name: body, label: Body, widget: markdown }
       - { name: fbLink, label: 'Facebook Link' }
       - {
-          label: 'Type',
-          name: 'type',
+          label: 'Event Type',
+          name: 'eventType',
           widget: 'select',
           options:
             [
