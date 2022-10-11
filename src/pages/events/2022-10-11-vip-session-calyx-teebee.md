@@ -1,6 +1,6 @@
 ---
 templateKey: event-post
-date: 2022-10-11T14:55:48.163Z
+date: 2022-10-15T14:55:48.163Z
 title: "VIP Session: Calyx & Teebee"
 image: /img/309419336_578176594104711_428164852199726216_n.jpeg
 fbLink: https://www.facebook.com/events/465565045520815/
