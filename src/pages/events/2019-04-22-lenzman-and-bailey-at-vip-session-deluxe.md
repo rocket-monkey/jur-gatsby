@@ -4,7 +4,8 @@ date: 2018-05-18T22:00:00.000Z
 title: 'VIP Session Deluxe: Lenzman & Bailey'
 image: /img/2018_19_05_vip_lenzman_bailey.jpg
 fbLink: 'https://www.facebook.com/events/1905120319818702/'
-type: vip-session
+eventType: vip-session
+type: event
 location: amboss-rampe
 locationAlt: 'Amboss Rampe, Zürich'
 timeTable:
@@ -21,4 +22,5 @@ timeTable:
   - act: Semtex b2b K-Base b2b Z-Groove
     label: JUR Records
 ---
+
 JUR Records presents VIP SESSION Deluxe

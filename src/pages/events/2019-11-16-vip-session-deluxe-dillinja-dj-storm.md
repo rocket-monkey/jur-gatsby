@@ -4,7 +4,8 @@ date: 2019-11-16T09:55:54.644Z
 title: 'VIP Session Deluxe: Dillinja & DJ Storm'
 image: /img/2019_11_16_vip_dillinja_storm.jpg
 fbLink: 'https://www.facebook.com/events/2532585756780578/'
-type: vip-session
+eventType: vip-session
+type: event
 location: amboss-rampe
 timeTable:
   - act: Dillinja
@@ -20,6 +21,7 @@ timeTable:
     label: 'Project Riot, Divercity'
   - act: Mad B.
 ---
+
 JUR Records presents VIP Session Deluxe
 
 Dillinja (UK) Valve Records\

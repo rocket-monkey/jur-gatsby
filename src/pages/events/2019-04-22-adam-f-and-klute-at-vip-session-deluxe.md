@@ -4,7 +4,8 @@ date: 2018-03-09T23:00:00.000Z
 title: 'VIP Session Deluxe: Adam F & Klute'
 image: /img/2018_10_03_vip_adamf-klute.jpg
 fbLink: 'https://www.facebook.com/events/581460782203779/'
-type: vip-session
+eventType: vip-session
+type: event
 location: amboss-rampe
 locationAlt: 'Amboss Rampe, Zürich'
 timeTable:
@@ -22,4 +23,5 @@ timeTable:
   - act: Daywoka
     label: LCC
 ---
+
 JUR Records presents VIP SESSION Deluxe

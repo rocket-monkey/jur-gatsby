@@ -4,7 +4,8 @@ date: 2020-09-19T16:35:33.752Z
 title: Therapy Sessions Switzerland Part 26
 image: /img/118844565_2000062973458554_336983583256489660_o.jpg
 fbLink: 'https://web.facebook.com/events/2669248993316074'
-type: therapy-session
+eventType: therapy-session
+type: event
 location: kiff-aarau
 timeTable:
   - act: K-BASE
@@ -17,6 +18,7 @@ timeTable:
   - act: INFERNAL BASTARD
   - act: ICH UND SEINE FREUNDE
 ---
+
 Therapy Sessions 26
 
 Foyer, Kiff Aarau

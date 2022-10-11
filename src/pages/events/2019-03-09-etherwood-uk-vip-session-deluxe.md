@@ -4,7 +4,8 @@ date: 2016-01-21T23:00:00.000Z
 title: 'VIP Session Deluxe: Etherwood'
 image: /img/2016_01_22_vip_etherwood.jpg
 fbLink: 'https://www.facebook.com/events/945692182132629/'
-type: vip-session
+eventType: vip-session
+type: event
 location: amboss-rampe
 timeTable:
   - act: Etherwood (UK)
@@ -20,6 +21,7 @@ timeTable:
   - act: Prof. Pressure
     label: JUR Records
 ---
+
 Etherwood ist zweifellos eines der vielversprechendsten jungen Talente in der heutigen Szene. Er liebt die raffinierte Kombination aus Beats, live eingespielten Instrumenten und gefühlvollen Melodien, die seine Tunes so einzigartig machen. Es ist nicht zu überhören, dass Edward „Woody“ Allen seine Karriere zunächst als Bandmusiker gestartet hat.
 
 Unter dem Namen „Blue Leaves“ veröffentlicht Etherwood in dieser Woche sein zweites Studio-Album auf Med School Music, das von zahlreichen Fans sehnlichst erwartet wird. Genau 2 Jahre nach der Erscheinung seines gelungenen Debüt-Albums knüpft der Brite mit 14 hochklassigen Produktionen am Erfolg der ersten Scheibe an.

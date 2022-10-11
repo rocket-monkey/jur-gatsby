@@ -4,7 +4,8 @@ date: 2016-04-15T22:00:00.000Z
 title: 'Swiss Therapy Sessions: Counterstrike & Katharsys & Wadjit'
 image: /img/201x_xx_xx_therapy_counterstrike_katharsys.jpg
 fbLink: 'https://www.facebook.com/events/1699105916996303/'
-type: therapy-session
+eventType: therapy-session
+type: event
 location: kiff-aarau
 timeTable:
   - act: Counterstrike
@@ -22,6 +23,7 @@ timeTable:
   - act: Infernal Bastard
     label: JUR Records
 ---
+
 Unter einem Algorithmus (auch Lösungsverfahren) versteht man eine genau definierte Handlungsvorschrift zur Lösung eines Problems oder einer bestimmten Art von Problemen in endlich vielen Schritten. Wir werden nun aber nicht mathematisch sondern möchten euch mit dem Label Algorythm eine unvergessliche Drum’n’Bass Lösung anbieten. Wir wissen dass ihr es auch mal dunkel und derb mögt, Counterstike ist prädestiniert dafür. Die beiden Herren aus Südafrika haben das Label im Jahre 2005 gegründet, Animal Chin und 5000 Mills sind bekannt für „Kompositionen“ aus hartem, energiegeladenem Sound, grösstenteils inspiriert von Metal, Techno und Techstep. Algorythm repräsentiert genau diese Schiene und geniesst ein grosses Ansehen in diesem Genre.
 
 Mit Katharsys schickt uns Frankreich ein musikalisches Duo aus seiner wohl düstersten Ecke direkt an die neunzehnte Therapy Session im KiFF – ein wahrhafter Leckerbissen für alle Fans des heavy fucking Drum and Bass!

@@ -4,7 +4,8 @@ date: 2018-06-01T22:00:00.000Z
 title: 'Plattenbörse: Make the Hood look good Festival 2018'
 image: /img/dsc00050.jpg
 fbLink: 'https://www.facebook.com/events/2152961498268382/'
-type: golden-age-of-hiphop
+eventType: golden-age-of-hiphop
+type: event
 location: kiff-aarau
 locationAlt: 'Pferderennbahn Schachen, Aarau'
 timeTable:
@@ -32,6 +33,7 @@ timeTable:
   - act: BENJI BONUS
   - act: DJ JESAYA
 ---
+
 Rap-Plattenbörse am Make the Hood look good Festival 2018 with Crates by:
 
 rapvinyl.ch, JUR Records, ElchRecords Vinyl-Store, Rheimland and Home Street Home Records

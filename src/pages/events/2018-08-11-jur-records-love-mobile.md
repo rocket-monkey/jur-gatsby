@@ -4,7 +4,8 @@ date: 2018-08-10T22:00:00.000Z
 title: 'Street Parade: JUR Offical Love Mobile 2018'
 image: /img/2018_08_11_streetparade.jpg
 fbLink: 'https://www.facebook.com/events/227722911286038/'
-type: vip-session
+eventType: vip-session
+type: event
 location: amboss-rampe
 locationAlt: 'Street Parade, Zürich'
 timeTable:
@@ -23,7 +24,7 @@ timeTable:
     label: JUR Records
   - act: MoveMental
     label: JUR Records
-  - act: '''nade'
+  - act: "'nade"
     label: JUR Records
   - act: Randy
     label: Divercity
@@ -34,8 +35,9 @@ timeTable:
   - act: Infernal Bastard
     label: JUR Records
 ---
-Bereits das sechste Mal ist das legendäre Drum and Bass Label JUR Records an der Street Parade mit von der Partie. Dieses Mal in Zusammenarbeit mit smARTec aus Aarau. 
 
-Das Motto des Love Mobiles lautet "Return to the Bassline"; dementsprechend wird auf dem fahrenden Untergrund von Jungle bis hin zu Neurofunk die ganze Vielfalt des Drum and Bass Genre präsentiert. 
+Bereits das sechste Mal ist das legendäre Drum and Bass Label JUR Records an der Street Parade mit von der Partie. Dieses Mal in Zusammenarbeit mit smARTec aus Aarau.
+
+Das Motto des Love Mobiles lautet "Return to the Bassline"; dementsprechend wird auf dem fahrenden Untergrund von Jungle bis hin zu Neurofunk die ganze Vielfalt des Drum and Bass Genre präsentiert.
 
 Coole Vibes und heisse Beats garantiert!

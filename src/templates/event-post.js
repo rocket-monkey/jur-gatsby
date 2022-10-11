@@ -38,6 +38,8 @@ const mapLocation = (location, locationAlt) => {
   switch (location) {
     case 'amboss-rampe':
       return 'https://www.google.de/maps?f=q&hl=de&q=Amboss+Rampe+Zollstrasse+Zurich'
+    case 'club-variete':
+      return 'https://www.google.com/maps/place/Club+Vari%C3%A9t%C3%A9/@47.3788038,8.5297786,15z/data=!4m2!3m1!1s0x0:0xe67d9e752410c54c?sa=X&ved=2ahUKEwiKyrKkvdj6AhVvhf0HHWXVBMoQ_BJ6BAhfEAU'
     default:
     case 'kiff-aarau':
       return 'https://www.google.de/maps?f=q&hl=de&q=Kiff+Telistrasse+118+Aarau'
@@ -50,6 +52,8 @@ const mapLocationShortName = location => {
   switch (location) {
     case 'amboss-rampe':
       return 'Amboss Rampe, Zürich'
+    case 'club-variete':
+      return 'Club Variété, Zürich'
     case 'kiff-aarau':
       return 'KIFF, Aarau'
     default:
@@ -58,6 +62,7 @@ const mapLocationShortName = location => {
 }
 
 const mapLocationName = location => {
+  console.log({ location })
   switch (location) {
     case 'amboss-rampe':
       return (
@@ -65,6 +70,14 @@ const mapLocationName = location => {
           Amboss Rampe
           <br /> Zollstrasse 80
           <br /> 8005 Zürich
+        </>
+      )
+    case 'club-variete':
+      return (
+        <>
+          Club Variété
+          <br /> Militärstrasse 84
+          <br /> 8004 Zürich
         </>
       )
     default:

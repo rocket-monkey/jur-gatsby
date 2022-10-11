@@ -4,7 +4,8 @@ date: 2016-03-11T23:00:00.000Z
 title: 'VIP Club Hardware: Gridlok'
 image: /img/2016_03_12_vip_gridlok.jpg
 fbLink: 'https://www.facebook.com/events/1650188928588081/'
-type: vip-session
+eventType: vip-session
+type: event
 location: amboss-rampe
 timeTable:
   - act: Gridlok (USA)
@@ -18,6 +19,7 @@ timeTable:
   - act: Infernal Bastard b2b Quad Damage
     label: JUR Records
 ---
+
 Gridlock bedeutet so viel wie „Verkehrsstillstand“.
 
 Gridlok hingegen ist das Synonym für absolut zeitlosen Drum and Bass, der sich seit mehr als einem Jahrzehnt in jedem DJ-Set als Highlight auszeichnet. Dank seiner unvergleichbaren Liaison zwischen düsteren Flächensounds und groovigen Beats hat es der West Coast Producer Ryan Powell aka Gridlok geschafft, sich mit etlichen Klassikern wie „Moodswings“ oder „Insecticide“ einen nicht mehr wegzudenkenden Namen in der Szene zu machen. Für seinen Status als DnB-Pionier stehen auch unzählige Collabs mit Schwergewichten wie Shy FX, Pendulum und Dom & Roland, die sich allesamt als Meisterwerke entpuppt haben.

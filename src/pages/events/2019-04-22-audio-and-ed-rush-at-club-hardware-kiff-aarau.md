@@ -4,7 +4,8 @@ date: 2018-01-12T23:00:00.000Z
 title: 'VIP Club Hardware: Audio & Ed Rush'
 image: /img/2018_01_13_vip_killbox.jpg
 fbLink: 'https://www.facebook.com/events/134218537258611/'
-type: therapy-session
+eventType: therapy-session
+type: event
 location: kiff-aarau
 locationAlt: 'Kiff, Aarau'
 timeTable:
@@ -20,4 +21,5 @@ timeTable:
   - act: Imperial Waves
     label: Divercity / Project Riot
 ---
+
 First Show von Killbox in der Schweiz!!!

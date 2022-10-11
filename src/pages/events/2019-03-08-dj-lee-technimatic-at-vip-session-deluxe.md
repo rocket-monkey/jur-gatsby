@@ -4,7 +4,8 @@ date: 2018-11-09T21:34:28.773Z
 title: 'VIP Session Deluxe: DJ Lee & Technimatic'
 image: /img/2018_09_11_vip_technimatic.jpg
 fbLink: 'https://www.facebook.com/events/2623453657933472/'
-type: vip-session
+eventType: vip-session
+type: event
 location: amboss-rampe
 timeTable:
   - act: 'DJ Lee (UK) '
@@ -21,4 +22,5 @@ timeTable:
   - act: Daywoka
     label: JUR Records
 ---
+
 JUR Records presents VIP Session Deluxe

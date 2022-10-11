@@ -4,7 +4,8 @@ date: 2019-01-11T12:17:45.060Z
 title: 'VIP Club Hardware: Ed Rush & Optical'
 image: /img/2019_01_11_20jahrevirus.jpg
 fbLink: 'https://www.facebook.com/events/112755839665520/'
-type: therapy-session
+eventType: therapy-session
+type: event
 location: kiff-aarau
 timeTable:
   - act: Ed Rush & Optical (UK)
@@ -16,6 +17,7 @@ timeTable:
   - act: Z Groove
   - act: Nico Mace
 ---
+
 JUR Records present 20 Years Virus Records @ Club Hardware
 
 Only Swiss Show!!!!
