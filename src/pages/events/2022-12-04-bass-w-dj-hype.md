@@ -16,13 +16,13 @@ timeTable:
     label: Drum Army
   - time: ""
     act: Muck b2b Secret
-    label: JUR Records
+    label: JUR Records / Tsunami
   - time: ""
     act: Jungle Josy b2b 'nade
     label: Lower Frequencies / JUR Records
   - time: ""
     act: Zekka b2b Neptune
-    label: The Razzmataz
+    label: Random
 ---
 Dürfen wir vorstellen: unser jüngstes Baby und neue Jump Up/Jungle Partyreihe "BASS"!
 
