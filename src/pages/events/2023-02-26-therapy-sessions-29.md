@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2023-03-03T18:41:48.975Z
-title: Therapy Sessions 29
+title: Therapy Sessions Switzerland Part 29
 image: /img/whatsapp-image-2023-02-19-at-17.12.51.jpeg
 fbLink: https://fb.me/e/22gh2Fguo
 eventType: therapy-session
