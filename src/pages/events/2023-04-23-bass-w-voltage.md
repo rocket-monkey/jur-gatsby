@@ -9,7 +9,7 @@ location: kiff-aarau
 type: event
 timeTable:
   - time: ""
-    act: Voltagr (UK)
+    act: Voltage (UK)
     label: Low Down Deep / Digital Soundboy / Souped Up
   - time: ""
     act: Secret
