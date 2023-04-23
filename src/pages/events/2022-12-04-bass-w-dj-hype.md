@@ -15,7 +15,7 @@ timeTable:
     act: Hypatia b2b Apollon
     label: Drum Army
   - time: ""
-    act: Muck b2b Secret
+    act: DJ Muck b2b Secret
     label: JUR Records / Tsunami
   - time: ""
     act: Jungle Josy b2b 'nade
