@@ -18,6 +18,7 @@ timeTable:
     label: JUR Records
   - time: ""
     act: Subvibe
+    label: Drum Army
   - time: ""
     act: Agent C
     label: JUR Records
