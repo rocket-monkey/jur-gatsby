@@ -14,7 +14,7 @@ timeTable:
   - time: ""
     act: Secret
   - time: ""
-    act: Muck
+    act: DJ Muck
     label: JUR Records
   - time: ""
     act: Subvibe
