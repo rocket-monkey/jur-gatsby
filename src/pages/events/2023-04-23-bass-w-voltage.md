@@ -2,7 +2,7 @@
 templateKey: event-post
 date: 2023-06-03T19:26:19.649Z
 title: BASS w/ Voltage
-image: /img/bass02voltage_web1.jpg
+image: /img/bass02voltage_plakat_druck_a3.jpg
 fbLink: https://fb.me/e/Rtank9Qf
 eventType: club-hardware
 location: kiff-aarau
