@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2023-10-06T19:42:30.069Z
-title: VIP Session w/ John B & Technimatic
+title: VIP Session w/ Technimatic & John B
 image: /img/adobe_express_20230906_2032030_1.png
 fbLink: https://fb.me/e/1dTMUQYAp
 eventType: vip-session
