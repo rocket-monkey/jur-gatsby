@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2023-06-10T16:43:52.604Z
-title: Eastside Drum and Bass lll
+title: Eastside Drum and Bass III
 image: /img/349357682_233539169307280_7636864451094586976_n.jpg
 fbLink: https://www.facebook.com/events/529971205835734
 eventType: club-hardware
