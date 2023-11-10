@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2023-12-29T20:57:26.590Z
-title: "Living Room Session: Adam F, MC Harrison & Kirsty Hawkshaw"
+title: "Living Room Session: Adam F, MC Darrison & Kirsty Hawkshaw"
 image: /img/whatsapp-image-2023-11-05-at-21.51.02.jpeg
 fbLink: https://fb.me/e/4HoJOwvoD
 eventType: living-room-session
