@@ -23,13 +23,3 @@ timeTable:
     label: JUR
 ---
 E﻿s geht wieder los im Kiff Aarau!
-
-\-﻿ Nicky Blackmarket
-
-\-﻿ Agent C
-
-\-﻿ Subride
-
-\-﻿ Muck
-
-\-﻿ Hellchild
