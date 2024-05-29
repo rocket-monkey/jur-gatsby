@@ -3,7 +3,7 @@ templateKey: crew-entry
 title: Frog U
 image: /img/whatsapp-image-2024-05-02-at-20.18.15.jpeg
 since: 28.01.2024
-role: DJ / Social Media
+role: "DJ "
 soundcloud: https://soundcloud.com/frog_u
 mixcloud: https://www.mixcloud.com/Frog-U/
 instagram: https://www.instagram.com/frog_u_?igsh=NGhza2w4MGRpbXRy
