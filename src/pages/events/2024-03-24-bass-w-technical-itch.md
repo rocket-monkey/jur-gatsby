@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2024-05-31T17:31:19.927Z
-title: BASS w/ Technical Itch
+title: "ABGESAGT: BASS w/ Technical Itch"
 image: /img/adobe_express_20240323_1805090_1.png
 fbLink: https://fb.me/e/4t1QfJckO
 eventType: therapy-session
