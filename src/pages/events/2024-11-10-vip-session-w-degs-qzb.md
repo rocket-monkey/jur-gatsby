@@ -37,8 +37,7 @@ Wer nach konventionellen Sound dürstet, ist hier an der falschen Adresse: QZB r
 
 Dass der heisseste Name der Szene eines Tages aus Basel kommen würde, war kaum zu erwarten. Gerade deshalb sollte man den Höhenflug des Duos nicht aus den Augen verlieren. Grenzen sind noch nicht in Sicht.
 
-2023 veröffentlichen QZB ihr lang erwartetes Debütalbum „Future Forever“. \
-Sie spielen das erste Mal in Zürich und dies bei uns an der VIP Session.
+2023 veröffentlichen QZB ihr lang erwartetes Debütalbum „Future Forever“. 
 
 Abgerundet wird unser Line Up durch unsere genialen Locals Drred b2n Luke Castle (Sector B) und den JUR Herren Hellchild und Frog U. 
 
