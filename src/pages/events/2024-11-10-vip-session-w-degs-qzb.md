@@ -39,6 +39,6 @@ Dass der heisseste Name der Szene eines Tages aus Basel kommen würde, war kaum 
 
 2023 veröffentlichen QZB ihr lang erwartetes Debütalbum „Future Forever“. 
 
-Abgerundet wird unser Line Up durch unsere genialen Locals Drred b2n Luke Castle (Sector B) und den JUR Herren Hellchild und Frog U. 
+Abgerundet wird unser Line Up durch unsere genialen Locals Drred b2b Luke Castle (Sector B) und den JUR Herren Hellchild und Frog U. 
 
 Wir sehen uns!
