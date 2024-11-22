@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2024-12-21T20:08:42.161Z
-title: Therapy Sessions Switzerland w/ Panacea
+title: Therapy Sessions Switzerland w/ The Panacea
 image: /img/therapy31_panacea_web1.jpg
 fbLink: https://fb.me/e/8XgWuab5D
 eventType: therapy-session
