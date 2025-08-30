@@ -3,9 +3,10 @@ templateKey: crew-entry
 title: Frog U
 image: /img/image1-1.jpeg
 since: 28.01.2024
-role: "DJ "
+role: DJ, VJ
 soundcloud: https://soundcloud.com/frog_u
 mixcloud: https://www.mixcloud.com/Frog-U/
+facebook: https://www.youtube.com/@Frog_U_
 instagram: https://www.instagram.com/frog_u_?igsh=NGhza2w4MGRpbXRy
 ---
 Julian aka Frog U war schon als Kind musikalisch und übte sich auch im Spielen der Bassgitarre. Schon im Kindergartenalter hörte er durch seinen Onkel Metal auf Schallplatten. Metal/Metalcore ist ihm noch heute sehr wichtig und prägte ihn. 
