@@ -3,7 +3,7 @@ templateKey: crew-entry
 title: Frog U
 image: /img/image1-1.jpeg
 since: 28.01.2024
-role: DJ, VJ
+role: DJ & VJ
 soundcloud: https://soundcloud.com/frog_u
 mixcloud: https://www.mixcloud.com/Frog-U/
 facebook: https://www.youtube.com/@Frog_U_
