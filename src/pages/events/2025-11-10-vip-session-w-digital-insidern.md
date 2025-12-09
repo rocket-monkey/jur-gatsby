@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2025-12-28T21:39:36.438Z
-title: VIP Session w/ Digital & Insidern
+title: VIP Session w/ Digital & Insideman
 image: /img/580882543_1342158221039874_2252422120222945363_n.jpg
 fbLink: https://fb.me/e/3UusNcnxO
 eventType: vip-session
