@@ -10,12 +10,16 @@ type: event
 timeTable:
   - time: ""
     act: Jubei
+    label: Metalheadz / Exit
   - time: ""
     act: Degs
-  - time: 00:00
+    label: Hospital Records
+  - time: ""
     act: Section 63
-  - time: 00:00
+    label: Insomnius Music
+  - time: ""
     act: Hellchild
+    label: JUR Records
 ---
 35 Jahre JUR RECORDS – das feiern wir mit einer massiven Drum & Bass Night.
 
