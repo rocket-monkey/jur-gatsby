@@ -1,20 +1,19 @@
 ---
 templateKey: event-post
 date: 2018-08-10T22:00:00.000Z
-title: 'Street Parade: JUR Offical Love Mobile 2018'
+title: "Street Parade: JUR Official Love Mobile 2018"
 image: /img/2018_08_11_streetparade.jpg
-fbLink: 'https://www.facebook.com/events/227722911286038/'
+fbLink: https://www.facebook.com/events/227722911286038/
 eventType: vip-session
-type: event
 location: amboss-rampe
-locationAlt: 'Street Parade, Zürich'
+locationAlt: Street Parade, Zürich
+type: event
 timeTable:
   - act: MC Fava
-    label: >-
-      Hospital Records, Med School, Commercial Suicide, V Recordings, Spearhead
+    label: Hospital Records, Med School, Commercial Suicide, V Recordings, Spearhead
       Records, Beatalistics, State of Mind Music, Horizons, Have a Break, Fokuz,
       Deep Soul Music, Absys, Influenza, Celcius, Basswerk
-    time: ''
+    time: ""
   - act: Agent C
     label: JUR Records
   - act: Darius D
