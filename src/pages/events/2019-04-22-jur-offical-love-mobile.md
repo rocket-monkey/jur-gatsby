@@ -1,17 +1,17 @@
 ---
 templateKey: event-post
 date: 2017-08-11T22:00:00.000Z
-title: 'Street Parade: JUR Offical Love Mobile 2017'
+title: "Street Parade: JUR Official Love Mobile 2017"
 image: /img/20170812_street-parade.jpg
-fbLink: 'https://www.facebook.com/events/112868139338598/'
+fbLink: https://www.facebook.com/events/112868139338598/
 eventType: vip-session
-type: event
 location: kiff-aarau
-locationAlt: 'Street Parade, Zürich'
+locationAlt: Street Parade, Zürich
+type: event
 timeTable:
   - act: Agent C
     label: JUR Records
-    time: ''
+    time: ""
   - act: Hellchild
     label: JUR Records
   - act: Infernal Bastard
