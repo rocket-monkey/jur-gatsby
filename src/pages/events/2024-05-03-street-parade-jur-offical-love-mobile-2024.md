@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2024-08-10T17:21:56.599Z
-title: "STREET PARADE: JUR OFFICAL LOVE MOBILE 2024"
+title: "STREET PARADE: JUR OFFICIAL LOVE MOBILE 2024"
 image: /img/photoroom-20240803_185319.png
 fbLink: https://us17.list-manage.com/survey?u=7bb3f804b525a7c2335d02672&id=76b5a8b482&attribution=false
 eventType: vip-session
