@@ -1,7 +1,7 @@
 ---
 templateKey: event-post
 date: 2026-08-08T20:28:20.794Z
-title: "Street Parade: JUR Offical Love Mobile 2026"
+title: "Street Parade: JUR Official Love Mobile 2026"
 image: /img/1000109216.png
 fbLink: https://us17.list-manage.com/survey?u=7bb3f804b525a7c2335d02672&id=4bd2d96d02&e=*|UNIQID|*
 eventType: vip-session
