@@ -50,7 +50,11 @@ const mapLocation = (location, locationAlt) => {
   }
 }
 
-const mapLocationShortName = location => {
+const mapLocationShortName = (location, locationAlt) => {
+  if (locationAlt) {
+    return locationAlt
+  }
+
   switch (location) {
     case 'amboss-rampe':
       return 'Amboss Rampe, Zürich'
@@ -65,8 +69,11 @@ const mapLocationShortName = location => {
   }
 }
 
-const mapLocationName = location => {
-  console.log({ location })
+const mapLocationName = (location, locationAlt) => {
+  if (locationAlt) {
+    return locationAlt
+  }
+
   switch (location) {
     case 'amboss-rampe':
       return (
@@ -164,9 +171,9 @@ export const EventPageTemplate = ({
                 crew={crew}
                 artists={artists}
               />
-              <h2>Wo? {mapLocationShortName(location)}</h2>
+              <h2>Wo? {mapLocationShortName(location, locationAlt)}</h2>
               <Map
-                name={mapLocationName(location)}
+                name={mapLocationName(location, locationAlt)}
                 location={mapLocation(location, locationAlt)}
               />
               <h2>Facebook Link</h2>

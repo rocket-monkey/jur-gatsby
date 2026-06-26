@@ -64,6 +64,7 @@ collections:
           name: 'location',
           widget: 'select',
           options: ['club-variete', 'moods', 'kiff-aarau', 'x-tra'],
+          required: false,
         }
       - { label: 'Andere Location', name: 'locationAlt', required: false }
       - { name: type, label: Type, widget: hidden, default: event }
