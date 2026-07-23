@@ -27,3 +27,7 @@ Seid bereit. Sichert euch den Termin.
 Scannt den QR-Code und sichert euch euren limitierten Platz auf dem einzigen Drum and Bass Love Mobile 2026!
 
 Zürich – wir bringen den Sound zurück auf die Strassen.
+
+
+
+D﻿ie letzten Tickets: **https://us17.list-manage.com/survey?u=7bb3f804b525a7c2335d02672&id=4bd2d96d02&e=*\|UNIQID|***
