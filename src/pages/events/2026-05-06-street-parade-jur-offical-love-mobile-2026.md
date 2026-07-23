@@ -30,6 +30,7 @@ timeTable:
     act: Mad B
   - time: ""
     act: "'nade"
+    label: JUR Records
   - time: ""
     act: Semtex
     label: JUR Records
