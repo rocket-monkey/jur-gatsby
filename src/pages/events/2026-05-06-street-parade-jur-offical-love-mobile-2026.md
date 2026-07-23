@@ -10,7 +10,35 @@ locationAlt: Street Parade Zürich
 type: event
 timeTable:
   - time: ""
-    act: tbd
+    act: MC Degs
+    label: Hospital Records (UK)
+  - time: ""
+    act: Agent C
+    label: JUR Records
+  - time: ""
+    act: Darius D
+    label: JUR Records
+  - time: ""
+    act: Du Lait
+  - time: ""
+    act: Frog U
+    label: JUR Records
+  - time: ""
+    act: Infernal Bastard
+    label: JUR Records
+  - time: ""
+    act: Mad B
+  - time: ""
+    act: "'nade"
+  - time: ""
+    act: Semtex
+    label: JUR Records
+  - time: ""
+    act: SNES
+    label: Local Bass Movement
+  - time: ""
+    act: Z-Groove
+    label: JUR Records
 ---
 Wir haben 2024 gesagt: Das war’s.
 
@@ -28,6 +56,4 @@ Scannt den QR-Code und sichert euch euren limitierten Platz auf dem einzigen Dru
 
 Zürich – wir bringen den Sound zurück auf die Strassen.
 
-
-
-D﻿ie letzten Tickets: **https://us17.list-manage.com/survey?u=7bb3f804b525a7c2335d02672&id=4bd2d96d02&e=*\|UNIQID|***
+!! [D﻿ie letzten Tickets  findet ihr hier](https://us17.list-manage.com/survey?u=7bb3f804b525a7c2335d02672&id=4bd2d96d02&e=*|UNIQID|*) !!
