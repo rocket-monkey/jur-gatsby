@@ -57,4 +57,6 @@ Scannt den QR-Code und sichert euch euren limitierten Platz auf dem einzigen Dru
 
 Zürich – wir bringen den Sound zurück auf die Strassen.
 
-[!﻿! Hol dir eines der letzten Tickets !!](https://us17.list-manage.com/survey?u=7bb3f804b525a7c2335d02672&id=4bd2d96d02&e=*|UNIQID|*)
+[!﻿! Hol dir eines der letzten Tickets !!](https://us17.list-manage.com/survey?u=7bb3f804b525a7c2335d02672&id=4bd2d96d02&e=*|UNIQID|*)**S﻿OLD OUT!** \
+**S﻿upporte uns und folge unserem  JUR Love Mobile**\
+**N﻿ummer wird asap bekannt gegeben**
