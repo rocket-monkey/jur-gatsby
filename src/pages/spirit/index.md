@@ -114,4 +114,13 @@ JUR Records blickt heute auf über 1000 veranstaltete Partys, diverse Openairs, 
 
 * 20 years VIRUS im Kiff, Aarau
 
+2﻿024:
+
+* Love Mobile an der Street Parade, Zürich
+
+2﻿026:
+
+* 3﻿5 Jahre JUR Records
+* Love Mobile an der Street Parade, Zürich
+
 ![Sashas erster Trip nach England](/img/unbenannt-1.jpg "Sashas erster Trip nach England")
