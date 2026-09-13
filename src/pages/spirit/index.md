@@ -114,6 +114,11 @@ JUR Records blickt heute auf über 1000 veranstaltete Partys, diverse Openairs, 
 
 * 20 years VIRUS im Kiff, Aarau
 
+2﻿023:
+
+* 1﻿5 Jahre Jungle Underground Recordstore, Aarau
+* 15 Jahre Therapy Sessions im Kiff, Aarau
+
 2﻿024:
 
 * Love Mobile an der Street Parade, Zürich
