@@ -96,6 +96,7 @@ JUR Records blickt heute auf über 1000 veranstaltete Partys, diverse Openairs, 
 
 2016:              
 
+* 2﻿5 Jahre JUR Records
 * Jungle Street Groove Festival, Basel 
 
 2017:		
